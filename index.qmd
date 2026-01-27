@@ -1,0 +1,70 @@
+---
+title: "Computação Avançada aplicada às Ciências das Radiações"
+subtitle: "Grupo de Pesquisa CINAS - IPEN/CNEN"
+page-layout: full
+---
+
+::: {.grid .align-items-center}
+
+::: {.g-col-12 .g-col-md-6}
+
+<div class="hero-title">Bem-vindo ao CINAS</div>
+<div class="hero-subtitle">Conectando Algoritmos, Átomos e Saúde.</div>
+
+O Grupo de Computação e Inteligência Artificial em Nuclear e Saúde (CINAS) atua na fronteira do conhecimento, preenchendo a lacuna entre o desenvolvimento algorítmico e a aplicação crítica em infraestruturas nucleares e ambientes clínicos.
+
+Nossa missão é desenvolver metodologias que incorporam o conhecimento físico e biológico (domain knowledge) dentro da arquitetura de modelos inteligentes.
+
+[Saiba mais sobre nós](about.qmd){.btn .btn-primary .btn-lg role="button" .me-2} [Nossas Pesquisas](research.qmd){.btn .btn-outline-primary .btn-lg role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+![](images/hero-image.jpg){fig-alt="Ilustração abstrata" .img-fluid .shadow-lg}
+:::
+
+:::
+
+<div style="margin-top: 4rem; margin-bottom: 2rem;">
+
+Nossos Eixos de Atuação
+
+</div>
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .quarto-grid-item}
+![](images/health-icon.jpg){.img-fluid .rounded .mb-3}
+
+[{{< fa hospital >}}]{.text-danger} Saúde Digital
+
+Inovação em diagnóstico por imagem e terapia.
+Destaque: Iniciando estudos em Physics-Informed ML para imagens médicas, além de Deep Learning e validação clínica.
+:::
+
+::: {.g-col-12 .g-col-md-4 .quarto-grid-item}
+![](images/data-icon.jpg){.img-fluid .rounded .mb-3}
+
+[{{< fa chart-line >}}]{.text-primary} Dados & Gestão
+
+Gestão da informação, qualidade e processos. Governança de dados, ontologias e análise de Big Data (DATASUS).
+:::
+
+::: {.g-col-12 .g-col-md-4 .quarto-grid-item}
+![](images/nuclear-icon.jpg){.img-fluid .rounded .mb-3}
+
+[{{< fa atom >}}]{.text-warning} Nuclear & PIML
+
+Modelagem computacional para instalações nucleares.
+Destaque: LLMs para reatores e linha de Physics-Informed ML para nêutrons em implantação.
+:::
+
+:::
+
+::: {.text-center .mt-5 .p-5 .bg-light .rounded}
+
+[{{< fa handshake >}}]{.text-success} Chamada para Colaboração
+
+Estamos buscando parceiros e alunos para nossa Nova Frente de Physics-Informed Machine Learning (Saúde e Nuclear).
+
+[Saiba como participar](join.qmd){.btn .btn-primary .btn-lg .mt-3 role="button"}
+:::

@@ -1,0 +1,105 @@
+---
+title: "Our Research Lines"
+subtitle: "Innovation at the intersection of Computing, Health, and Nuclear Sciences"
+toc: true
+page-layout: article
+---
+
+::: {.lead .text-center .mb-5}
+The CINAS project portfolio is structured into three strategic axes, uniting scientific rigor with technological innovation.
+:::
+
+1. Technological Innovation in Diagnosis and Therapy
+
+::: {.grid .align-items-center .mb-5}
+
+::: {.g-col-12 .g-col-md-7}
+
+[{{< fa hospital >}}]{.text-danger} From Algorithm to Clinic
+
+We investigate how algorithms can "see" what the human eye cannot, increasing diagnostic accuracy and therapeutic safety.
+
+AI and Oncology: Deep Learning models for volumetric (3D) prostate segmentation and explainability models (XAI).
+
+Federated Learning: Training models across multiple hospitals while preserving privacy (GDPR/LGPD).
+
+Precision Radiotherapy: Machine Learning for automatic gamma index evaluation in treatment plans.
+
+Technology Assessment: Comparative studies (e.g., Dual-Energy CT vs. MRI).
+:::
+
+::: {.g-col-12 .g-col-md-5}
+![](images/research-medical-ai.jpg){.img-fluid .rounded .shadow-lg fig-alt="Medical AI Visualization"}
+:::
+
+:::
+
+2. Information Management and Processes
+
+::: {.grid .align-items-center .mb-5}
+
+::: {.g-col-12 .g-col-md-5 .order-md-2}
+
+[{{< fa chart-line >}}]{.text-primary} Structuring and Governance
+
+We recognize that without organized data, there is no artificial intelligence. We act at the base of the knowledge pyramid.
+
+Knowledge Engineering: Ontologies for nuclear domains and data governance (FAIR principles).
+
+Public Health & Big Data: Data mining from DATASUS (e.g., mammography screening tracking).
+
+Intelligent Search: Semantic solutions for Radiology Information Systems (RIS).
+
+Quality Management: Performance indicators and biosafety manuals in Nuclear Medicine and Radiology.
+:::
+
+::: {.g-col-12 .g-col-md-7 .order-md-1}
+![](images/research-data-gov.jpg){.img-fluid .rounded .shadow-lg fig-alt="Data Governance"}
+:::
+
+:::
+
+3. Modeling and AI in Nuclear Facilities
+
+::: {.grid .align-items-center .mb-5}
+
+::: {.g-col-12 .g-col-md-7}
+
+[{{< fa atom >}}]{.text-warning} Physical-Digital Synergy
+
+The "hard core" of our activities at IPEN, focused on the safety and efficiency of nuclear facilities.
+
+Reactor Operation: Large Language Models (LLMs) as decision support systems for reactor operators.
+
+New Front (Nuclear PIML): Application in neutron tomography.
+:::
+
+::: {.g-col-12 .g-col-md-5}
+![](images/research-nuclear-reactor.jpg){.img-fluid .rounded .shadow-lg fig-alt="Digital Nuclear Reactor"}
+:::
+
+:::
+
+::: {.callout-important icon=false .p-4 .shadow-sm}
+
+[{{< fa atom >}}]{.text-primary} New Transversal Front: Physics-Informed Machine Learning (PIML)
+
+We are initiating advanced studies in PIML for two strategic applications, aiming to overcome the limitations of purely data-driven models by incorporating physical laws.
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+
+[{{< fa atom >}}]{.text-warning} Nuclear
+
+Neutron Tomography: Resolution improvement and solving ill-posed inverse problems.
+:::
+::: {.g-col-12 .g-col-md-6}
+
+[{{< fa hospital >}}]{.text-danger} Health
+
+Medical Imaging: Low-dose tomographic reconstruction and artifact reduction.
+:::
+:::
+
+Opportunity: We are looking for students (Master's/PhD) and partner researchers interested in co-developing these lines from the ground up.
+:::

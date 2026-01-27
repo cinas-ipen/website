@@ -1,0 +1,44 @@
+project:
+  output-dir: docs
+  # Lista exclusiva de arquivos PT
+  render:
+    - index.qmd
+    - about.qmd
+    - research.qmd
+    - people.qmd
+    - publications.qmd
+    - join.qmd
+  resources:
+    - images/
+
+
+website:
+  navbar:
+    background: primary
+    logo: images/logo.jpg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: Quem Somos
+      - href: research.qmd
+        text: Pesquisa
+      - href: people.qmd
+        text: Equipe
+      - href: publications.qmd
+        text: Publicações
+      - href: join.qmd
+        text: Oportunidades
+    right:
+      - text: "🇺🇸 EN"
+        href: en/index.html
+      - icon: github
+        href: https://github.com/seu-usuario
+      - icon: linkedin
+        href: https://linkedin.com/in/seu-perfil
+      - icon: envelope
+        href: mailto:seu-email@ipen.br
+
+format:
+  html:
+    toc-title: "Nesta página"

@@ -1,0 +1,120 @@
+---
+title: "Nossa Equipe"
+toc: true
+---
+
+O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cientistas da Computação e Profissionais da Saúde.
+
+Pesquisadores e Orientadores
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .p-3 .border .rounded .shadow-sm}
+![](images/mario_375x375.jpg){.rounded-circle .me-4 style="width: 100px; height: 100px; object-fit: cover;"}
+
+<div>
+
+[Mário O. de Menezes](#)
+
+Líder do Grupo | Pesquisador Sênior IPEN/CNEN
+
+[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/SEU_ID){.btn .btn-outline-primary .btn-sm .mt-2}
+
+</div>
+:::
+
+:::
+
+Alunos Atuais
+
+Doutorado
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+
+<!-- Exemplo COM foto -->
+
+::: {.me-3}
+![](images/student1.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+:::
+
+<div>
+Nome do Aluno 1
+
+
+
+
+<small class="text-muted">Segmentação de Próstata com Deep Learning</small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
+[{{< fa laptop-code >}} Projeto](#){.badge .bg-light .text-dark .text-decoration-none}
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+
+<!-- Exemplo SEM foto (Placeholder) -->
+
+::: {.me-3}
+
+<div style="width: 80px; height: 80px; background-color: #f0f2f5; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #adb5bd;">
+<i class="fa-solid fa-user fa-2x"></i>
+</div>
+:::
+<div>
+Nome do Aluno 2
+
+
+
+
+<small class="text-muted">Ontologias Nucleares</small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
+</div>
+:::
+
+:::
+
+Mestrado
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+::: {.me-3}
+
+<div style="width: 80px; height: 80px; background-color: #f0f2f5; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #adb5bd;">
+<i class="fa-solid fa-user fa-2x"></i>
+</div>
+:::
+<div>
+Nome do Aluno 3
+
+
+
+
+<small class="text-muted">Tomografia de Dupla Energia</small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
+</div>
+:::
+
+:::
+
+Egressos (Alumni)
+
+Dr. Nome do Egresso (Doutorado, 2023) - Hospital Sírio-Libanês
+
+Msc. Nome do Egresso (Mestrado, 2022) - Indústria Nuclear

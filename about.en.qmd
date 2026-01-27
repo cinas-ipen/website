@@ -1,0 +1,66 @@
+---
+title: "Who We Are"
+---
+
+Strategic Vision
+
+CINAS consolidates a translational research initiative situated at the convergence of Advanced Computer Science and Radiation Sciences.
+
+In a global scenario where digital transformation redefines scientific paradigms, we operate under the premise that the next frontier of nuclear and medical innovation will come from the intelligence extracted from data.
+
+::: {.callout-note appearance="simple"}
+Expanding Frontiers: We are currently expanding our activities to incorporate Physics-Informed Machine Learning (PIML), actively seeking academic partners to consolidate this new methodology at IPEN.
+:::
+
+Leadership
+
+::: {.grid .align-items-center}
+::: {.g-col-12 .g-col-md-3 .text-center}
+![](images/leader-photo.jpg){.img-fluid .rounded-circle .shadow style="max-width: 200px;"}
+:::
+::: {.g-col-12 .g-col-md-9}
+
+[Your Name](#)
+
+Senior Researcher - IPEN/CNEN
+
+Physicist with extensive experience in neutron imaging and scientific computing. Advises master's and doctoral students in the Nuclear Technology (USP) and Professional Master's in Radiation Technology programs, leading projects that unite academia with professional practice.
+
+[{{< fa file-lines >}} Curriculum Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/SEU_ID){.btn .btn-outline-primary .btn-sm}
+:::
+:::
+
+Our Computational Infrastructure
+
+The main differentiator of CINAS is the combination of intellectual capital with installed high-performance computing (HPC) capacity.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+[{{< fa atom >}}]{.text-primary} HPC & Cluster
+
+Hybrid architecture for Deep Learning:
+
+Institutional Cluster: AMD Epyc (256 cores), 512GB RAM, and 2x NVIDIA RTX A6000 GPUs.
+
+Workstations: AMD Threadripper (48 threads), 128GB RAM, and NVIDIA RTX A5000 GPU.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+[{{< fa chart-line >}}]{.text-info} Big Data
+
+Storage Appliance with 112TB gross capacity for medical imaging and operational log management.
+
+Fast local storage (RAID SSD).
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+[{{< fa laptop-code >}}]{.text-success} Mobility
+
+Fleet of high-performance notebooks (Dell Precision i9) for agile development and local prototyping.
+:::
+
+:::

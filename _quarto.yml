@@ -1,0 +1,22 @@
+project:
+  type: website
+  # Define 'pt' como o perfil padrão quando você roda apenas 'quarto render'
+
+profile:
+    default: pt
+
+website:
+  title: "CINAS"
+  description: "Grupo de Pesquisa em Computação e IA - IPEN/CNEN"
+  # O logo é comum aos dois, pode ficar na base se quiser, ou nos específicos
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    mainfont: "Open Sans, sans-serif"
+    toc: true
+
+lang: pt-BR
+

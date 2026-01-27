@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs/en
+  render:
+    - index.en.qmd
+    - about.en.qmd
+    - research.en.qmd
+    - people.en.qmd
+    - publications.en.qmd
+    - join.en.qmd
+  resources:
+    - images/
+
+website:
+  title: "CINAS"
+  description: "Research Group on Computing and AI in Nuclear and Health Sciences - IPEN/CNEN"
+  navbar:
+    logo: images/logo.jpg
+    background: primary
+    left:
+      - href: index.en.qmd
+        text: Home
+      - href: about.en.qmd
+        text: About Us
+      - href: research.en.qmd
+        text: Research
+      - href: people.en.qmd
+        text: Team
+      - href: publications.en.qmd
+        text: Publications
+      - href: join.en.qmd
+        text: Opportunities
+    right:
+      - text: "🇧🇷 PT"
+        href: ../index.html
+      - icon: github
+        href: https://github.com/seu-usuario
+      - icon: linkedin
+        href: https://linkedin.com/in/seu-perfil
+      - icon: envelope
+        href: mailto:seu-email@ipen.br
+        
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: "On this page"
+    mainfont: "Open Sans, sans-serif"
+
+lang: en

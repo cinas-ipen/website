@@ -1,0 +1,23 @@
+---
+title: "Produção Científica"
+toc: true
+---
+
+A produção científica do CINAS reflete nossa atuação nas áreas de Computação Científica, Física Médica e Tecnologia Nuclear.
+
+<!--
+NOTA PARA O SCRIPT ZOTERO:
+O script deve injetar a lista de publicações logo abaixo desta linha.
+-->
+
+Artigos em Periódicos
+
+<!-- Inserir listagem aqui -->
+
+Trabalhos em Congressos
+
+<!-- Inserir listagem aqui -->
+
+::: {.callout-tip}
+Para uma lista completa e atualizada em tempo real, consulte também o [Diretório do Grupo de Pesquisa no CNPq](http://dgp.cnpq.br/dgp/faces/consulta/consulta_parametrizada.jsf).
+:::

@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Faça Parte do CINAS",
+    "section": "",
+    "text": "O CINAS opera em um modelo aberto à inovação. Buscamos mentes curiosas e parceiros estratégicos.\n\n\n\n\n\n\nImportante\n\n\n\n Chamada Especial: Physics-Informed ML (Saúde e Nuclear)\nEstamos buscando especificamente pesquisadores e alunos para integrar nossa nova linha de Physics-Informed Machine Learning.\nÁreas de Interesse:\nImagens Médicas: Aplicação de leis físicas na reconstrução de imagens.\nTecnologia Nuclear: Problemas inversos em tomografia com nêutrons.\n\n\nPara Alunos (Mestrado e Doutorado)\nIngressar no CINAS significa atuar na intersecção entre Computação e Ciências das Radiações.\nO que você vai desenvolver:\nFluência Computacional Multilíngue: Domínio de Python, R e C/C++.\nRigor Científico: Entendimento profundo da física das radiações.\nVisão de Inovação: Capacidade de criar soluções para problemas reais.\n\n\n\n\n\n\nNota\n\n\n\nInteresse?\nEnvie seu CV Lattes e uma breve carta de intenção para nosso email de contato, mencionando qual linha de pesquisa mais lhe interessa.\n\n\nPara Parceiros\nBuscamos colaboração para validação de tecnologias e co-desenvolvimento.\nO Que Buscamos Agora\nParceiros Acadêmicos em PIML: Pesquisadores interessados em colaborar na fundamentação do Physics-Informed ML.\nHospitais: Acesso a dados clínicos anonimizados e validação clínica.\nIntercâmbio Internacional: Grupos de pesquisa em Digital Twin nuclear ou Medical AI.\nEntre em contato conosco"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "Nossa Equipe",
+    "section": "",
+    "text": "O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cientistas da Computação e Profissionais da Saúde.\nPesquisadores e Orientadores\n\n\n\n\nMário O. de Menezes\nLíder do Grupo | Pesquisador Sênior IPEN/CNEN\n Lattes\n\n\n\nAlunos Atuais\nDoutorado\n\n\n\n\n\n\n\nNome do Aluno 1\nSegmentação de Próstata com Deep Learning\n Lattes  Projeto\n\n\n\n\n\n\n\n\n\n\nNome do Aluno 2\nOntologias Nucleares\n Lattes\n\n\n\nMestrado\n\n\n\n\n\n\n\n\nNome do Aluno 3\nTomografia de Dupla Energia\n Lattes\n\n\n\nEgressos (Alumni)\nDr. Nome do Egresso (Doutorado, 2023) - Hospital Sírio-Libanês\nMsc. Nome do Egresso (Mestrado, 2022) - Indústria Nuclear"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Quem Somos",
+    "section": "",
+    "text": "Visão Estratégica\nO CINAS consolida uma iniciativa de pesquisa translacional situada na convergência entre a Ciência da Computação Avançada e as Ciências das Radiações.\nEm um cenário global onde a transformação digital redefine paradigmas científicos, operamos sob a premissa de que a próxima fronteira da inovação nuclear e médica virá da inteligência extraída dos dados.\n\n\n\n\n\n\nExpandindo Fronteiras: Atualmente, estamos ampliando nossa atuação para incorporar Physics-Informed Machine Learning (PIML), buscando ativamente parceiros acadêmicos para consolidar esta nova metodologia no IPEN.\n\n\n\nLiderança\n\n\n\n\n\nSeu Nome\nPesquisador Sênior - IPEN/CNEN\nFísico com ampla experiência em imageamento com nêutrons e computação científica. Atua na orientação de mestrado e doutorado nos programas de Tecnologia Nuclear (USP) e Mestrado Profissional em Tecnologia das Radiações, liderando projetos que unem a academia à prática profissional.\n Currículo Lattes\n\n\nNossa Infraestrutura Computacional\nO principal diferencial do CINAS é a combinação de capital intelectual com uma capacidade instalada de processamento de alto desempenho (HPC).\n\n\n HPC & Cluster\nArquitetura híbrida para Deep Learning:\nCluster Institucional: AMD Epyc (256 núcleos), 512GB RAM e 2x GPUs NVIDIA RTX A6000.\nWorkstations: AMD Threadripper (48 threads), 128GB RAM e GPU NVIDIA RTX A5000.\n\n\n Big Data\nStorage Appliance com 112TB de capacidade bruta para gestão de imagens médicas e logs operacionais.\nArmazenamento rápido local (RAID SSD).\n\n\n Mobilidade\nParque de notebooks de alta performance (Dell Precision i9) para desenvolvimento ágil e prototipagem local."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computação Avançada aplicada às Ciências das Radiações",
+    "section": "",
+    "text": "Bem-vindo ao CINAS\n\n\nConectando Algoritmos, Átomos e Saúde.\n\nO Grupo de Computação e Inteligência Artificial em Nuclear e Saúde (CINAS) atua na fronteira do conhecimento, preenchendo a lacuna entre o desenvolvimento algorítmico e a aplicação crítica em infraestruturas nucleares e ambientes clínicos.\nNossa missão é desenvolver metodologias que incorporam o conhecimento físico e biológico (domain knowledge) dentro da arquitetura de modelos inteligentes.\nSaiba mais sobre nós Nossas Pesquisas\n\n\n\n\n\n\nNossos Eixos de Atuação\n\n\n\n\n Saúde Digital\nInovação em diagnóstico por imagem e terapia. Destaque: Iniciando estudos em Physics-Informed ML para imagens médicas, além de Deep Learning e validação clínica.\n\n\n\n Dados & Gestão\nGestão da informação, qualidade e processos. Governança de dados, ontologias e análise de Big Data (DATASUS).\n\n\n\n Nuclear & PIML\nModelagem computacional para instalações nucleares. Destaque: LLMs para reatores e linha de Physics-Informed ML para nêutrons em implantação.\n\n\n\n Chamada para Colaboração\nEstamos buscando parceiros e alunos para nossa Nova Frente de Physics-Informed Machine Learning (Saúde e Nuclear).\nSaiba como participar"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Nossas Linhas de Pesquisa",
+    "section": "",
+    "text": "O portfólio de projetos do CINAS é estruturado em três eixos estratégicos, unindo o rigor científico à inovação tecnológica.\n\n\nInovação Tecnológica em Diagnóstico e Terapia\n\n\n\n Do Algoritmo à Clínica\nInvestigamos como algoritmos podem “ver” o que o olho humano não alcança, aumentando a precisão diagnóstica e a segurança terapêutica.\nIA e Oncologia: Modelos de Deep Learning para segmentação volumétrica (3D) da próstata e modelos de explicabilidade (XAI).\nAprendizado Federado: Treinamento de modelos em múltiplos hospitais preservando a privacidade (LGPD).\nRadioterapia de Precisão: Machine Learning para avaliação automática do índice gama em planos de tratamento.\nValidação Tecnológica: Estudos comparativos (ex: TCDE vs. Ressonância Magnética).\n\n\n\n\n\n\nGestão da Informação e Processos\n\n\n\n Estruturação e Governança\nReconhecemos que sem dados organizados não há inteligência artificial. Atuamos na base da pirâmide do conhecimento.\nEngenharia de Conhecimento: Ontologias para domínios nucleares e governança de dados (FAIR principles).\nSaúde Pública e Big Data: Mineração de dados do DATASUS (ex: rastreamento de mamografia).\nBusca Inteligente: Soluções semânticas para Sistemas de Informação Radiológica (RIS).\nGestão da Qualidade: Indicadores de desempenho e manuais de biossegurança em Medicina Nuclear e Radiologia.\n\n\n\n\n\n\nModelagem e IA em Instalações Nucleares\n\n\n\n Sinergia Física-Digital\nO “núcleo duro” da nossa atuação no IPEN, focado na segurança e eficiência das instalações nucleares.\nOperação de Reatores: Large Language Models (LLMs) como sistemas de apoio à decisão para operadores de reatores.\nNova Frente (PIML Nuclear): Aplicação em tomografia com nêutrons.\n\n\n\n\n\n\n\n\n\n\n\nImportante\n\n\n\n Nova Frente Transversal: Physics-Informed Machine Learning (PIML)\nEstamos iniciando estudos avançados em PIML para duas aplicações estratégicas, buscando superar as limitações dos modelos puramente baseados em dados (data-driven) ao incorporar leis físicas.\n\n\n Nuclear\nTomografia com Nêutrons: Melhoria de resolução e resolução de problemas inversos mal-postos.\n\n\n Saúde\nImagens Médicas: Reconstrução tomográfica com baixa dose e redução de artefatos.\n\n\nOportunidade: Buscamos alunos (Mestrado/Doutorado) e pesquisadores parceiros interessados em co-desenvolver estas linhas desde o início."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Produção Científica",
+    "section": "",
+    "text": "A produção científica do CINAS reflete nossa atuação nas áreas de Computação Científica, Física Médica e Tecnologia Nuclear.\n\nArtigos em Periódicos\n\nTrabalhos em Congressos\n\n\n\n\n\n\n\nDica\n\n\n\nPara uma lista completa e atualizada em tempo real, consulte também o Diretório do Grupo de Pesquisa no CNPq."
+  }
+]

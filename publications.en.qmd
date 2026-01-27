@@ -1,0 +1,23 @@
+---
+title: "Scientific Production"
+toc: true
+---
+
+CINAS scientific production reflects our activities in Scientific Computing, Medical Physics, and Nuclear Technology.
+
+<!--
+NOTE FOR ZOTERO SCRIPT:
+The script should inject the publication list below this line.
+-->
+
+Journal Articles
+
+<!-- Insert list here -->
+
+Conference Papers
+
+<!-- Insert list here -->
+
+::: {.callout-tip}
+For a complete and real-time updated list, please consult the [CNPq Research Group Directory](http://dgp.cnpq.br/dgp/faces/consulta/consulta_parametrizada.jsf).
+:::

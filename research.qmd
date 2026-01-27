@@ -1,0 +1,105 @@
+---
+title: "Nossas Linhas de Pesquisa"
+subtitle: "Inovação na intersecção entre Computação, Saúde e Nuclear"
+toc: true
+page-layout: article
+---
+
+::: {.lead .text-center .mb-5}
+O portfólio de projetos do CINAS é estruturado em três eixos estratégicos, unindo o rigor científico à inovação tecnológica.
+:::
+
+1. Inovação Tecnológica em Diagnóstico e Terapia
+
+::: {.grid .align-items-center .mb-5}
+
+::: {.g-col-12 .g-col-md-7}
+
+[{{< fa hospital >}}]{.text-danger} Do Algoritmo à Clínica
+
+Investigamos como algoritmos podem "ver" o que o olho humano não alcança, aumentando a precisão diagnóstica e a segurança terapêutica.
+
+IA e Oncologia: Modelos de Deep Learning para segmentação volumétrica (3D) da próstata e modelos de explicabilidade (XAI).
+
+Aprendizado Federado: Treinamento de modelos em múltiplos hospitais preservando a privacidade (LGPD).
+
+Radioterapia de Precisão: Machine Learning para avaliação automática do índice gama em planos de tratamento.
+
+Validação Tecnológica: Estudos comparativos (ex: TCDE vs. Ressonância Magnética).
+:::
+
+::: {.g-col-12 .g-col-md-5}
+![](images/research-medical-ai.jpg){.img-fluid .rounded .shadow-lg fig-alt="Visualização de IA médica"}
+:::
+
+:::
+
+2. Gestão da Informação e Processos
+
+::: {.grid .align-items-center .mb-5}
+
+::: {.g-col-12 .g-col-md-5 .order-md-2}
+
+[{{< fa chart-line >}}]{.text-primary} Estruturação e Governança
+
+Reconhecemos que sem dados organizados não há inteligência artificial. Atuamos na base da pirâmide do conhecimento.
+
+Engenharia de Conhecimento: Ontologias para domínios nucleares e governança de dados (FAIR principles).
+
+Saúde Pública e Big Data: Mineração de dados do DATASUS (ex: rastreamento de mamografia).
+
+Busca Inteligente: Soluções semânticas para Sistemas de Informação Radiológica (RIS).
+
+Gestão da Qualidade: Indicadores de desempenho e manuais de biossegurança em Medicina Nuclear e Radiologia.
+:::
+
+::: {.g-col-12 .g-col-md-7 .order-md-1}
+![](images/research-data-gov.jpg){.img-fluid .rounded .shadow-lg fig-alt="Governança de Dados"}
+:::
+
+:::
+
+3. Modelagem e IA em Instalações Nucleares
+
+::: {.grid .align-items-center .mb-5}
+
+::: {.g-col-12 .g-col-md-7}
+
+[{{< fa atom >}}]{.text-warning} Sinergia Física-Digital
+
+O "núcleo duro" da nossa atuação no IPEN, focado na segurança e eficiência das instalações nucleares.
+
+Operação de Reatores: Large Language Models (LLMs) como sistemas de apoio à decisão para operadores de reatores.
+
+Nova Frente (PIML Nuclear): Aplicação em tomografia com nêutrons.
+:::
+
+::: {.g-col-12 .g-col-md-5}
+![](images/research-nuclear-reactor.jpg){.img-fluid .rounded .shadow-lg fig-alt="Reator Nuclear Digital"}
+:::
+
+:::
+
+::: {.callout-important icon=false .p-4 .shadow-sm}
+
+[{{< fa atom >}}]{.text-primary} Nova Frente Transversal: Physics-Informed Machine Learning (PIML)
+
+Estamos iniciando estudos avançados em PIML para duas aplicações estratégicas, buscando superar as limitações dos modelos puramente baseados em dados (data-driven) ao incorporar leis físicas.
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+
+[{{< fa atom >}}]{.text-warning} Nuclear
+
+Tomografia com Nêutrons: Melhoria de resolução e resolução de problemas inversos mal-postos.
+:::
+::: {.g-col-12 .g-col-md-6}
+
+[{{< fa hospital >}}]{.text-danger} Saúde
+
+Imagens Médicas: Reconstrução tomográfica com baixa dose e redução de artefatos.
+:::
+:::
+
+Oportunidade: Buscamos alunos (Mestrado/Doutorado) e pesquisadores parceiros interessados em co-desenvolver estas linhas desde o início.
+:::

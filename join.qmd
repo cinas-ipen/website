@@ -1,0 +1,51 @@
+---
+title: "Faça Parte do CINAS"
+---
+
+O CINAS opera em um modelo aberto à inovação. Buscamos mentes curiosas e parceiros estratégicos.
+
+::: {.callout-important icon=false}
+
+[{{< fa atom >}}]{.text-primary} Chamada Especial: Physics-Informed ML (Saúde e Nuclear)
+
+Estamos buscando especificamente pesquisadores e alunos para integrar nossa nova linha de Physics-Informed Machine Learning.
+
+Áreas de Interesse:
+
+Imagens Médicas: Aplicação de leis físicas na reconstrução de imagens.
+
+Tecnologia Nuclear: Problemas inversos em tomografia com nêutrons.
+:::
+
+Para Alunos (Mestrado e Doutorado)
+
+Ingressar no CINAS significa atuar na intersecção entre Computação e Ciências das Radiações.
+
+O que você vai desenvolver:
+
+Fluência Computacional Multilíngue: Domínio de Python, R e C/C++.
+
+Rigor Científico: Entendimento profundo da física das radiações.
+
+Visão de Inovação: Capacidade de criar soluções para problemas reais.
+
+::: {.callout-note}
+
+Interesse?
+
+Envie seu CV Lattes e uma breve carta de intenção para nosso email de contato, mencionando qual linha de pesquisa mais lhe interessa.
+:::
+
+Para Parceiros
+
+Buscamos colaboração para validação de tecnologias e co-desenvolvimento.
+
+O Que Buscamos Agora
+
+Parceiros Acadêmicos em PIML: Pesquisadores interessados em colaborar na fundamentação do Physics-Informed ML.
+
+Hospitais: Acesso a dados clínicos anonimizados e validação clínica.
+
+Intercâmbio Internacional: Grupos de pesquisa em Digital Twin nuclear ou Medical AI.
+
+[Entre em contato conosco](mailto:seu-email@ipen.br){.btn .btn-primary role="button"}

@@ -1,0 +1,70 @@
+---
+title: "Advanced Computing applied to Radiation Sciences"
+subtitle: "CINAS Research Group - IPEN/CNEN"
+page-layout: full
+---
+
+::: {.grid .align-items-center}
+
+::: {.g-col-12 .g-col-md-6}
+
+<div class="hero-title">Welcome to CINAS</div>
+<div class="hero-subtitle">Connecting Algorithms, Atoms, and Health.</div>
+
+The Research Group on Computing and AI in Nuclear and Health Sciences (CINAS) operates at the frontier of knowledge, bridging the gap between algorithmic development and critical applications in nuclear infrastructures and clinical environments.
+
+Our mission is to develop methodologies that incorporate physical and biological domain knowledge into the architecture of intelligent models.
+
+[Learn more about us](about.en.qmd){.btn .btn-primary .btn-lg role="button" .me-2} [Our Research](research.en.qmd){.btn .btn-outline-primary .btn-lg role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+![](images/hero-image.jpg){fig-alt="Abstract illustration uniting an atom and a neural network" .img-fluid .shadow-lg}
+:::
+
+:::
+
+<div style="margin-top: 4rem; margin-bottom: 2rem;">
+
+Our Research Axes
+
+</div>
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .quarto-grid-item}
+![](images/health-icon.jpg){.img-fluid .rounded .mb-3}
+
+[{{< fa hospital >}}]{.text-danger} Digital Health
+
+Innovation in diagnostic imaging and therapy.
+Highlight: Initiating studies in Physics-Informed ML for medical imaging, alongside Deep Learning and clinical validation.
+:::
+
+::: {.g-col-12 .g-col-md-4 .quarto-grid-item}
+![](images/data-icon.jpg){.img-fluid .rounded .mb-3}
+
+[{{< fa chart-line >}}]{.text-primary} Data & Management
+
+Information management, quality, and processes. Data governance, ontologies, and Big Data analysis (DATASUS).
+:::
+
+::: {.g-col-12 .g-col-md-4 .quarto-grid-item}
+![](images/nuclear-icon.jpg){.img-fluid .rounded .mb-3}
+
+[{{< fa atom >}}]{.text-warning} Nuclear & PIML
+
+Computational modeling for nuclear facilities.
+Highlight: LLMs for reactors and Physics-Informed ML line for neutron tomography under deployment.
+:::
+
+:::
+
+::: {.text-center .mt-5 .p-5 .bg-light .rounded}
+
+[{{< fa handshake >}}]{.text-success} Call for Collaboration
+
+We are looking for partners and students for our New Physics-Informed Machine Learning Front (Health and Nuclear).
+
+[Learn how to join](join.en.qmd){.btn .btn-primary .btn-lg .mt-3 role="button"}
+:::

@@ -1,0 +1,120 @@
+---
+title: "Our Team"
+toc: true
+---
+
+CINAS is formed by multidisciplinary researchers, uniting Physicists, Computer Scientists, and Health Professionals.
+
+Researchers and Advisors
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .p-3 .border .rounded .shadow-sm}
+![](images/mario_375x375.jpg){.rounded-circle .me-4 style="width: 100px; height: 100px; object-fit: cover;"}
+
+<div>
+
+[Mário O. Menezes](#)
+
+Group Leader | Senior Researcher IPEN/CNEN
+
+[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/SEU_ID){.btn .btn-outline-primary .btn-sm .mt-2}
+
+</div>
+:::
+
+:::
+
+Current Students
+
+PhD Candidates
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+
+<!-- Example WITH photo -->
+
+::: {.me-3}
+![](images/student1.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+:::
+
+<div>
+Student Name 1
+
+
+
+
+<small class="text-muted">Prostate Segmentation with Deep Learning</small>
+
+
+
+
+
+[{{< fa file-lines >}} CV](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
+[{{< fa laptop-code >}} Project](#){.badge .bg-light .text-dark .text-decoration-none}
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+
+<!-- Example WITHOUT photo (Placeholder) -->
+
+::: {.me-3}
+
+<div style="width: 80px; height: 80px; background-color: #f0f2f5; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #adb5bd;">
+<i class="fa-solid fa-user fa-2x"></i>
+</div>
+:::
+<div>
+Student Name 2
+
+
+
+
+<small class="text-muted">Nuclear Ontologies</small>
+
+
+
+
+
+[{{< fa file-lines >}} CV](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
+</div>
+:::
+
+:::
+
+Master's Students
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+::: {.me-3}
+
+<div style="width: 80px; height: 80px; background-color: #f0f2f5; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #adb5bd;">
+<i class="fa-solid fa-user fa-2x"></i>
+</div>
+:::
+<div>
+Student Name 3
+
+
+
+
+<small class="text-muted">Dual-Energy Tomography</small>
+
+
+
+
+
+[{{< fa file-lines >}} CV](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
+</div>
+:::
+
+:::
+
+Alumni
+
+Dr. Alumnus Name (PhD, 2023) - Current position: Sírio-Libanês Hospital
+
+Msc. Alumna Name (Msc, 2022) - Current position: Nuclear Industry
