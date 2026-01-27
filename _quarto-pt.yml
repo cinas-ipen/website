@@ -42,3 +42,4 @@ website:
 format:
   html:
     toc-title: "Nesta página"
+    link-external-newwindow: true

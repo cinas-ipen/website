@@ -16,17 +16,17 @@ Leadership
 
 ::: {.grid .align-items-center}
 ::: {.g-col-12 .g-col-md-3 .text-center}
-![](images/leader-photo.jpg){.img-fluid .rounded-circle .shadow style="max-width: 200px;"}
+![](images/mario_375x375.jpg){.img-fluid .rounded-circle .shadow style="max-width: 200px;"}
 :::
 ::: {.g-col-12 .g-col-md-9}
 
-[Your Name](#)
+[Mário O. de Menezes](#)
 
 Senior Researcher - IPEN/CNEN
 
 Physicist with extensive experience in neutron imaging and scientific computing. Advises master's and doctoral students in the Nuclear Technology (USP) and Professional Master's in Radiation Technology programs, leading projects that unite academia with professional practice.
 
-[{{< fa file-lines >}} Curriculum Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/SEU_ID){.btn .btn-outline-primary .btn-sm}
+[{{< fa file-lines >}} Curriculum Lattes](https://lattes.cnpq.br/4882949829423994){.btn .btn-outline-primary .btn-sm target="_blank"}
 :::
 :::
 
@@ -44,7 +44,13 @@ Hybrid architecture for Deep Learning:
 
 Institutional Cluster: AMD Epyc (256 cores), 512GB RAM, and 2x NVIDIA RTX A6000 GPUs.
 
-Workstations: AMD Threadripper (48 threads), 128GB RAM, and NVIDIA RTX A5000 GPU.
+Workstations: 
+
+  - AMD Threadripper (48 threads), 128GB RAM, and NVIDIA RTX A5000 GPU.
+  - i9-14900, 64GB RAM, GPU RTX Ada 2000
+  - i7 Ultra 265KF, 32GB RAM, GPU RTX 5060Ti
+  
+Desktops for simple jobs or access to high performance systems.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -60,7 +66,8 @@ Fast local storage (RAID SSD).
 
 [{{< fa laptop-code >}}]{.text-success} Mobility
 
-Fleet of high-performance notebooks (Dell Precision i9) for agile development and local prototyping.
+High-performance notebooks (Dell Precision i9) for agile development and local prototyping.
+
 :::
 
 :::

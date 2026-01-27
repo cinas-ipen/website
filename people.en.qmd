@@ -1,22 +1,22 @@
 ---
 title: "Our Team"
-toc: true
+toc: false
 ---
 
 CINAS is formed by multidisciplinary researchers, uniting Physicists, Computer Scientists, and Health Professionals.
 
-Researchers and Advisors
+## Researchers and Advisors
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .p-3 .border .rounded .shadow-sm}
-![](images/mario_375x375.jpg){.rounded-circle .me-4 style="width: 100px; height: 100px; object-fit: cover;"}
+![](images/mario_375x375.jpg){.rounded-circle .me-4 style="width: 100px; height: 100px; object-fit: cover; padding: 5px;"}
 
 <div>
 
 [Mário O. Menezes](#)
 
-Group Leader | Senior Researcher IPEN/CNEN
+Group Leader | Researcher IPEN/CNEN
 
 [{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/SEU_ID){.btn .btn-outline-primary .btn-sm .mt-2}
 
@@ -25,9 +25,9 @@ Group Leader | Senior Researcher IPEN/CNEN
 
 :::
 
-Current Students
+## Current Students
 
-PhD Candidates
+### Academic M.Sc Candidates
 
 ::: {.grid}
 
@@ -36,23 +36,23 @@ PhD Candidates
 <!-- Example WITH photo -->
 
 ::: {.me-3}
-![](images/student1.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
 :::
 
 <div>
-Student Name 1
+Nathália
 
 
 
 
-<small class="text-muted">Prostate Segmentation with Deep Learning</small>
+<small class="text-muted">AI and ML applied to Radiotherapy planning -- QA</small>
 
 
 
 
 
-[{{< fa file-lines >}} CV](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
-[{{< fa laptop-code >}} Project](#){.badge .bg-light .text-dark .text-decoration-none}
+[{{< fa file-lines >}} CV](https://lattes.cnpq.br/3003837559320628){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
+<!-- [{{< fa laptop-code >}} Project](#){.badge .bg-light .text-dark .text-decoration-none} -->
 </div>
 :::
 
@@ -62,59 +62,57 @@ Student Name 1
 
 ::: {.me-3}
 
-<div style="width: 80px; height: 80px; background-color: #f0f2f5; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #adb5bd;">
-<i class="fa-solid fa-user fa-2x"></i>
-</div>
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+
 :::
 <div>
-Student Name 2
+Márcio
+
+
+
+<small class="text-muted">Explicability in Medical Images Segmentation Algorithms</small>
 
 
 
 
-<small class="text-muted">Nuclear Ontologies</small>
 
-
-
-
-
-[{{< fa file-lines >}} CV](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
+[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/8929076266229884){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
 </div>
 :::
 
 :::
 
-Master's Students
+### Professional Master's Students
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
 ::: {.me-3}
 
-<div style="width: 80px; height: 80px; background-color: #f0f2f5; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #adb5bd;">
-<i class="fa-solid fa-user fa-2x"></i>
-</div>
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+
+
 :::
 <div>
-Student Name 3
+Jardson
 
 
 
 
-<small class="text-muted">Dual-Energy Tomography</small>
+<small class="text-muted">Double Energy Tomography</small>
 
 
 
 
 
-[{{< fa file-lines >}} CV](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/0593907936651373){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
 </div>
 :::
 
 :::
 
-Alumni
+## Alumni
 
-Dr. Alumnus Name (PhD, 2023) - Current position: Sírio-Libanês Hospital
+<!-- Dr. Alumnus Name (PhD, 2023) - Current position: Sírio-Libanês Hospital -->
 
-Msc. Alumna Name (Msc, 2022) - Current position: Nuclear Industry
+<!-- Msc. Alumna Name (Msc, 2022) - Current position: Nuclear Industry -->

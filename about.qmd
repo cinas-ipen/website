@@ -20,13 +20,13 @@ Liderança
 :::
 ::: {.g-col-12 .g-col-md-9}
 
-[Seu Nome](#)
+[Mário O. de Menezes](#)
 
-Pesquisador Sênior - IPEN/CNEN
+Pesquisador - IPEN/CNEN
 
 Físico com ampla experiência em imageamento com nêutrons e computação científica. Atua na orientação de mestrado e doutorado nos programas de Tecnologia Nuclear (USP) e Mestrado Profissional em Tecnologia das Radiações, liderando projetos que unem a academia à prática profissional.
 
-[{{< fa file-lines >}} Currículo Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/SEU_ID){.btn .btn-outline-primary .btn-sm}
+[{{< fa file-lines >}} Currículo Lattes](https://lattes.cnpq.br/4882949829423994){.btn .btn-outline-primary .btn-sm target="_blank"}
 :::
 :::
 
@@ -44,7 +44,14 @@ Arquitetura híbrida para Deep Learning:
 
 Cluster Institucional: AMD Epyc (256 núcleos), 512GB RAM e 2x GPUs NVIDIA RTX A6000.
 
-Workstations: AMD Threadripper (48 threads), 128GB RAM e GPU NVIDIA RTX A5000.
+Workstations: 
+
+  - AMD Threadripper (48 threads), 128GB RAM e GPU NVIDIA RTX A5000.
+  - i9-14900, 64GB RAM, GPU RTX Ada 2000
+  - i7 Ultra 265KF, 32GB RAM, GPU RTX 5060Ti
+
+Desktops para trabalhos simples ou acesso aos sistemas de alta performance.
+
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -60,7 +67,8 @@ Armazenamento rápido local (RAID SSD).
 
 [{{< fa laptop-code >}}]{.text-success} Mobilidade
 
-Parque de notebooks de alta performance (Dell Precision i9) para desenvolvimento ágil e prototipagem local.
+Notebooks de alta performance (Dell Precision i9) para desenvolvimento ágil e prototipagem local.
+
 :::
 
 :::

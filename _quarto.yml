@@ -8,6 +8,7 @@ profile:
 website:
   title: "CINAS"
   description: "Grupo de Pesquisa em Computação e IA - IPEN/CNEN"
+  favicon: images/favicon.png
   # O logo é comum aos dois, pode ficar na base se quiser, ou nos específicos
 
 
@@ -17,6 +18,7 @@ format:
     css: styles.css
     mainfont: "Open Sans, sans-serif"
     toc: true
+    link-external-newwindow: true
 
 lang: pt-BR
 

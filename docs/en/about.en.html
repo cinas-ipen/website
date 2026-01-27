@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -193,13 +194,13 @@ ul.task-list li input[type="checkbox"] {
 <p>Leadership</p>
 <div class="grid align-items-center">
 <div class="g-col-12 g-col-md-3 text-center">
-<p><img src="images/leader-photo.jpg" class="img-fluid rounded-circle shadow" style="max-width: 200px;"></p>
+<p><img src="images/mario_375x375.jpg" class="img-fluid rounded-circle shadow" style="max-width: 200px;"></p>
 </div>
 <div class="g-col-12 g-col-md-9">
-<p><a href="#">Your Name</a></p>
+<p><a href="#">Mário O. de Menezes</a></p>
 <p>Senior Researcher - IPEN/CNEN</p>
 <p>Physicist with extensive experience in neutron imaging and scientific computing. Advises master’s and doctoral students in the Nuclear Technology (USP) and Professional Master’s in Radiation Technology programs, leading projects that unite academia with professional practice.</p>
-<p><a href="https://www.google.com/search?q=http://lattes.cnpq.br/SEU_ID" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-file-lines" aria-label="file-lines"></i> Curriculum Lattes</a></p>
+<p><a href="https://lattes.cnpq.br/4882949829423994" class="btn btn-outline-primary btn-sm" target="_blank"><i class="fa-solid fa-file-lines" aria-label="file-lines"></i> Curriculum Lattes</a></p>
 </div>
 </div>
 <p>Our Computational Infrastructure</p>
@@ -209,7 +210,13 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="text-primary"><i class="fa-solid fa-atom" aria-label="atom"></i></span> HPC &amp; Cluster</p>
 <p>Hybrid architecture for Deep Learning:</p>
 <p>Institutional Cluster: AMD Epyc (256 cores), 512GB RAM, and 2x NVIDIA RTX A6000 GPUs.</p>
-<p>Workstations: AMD Threadripper (48 threads), 128GB RAM, and NVIDIA RTX A5000 GPU.</p>
+<p>Workstations:</p>
+<ul>
+<li>AMD Threadripper (48 threads), 128GB RAM, and NVIDIA RTX A5000 GPU.</li>
+<li>i9-14900, 64GB RAM, GPU RTX Ada 2000</li>
+<li>i7 Ultra 265KF, 32GB RAM, GPU RTX 5060Ti</li>
+</ul>
+<p>Desktops for simple jobs or access to high performance systems.</p>
 </div>
 <div class="g-col-12 g-col-md-4">
 <p><span class="text-info"><i class="fa-solid fa-chart-line" aria-label="chart-line"></i></span> Big Data</p>
@@ -218,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="g-col-12 g-col-md-4">
 <p><span class="text-success"><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i></span> Mobility</p>
-<p>Fleet of high-performance notebooks (Dell Precision i9) for agile development and local prototyping.</p>
+<p>High-performance notebooks (Dell Precision i9) for agile development and local prototyping.</p>
 </div>
 </div>
 
@@ -312,6 +319,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

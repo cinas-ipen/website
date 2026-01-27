@@ -1,22 +1,22 @@
 ---
 title: "Nossa Equipe"
-toc: true
+toc: false
 ---
 
 O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cientistas da Computação e Profissionais da Saúde.
 
-Pesquisadores e Orientadores
+## Pesquisadores e Orientadores
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .p-3 .border .rounded .shadow-sm}
-![](images/mario_375x375.jpg){.rounded-circle .me-4 style="width: 100px; height: 100px; object-fit: cover;"}
+![](images/mario_375x375.jpg){.rounded-circle .me-4 style="width: 100px; height: 100px; object-fit: cover; padding: 5px;"}
 
 <div>
 
 [Mário O. de Menezes](#)
 
-Líder do Grupo | Pesquisador Sênior IPEN/CNEN
+Líder do Grupo | Pesquisador IPEN/CNEN
 
 [{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/SEU_ID){.btn .btn-outline-primary .btn-sm .mt-2}
 
@@ -25,9 +25,9 @@ Líder do Grupo | Pesquisador Sênior IPEN/CNEN
 
 :::
 
-Alunos Atuais
+## Alunos Atuais
 
-Doutorado
+### Mestrado Acadêmico
 
 ::: {.grid}
 
@@ -36,23 +36,24 @@ Doutorado
 <!-- Exemplo COM foto -->
 
 ::: {.me-3}
-![](images/student1.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
 :::
 
 <div>
-Nome do Aluno 1
+Nathália
 
 
 
 
-<small class="text-muted">Segmentação de Próstata com Deep Learning</small>
+<small class="text-muted">Aplicação de IA e ML em Planejamento em Radioterapia -- QA</small>
 
 
 
 
 
-[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
-[{{< fa laptop-code >}} Projeto](#){.badge .bg-light .text-dark .text-decoration-none}
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/3003837559320628){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
+
+<!-- [{{< fa laptop-code >}} Projeto](#){.badge .bg-light .text-dark .text-decoration-none} -->
 </div>
 :::
 
@@ -62,41 +63,39 @@ Nome do Aluno 1
 
 ::: {.me-3}
 
-<div style="width: 80px; height: 80px; background-color: #f0f2f5; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #adb5bd;">
-<i class="fa-solid fa-user fa-2x"></i>
-</div>
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+
 :::
 <div>
-Nome do Aluno 2
+Márcio
+
+
+
+<small class="text-muted">Explicabilidade em Algoritmos de Segmentação de Imagens Médicas</small>
 
 
 
 
-<small class="text-muted">Ontologias Nucleares</small>
 
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
+[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/8929076266229884){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
 </div>
 :::
 
 :::
 
-Mestrado
+### Mestrado Profissional
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
 ::: {.me-3}
 
-<div style="width: 80px; height: 80px; background-color: #f0f2f5; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #adb5bd;">
-<i class="fa-solid fa-user fa-2x"></i>
-</div>
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+
+
 :::
 <div>
-Nome do Aluno 3
+Jardson
 
 
 
@@ -107,14 +106,14 @@ Nome do Aluno 3
 
 
 
-[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/ID){.badge .bg-light .text-dark .text-decoration-none}
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/0593907936651373){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
 </div>
 :::
 
 :::
 
-Egressos (Alumni)
+## Egressos (Alumni)
 
-Dr. Nome do Egresso (Doutorado, 2023) - Hospital Sírio-Libanês
+<!-- Msc. Ana Karolina Defente (Mestrado Profissional, 2024) - Hospital Sírio-Libanês -->
 
-Msc. Nome do Egresso (Mestrado, 2022) - Indústria Nuclear
+<!-- Msc. Caroline Zeppellini  (Mestrado, 2022) - InRad - Hospital das Clínicas -->

@@ -47,5 +47,6 @@ format:
     toc: true
     toc-title: "On this page"
     mainfont: "Open Sans, sans-serif"
+    link-external-newwindow: true
 
 lang: en
