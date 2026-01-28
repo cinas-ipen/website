@@ -24,7 +24,7 @@ Leadership
 
 Senior Researcher - IPEN/CNEN
 
-Physicist with extensive experience in neutron imaging and scientific computing. Advises master's and doctoral students in the Nuclear Technology (USP) and Professional Master's in Radiation Technology programs, leading projects that unite academia with professional practice.
+Physicist with extensive experience in neutron imaging and scientific computing. Advises master's students in the Nuclear Technology (USP) and Professional Master's in Radiation Technology programs, leading projects that unite academia with professional practice.
 
 [{{< fa file-lines >}} Curriculum Lattes](https://lattes.cnpq.br/4882949829423994){.btn .btn-outline-primary .btn-sm target="_blank"}
 :::

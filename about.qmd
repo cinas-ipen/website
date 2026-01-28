@@ -24,7 +24,7 @@ Liderança
 
 Pesquisador - IPEN/CNEN
 
-Físico com ampla experiência em imageamento com nêutrons e computação científica. Atua na orientação de mestrado e doutorado nos programas de Tecnologia Nuclear (USP) e Mestrado Profissional em Tecnologia das Radiações, liderando projetos que unem a academia à prática profissional.
+Físico com ampla experiência em imageamento com nêutrons e computação científica. Atua na orientação de mestrado nos programas de Tecnologia Nuclear (USP) e Mestrado Profissional em Tecnologia das Radiações, liderando projetos que unem a academia à prática profissional.
 
 [{{< fa file-lines >}} Currículo Lattes](https://lattes.cnpq.br/4882949829423994){.btn .btn-outline-primary .btn-sm target="_blank"}
 :::
