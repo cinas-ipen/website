@@ -39,6 +39,9 @@ Nossos Eixos de Atuação
 
 Inovação em diagnóstico por imagem e terapia.
 Destaque: Iniciando estudos em Physics-Informed ML para imagens médicas, além de Deep Learning e validação clínica.
+
+[Saiba mais ...](research.qmd#research-diag-clinica){.btn .btn-secondary .btn-lg .mt-5 role="button"}
+
 :::
 
 ::: {.g-col-12 .g-col-md-4 .quarto-grid-item}
@@ -47,6 +50,9 @@ Destaque: Iniciando estudos em Physics-Informed ML para imagens médicas, além 
 [{{< fa chart-line >}}]{.text-primary} Dados & Gestão
 
 Gestão da informação, qualidade e processos. Governança de dados, ontologias e análise de Big Data (DATASUS).
+
+[Saiba mais ...](research.qmd#gestao-info-processos){.btn .btn-secondary .btn-lg .mt-5 role="button"}
+
 :::
 
 ::: {.g-col-12 .g-col-md-4 .quarto-grid-item}
@@ -56,6 +62,11 @@ Gestão da informação, qualidade e processos. Governança de dados, ontologias
 
 Modelagem computacional para instalações nucleares.
 Destaque: LLMs para reatores e linha de Physics-Informed ML para nêutrons em implantação.
+
+[Saiba mais ...](research.qmd#mod-ia-nuclear){.btn .btn-secondary .btn-lg .mt-5 role="button"}
+
+
+
 :::
 
 :::

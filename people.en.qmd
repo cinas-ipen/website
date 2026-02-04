@@ -109,7 +109,114 @@ Jardson
 </div>
 :::
 
+
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+::: {.me-3}
+
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+
+
 :::
+<div>
+Lílian
+
+
+<small class="text-muted">Radiological biosafety in clinical dental practice</small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/8418302995136117){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
+</div>
+:::
+
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+::: {.me-3}
+
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+
+
+:::
+<div>
+Wendell
+
+
+<small class="text-muted">Enhancement of Index-RA - post-mortem time prediction</small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/1152049625204157){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
+</div>
+:::
+
+
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+::: {.me-3}
+
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+
+
+:::
+<div>
+Guilherme
+
+
+<small class="text-muted">Application of Neural Networks in Radiotherapy Planning with VMAT</small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/7336440520430054){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
+</div>
+:::
+
+
+
+:::
+
+
+## Undergrad Students 
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+
+<!-- Exemplo COM foto -->
+
+::: {.me-3}
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+:::
+
+<div>
+Marcelo
+
+
+
+
+<small class="text-muted">Support app with LLM applied to highly complex systems operations.</small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/4993900685835319){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
+
+<!-- [{{< fa laptop-code >}} Projeto](#){.badge .bg-light .text-dark .text-decoration-none} -->
+</div>
+:::
+
+::: 
+
+
+
 
 ## Alumni
 

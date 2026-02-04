@@ -9,7 +9,7 @@ page-layout: article
 The CINAS project portfolio is structured into three strategic axes, uniting scientific rigor with technological innovation.
 :::
 
-1. Technological Innovation in Diagnosis and Therapy
+### 1. Technological Innovation in Diagnosis and Therapy {#research-diag-clinica}
 
 ::: {.grid .align-items-center .mb-5}
 
@@ -34,7 +34,7 @@ Technology Assessment: Comparative studies (e.g., Dual-Energy CT vs. MRI).
 
 :::
 
-2. Information Management and Processes
+### 2. Information Management and Processes   {#gestao-info-processos}
 
 ::: {.grid .align-items-center .mb-5}
 
@@ -59,7 +59,7 @@ Quality Management: Performance indicators and biosafety manuals in Nuclear Medi
 
 :::
 
-3. Modeling and AI in Nuclear Facilities
+### 3. Modeling and AI in Nuclear Facilities   {#mod-ia-nuclear}
 
 ::: {.grid .align-items-center .mb-5}
 

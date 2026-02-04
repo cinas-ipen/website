@@ -110,10 +110,121 @@ Jardson
 </div>
 :::
 
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+::: {.me-3}
+
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+
+
 :::
+<div>
+Lílian
+
+
+<small class="text-muted">Biossegurança radiológica na prática odontológica clínica</small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/8418302995136117){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
+</div>
+:::
+
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+::: {.me-3}
+
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+
+
+:::
+<div>
+Wendell
+
+
+<small class="text-muted">Aprimoramento do Index-RA - predição tempo <em>post-morten</em> </small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/1152049625204157){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
+</div>
+:::
+
+
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+::: {.me-3}
+
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+
+
+:::
+<div>
+Guilherme
+
+
+<small class="text-muted">Aplicação de Redes Neurais em Planejamento de Radioterapia com VMAT</small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/7336440520430054){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
+</div>
+:::
+
+
+:::
+
+## Iniciação Tecnológica/Científica (Graduação)
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
+
+<!-- Exemplo COM foto -->
+
+::: {.me-3}
+![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+:::
+
+<div>
+Marcelo
+
+
+
+
+<small class="text-muted"><em>App</em> de apoio com LLM aplicado em operações de sistemas de alta comoplexidade</small>
+
+
+
+
+
+[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/4993900685835319){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
+
+<!-- [{{< fa laptop-code >}} Projeto](#){.badge .bg-light .text-dark .text-decoration-none} -->
+</div>
+:::
+
+::: 
+
+
 
 ## Egressos (Alumni)
 
-<!-- Msc. Ana Karolina Defente (Mestrado Profissional, 2024) - Hospital Sírio-Libanês -->
+<!-- Msc. Ana Karolina Defente Caetano (Mestrado Profissional, 2024) - Hospital Sírio-Libanês -->
 
-<!-- Msc. Caroline Zeppellini  (Mestrado, 2022) - InRad - Hospital das Clínicas -->
+<!-- Msc. Caroline Zeppellini dos Santos Emilliozzi  (Mestrado, 2023) - InRad - Hospital das Clínicas -->
+
+<!-- Msc. Glauber Mauch de Carvalho   (Mestrado, 2020)  -->
+
+<!-- Msc. Claudia Chamas  (Mestrado, 2021) -->
+
+<!-- Msc. Luciana Silva Albquerque de Melo   (Mestrado, 2025) -- Centro Paula Souza -->
+
+

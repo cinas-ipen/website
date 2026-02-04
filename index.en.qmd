@@ -39,6 +39,9 @@ Our Research Axes
 
 Innovation in diagnostic imaging and therapy.
 Highlight: Initiating studies in Physics-Informed ML for medical imaging, alongside Deep Learning and clinical validation.
+
+[More ...](research.en.qmd#research-diag-clinica){.btn .btn-secondary .btn-lg .mt-5 role="button"}
+
 :::
 
 ::: {.g-col-12 .g-col-md-4 .quarto-grid-item}
@@ -47,6 +50,9 @@ Highlight: Initiating studies in Physics-Informed ML for medical imaging, alongs
 [{{< fa chart-line >}}]{.text-primary} Data & Management
 
 Information management, quality, and processes. Data governance, ontologies, and Big Data analysis (DATASUS).
+
+[More ...](research.en.qmd#gestao-info-processos){.btn .btn-secondary .btn-lg .mt-5 role="button"}
+
 :::
 
 ::: {.g-col-12 .g-col-md-4 .quarto-grid-item}
@@ -56,6 +62,9 @@ Information management, quality, and processes. Data governance, ontologies, and
 
 Computational modeling for nuclear facilities.
 Highlight: LLMs for reactors and Physics-Informed ML line for neutron tomography under deployment.
+
+[More ...](research.en.qmd#mod-ia-nuclear){.btn .btn-secondary .btn-lg .mt-5 role="button"}
+
 :::
 
 :::

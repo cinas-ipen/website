@@ -9,7 +9,7 @@ page-layout: article
 O portfólio de projetos do CINAS é estruturado em três eixos estratégicos, unindo o rigor científico à inovação tecnológica.
 :::
 
-1. Inovação Tecnológica em Diagnóstico e Terapia
+### 1. Inovação Tecnológica em Diagnóstico e Terapia {#research-diag-clinica}
 
 ::: {.grid .align-items-center .mb-5}
 
@@ -34,7 +34,7 @@ Validação Tecnológica: Estudos comparativos (ex: TCDE vs. Ressonância Magné
 
 :::
 
-2. Gestão da Informação e Processos
+### 2. Gestão da Informação e Processos  {#gestao-info-processos}
 
 ::: {.grid .align-items-center .mb-5}
 
@@ -59,7 +59,7 @@ Gestão da Qualidade: Indicadores de desempenho e manuais de biossegurança em M
 
 :::
 
-3. Modelagem e IA em Instalações Nucleares
+### 3. Modelagem e IA em Instalações Nucleares {#mod-ia-nuclear}
 
 ::: {.grid .align-items-center .mb-5}
 
