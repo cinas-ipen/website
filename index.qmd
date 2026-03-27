@@ -15,6 +15,13 @@ O Grupo de Computação e Inteligência Artificial em Nuclear e Saúde (CINAS) a
 
 Nossa missão é desenvolver metodologias que incorporam o conhecimento físico e biológico (domain knowledge) dentro da arquitetura de modelos inteligentes.
 
+Estamos estreiando nossa nova infraestrutura:
+
+* GitLab para o gerenciamento do desenvolvimento (version control)
+* NextCloud para o compartilhamento seguro de dados; nossa nuvem privada.
+* OpenProject para o gerenciamento dos projetos do grupo.
+
+
 [Saiba mais sobre nós](about.qmd){.btn .btn-primary .btn-lg role="button" .me-2} [Nossas Pesquisas](research.qmd){.btn .btn-outline-primary .btn-lg role="button"}
 :::
 
