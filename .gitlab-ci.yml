@@ -8,6 +8,7 @@ build-site:
   script:
     # Renderiza o site. Se o _quarto.yml já diz que o output é 'docs', ele vai para lá.
     - quarto render 
+    - quarto render --profile en
   artifacts:
     paths:
       - docs/ 
