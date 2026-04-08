@@ -1,0 +1,28 @@
+stages:
+  - build
+  - deploy
+
+build-site:
+  stage: build
+  image: rocker/quarto:latest
+  script:
+    # Renderiza o site. Se o _quarto.yml já diz que o output é 'docs', ele vai para lá.
+    - quarto render 
+  artifacts:
+    paths:
+      - docs/ 
+  tags:
+    - cinas-deploy
+
+deploy-site:
+  stage: deploy
+  image: alpine:latest
+  script:
+    # Limpa o destino no ZFS
+    - rm -rf /storage/cinas-website/html/*
+    # MUDANÇA: Copia o conteúdo da pasta docs para o servidor web
+    - cp -R docs/* /storage/cinas-website/html/
+  only:
+    - main
+  tags:
+    - cinas-deploy
