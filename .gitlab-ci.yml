@@ -4,7 +4,7 @@ stages:
 
 build-site:
   stage: build
-  image: rocker/quarto:latest
+  image: ghcr.io/quarto-dev/quarto:latest
   script:
     # Renderiza o site. Se o _quarto.yml já diz que o output é 'docs', ele vai para lá.
     - quarto render 
