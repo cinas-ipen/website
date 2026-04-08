@@ -11,7 +11,9 @@ project:
   resources:
     - images/
 
-
+execute:
+  freeze: auto  # re-render only when source changes
+  
 website:
   navbar:
     background: primary

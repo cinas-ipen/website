@@ -11,6 +11,9 @@ project:
   resources:
     - images/
 
+execute:
+  freeze: auto  # re-render only when source changes
+  
 website:
   title: "CINAS"
   description: "Research Group on Computing and AI in Nuclear and Health Sciences - IPEN/CNEN"

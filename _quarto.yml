@@ -11,7 +11,9 @@ website:
   favicon: images/favicon.png
   # O logo é comum aos dois, pode ficar na base se quiser, ou nos específicos
 
-
+execute:
+  freeze: auto  # re-render only when source changes
+  
 format:
   html:
     theme: cosmo
