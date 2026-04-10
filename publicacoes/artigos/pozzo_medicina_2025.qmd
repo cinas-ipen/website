@@ -1,0 +1,43 @@
+---
+title: "A Medicina Nuclear no Sistema Único de Saúde"
+date: 2025-01-01
+author:
+  - name: Pozzo, Lorena
+  - name: Oliveira, Mércia Liane De
+  - name: Menezes, Mário Olímpio De
+  - name: Toscas, Fotini Santos
+abstract: > 
+  Resumo A Medicina Nuclear desempenha um importante papel no manejo de pacientes com doenças crônicas, especialmente oncológicas e cardiovasculares. Neste estudo, foi realizada uma análise da evolução da área no Brasil, no âmbito do Sistema Único de Saúde. Para tanto, foram realizadas análises restrospectivas entre 2015 e 2021 de dados públicos. Embora o Brasil possua uma quantidade considerável de instalações, sua distribuição geográfica é desigual. A mesma disparidade é observada em relação às unidades produtoras e distribuidoras de radiofármacos, limitando o acesso da população brasileira, particularmente àqueles com meia-vida inferior a duas horas. Percebe-se a alta dependência tecnológica de empresas estrangeiras, com pouca ou nenhuma produção nacional, o que contribui para o déficit na balança comercial. Apesar das possíveis demandas crescentes sobre a área devido a fatores como o envelhecimento da população e mudanças epidemiológicas a área não se expandiu. É crucial implementar políticas sociais e econômicas voltadas à área para reduzir as vulnerabilidades do sistema de saúde, assegurar sua sustentabilidade e promover um acesso igualitário e universal aos serviços de Medicina Nuclear. , Resumen La Medicina Nuclear tiene un papel importante en el manejo de pacientes con enfermedades crónicas, especialmente oncológicas y cardiovasculares. Este estudio realizó un análisis de la evolución del área en Brasil, en el ámbito del Sistema Único de Salud brasileño. Para ello, se realizaron análisis retrospectivos entre 2015 y 2021 de datos públicos. Si bien Brasil tiene un número considerable de instalaciones, su distribución geográfica es desigual. Se observa la misma disparidad respecto a las unidades productoras y distribuidoras de radiofármacos, lo que limita el acceso de la población brasileña, particularmente aquellos con vida media inferior a dos horas. Existe una alta dependencia tecnológica de empresas extranjeras, con poca o nula producción nacional, lo que contribuye al déficit de la balanza comercial. A pesar de la posible demanda creciente en el área debido a factores como el envejecimiento de la población y los cambios epidemiológicos, este campo no se ha expandido. Es crucial implementar políticas sociales y económicas enfocadas en el área para reducir las vulnerabilidades del sistema de salud, asegurar su sostenibilidad y promover el acceso igualitario y universal a los servicios de Medicina Nuclear. , Abstract Nuclear Medicine plays an important role in the management of patients with chronic diseases, especially oncological and cardiovascular conditions. In this study, an analysis of the evolution of this field in Brazil was conducted within the framework of the Unified Health System. Retrospective analyses from 2015 to 2021 of public data were performed. Although Brazil has a considerable number of facilities, their geographical distribution is uneven. The same disparity is observed in relation to units that produce and distribute radiopharmaceuticals, limiting access for the Brazilian population, particularly to those with a half-life of less than two hours. There is a noticeable high technological dependence on foreign companies, with little or no domestic production, contributing to a deficit in the trade balance. Despite the increasing demands due to factors such as population aging and epidemiological changes, the area did not expand. It is crucial to implement social and economic policies to reduce vulnerabilities in the public healthcare system, ensure its sustainability, and promote equal and universal access to Nuclear Medicine.
+categories: [article]
+citation: 
+  container-title: "Ciência & Saúde Coletiva"
+  volume: 30
+  issue: 1
+  doi: "10.1590/1413-81232025301.04962023"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-pozzo_medicina_2025" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-pozzo_medicina_2025" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">A Medicina Nuclear no Sistema Único de Saúde</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-pozzo_medicina_2025");
+    let pubLink = document.getElementById("bc-pub-pozzo_medicina_2025");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

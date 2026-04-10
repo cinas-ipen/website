@@ -1,0 +1,37 @@
+---
+title: "Modelo preditivo de infecção hospitalar utilizando aprendizado de máquina"
+date: 2023-03-29
+author:
+  - name: Mendes, Patricia Pedrosa Moreira
+abstract: > 
+  Machine learning is increasingly gaining ground in the health area due to its ability to improve disease prediction and assist professionals in conducting clinical treatments. Hospital infection is the most common negative event for hospitalized patients and continues to pose a serious threat to patient safety. The objective of this work was to find an optimized and efficient machine learning technique that can effectively predict the condition of nosocomial infection, identifying the main factors responsible for this condition. In this work, we used six machine learning techniques, the algorithms used in the work were Random Forest, Logistic Regression, KNN, Adaboost, Bagging and XGBoost; modern explainability techniques were also used for these algorithms. In this process, the data were divided into training and test data, the models were trained in a first moment with standard hyperparameters, in a second moment the models were trained with improved hyperparameters. The models that presented the best metrics were XGBoost and Random Forest, XGBoost presented the best result in all metrics, except for Precision, Random Forest obtained the second best result in accuracy and precision, in cross-validation the result was the same as XGBoost. For the explanation of the model, the SHAP library was used, it was evaluated how the value of each variable influenced the result achieved by the predictive model XGBoost, SHAP pointed out as the most important variables: NR_DIA_INTERNADO (number of days of hospitalization), CD_DOENCA_PRINCIPAL_E (ICD-10 International classification of diseases), DS_PROC_PRINCIPAL_E (Main procedure during hospitalization) and QT_DIAS_SONDA_VESICAL (Days that the patient had a urinary catheter). The study proved to be feasible for the adoption of machine learning in health research routines, in the work of the hospital infection committee and in innovation initiatives in health institutions in Brazil.
+categories: [thesis]
+citation: 
+  doi: "10.11606/D.85.2023.tde-12072023-091827"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-mendes_modelo_2023" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-mendes_modelo_2023" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Modelo preditivo de infecção hospitalar utilizando aprendizado de máquina</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-mendes_modelo_2023");
+    let pubLink = document.getElementById("bc-pub-mendes_modelo_2023");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

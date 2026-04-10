@@ -1,0 +1,41 @@
+---
+title: "Machine Learning in PSQA: Performance of a Random Forest Model on Radiotherapy Metrics"
+date: 2025-01-01
+author:
+  - name: Alves, Nathália L. A.
+  - name: Menezes, Mário O.
+  - name: Yoriyaz, Hélio
+  - name: Radicchi, Lucas A.
+  - name: Mattesco, André L. S.
+  - name: Prospero, André G.
+abstract: > 
+  Resumo não disponível.
+categories: [inproceedings]
+
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-alves_machine_2025" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-alves_machine_2025" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Machine Learning in PSQA: Performance of a Random Forest Model on Radiotherapy Metrics</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-alves_machine_2025");
+    let pubLink = document.getElementById("bc-pub-alves_machine_2025");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

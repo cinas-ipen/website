@@ -1,0 +1,37 @@
+---
+title: "Desenvolvimento de uma camada semântica para um protótipo de repositório de dados de pesquisas de análise por ativação neutrônica"
+date: 2020-03-05
+author:
+  - name: Carvalho, Glauber Mauch de
+abstract: > 
+  One of the pillars of Science is the possibility of replicating the results of scientific research by independent researchers, making possible the validation of methods, results and their conclusions. For this to be possible in the current scenario, where the production of scientific data grows fast (Big Data), systematic methods of data storing, curating and delivering need to be implemented. Faced with the avalanche of available data, the entire scientific process is impacted, enabling the emergence of a new scientific paradigm called e-Science. That new paradigm, called 'The Fourth Paradigm of Scientific Exploration', distinguishes data-intensive science from traditional computational science. In this work, an ontology was developed for the domain of data in the area of Analysis by Neutron Activation and a prototype of research data repository. The integration of the semantic layer with the PostgreSQL SGBD was emulated through Protegè and its Ontop tool, making a direct connection to the relational database. In this emulation, semantic queries were performed in SPARQL. The results presented demonstrate the gains from that integration and point to several advantages of having a semantic layer in a data repository, including, but not limited to, a greater possibility of data reuse since these data can be better understood because of all description that the ontology provides. Also, as a result of these work, the methodology developed for the creation of the ontology is presented in details, allowing its application in other correlated domains in IPEN-CNEN/SP as well as in other institutions. The repository prototype was developed using the open source web development framework Django along with Python programming language, in a way that provided a lot of flexibility and agility to the process.
+categories: [thesis]
+citation: 
+  doi: "10.11606/D.85.2020.tde-17122020-112928"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-carvalho_desenvolvimento_2020" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-carvalho_desenvolvimento_2020" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Desenvolvimento de uma camada semântica para um protótipo de repositório de dados de pesquisas de análise por ativação neutrônica</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-carvalho_desenvolvimento_2020");
+    let pubLink = document.getElementById("bc-pub-carvalho_desenvolvimento_2020");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

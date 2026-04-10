@@ -1,0 +1,45 @@
+---
+title: "Metastatic Castration-Resistant Prostate Cancer in Brazil: a Real-World Investigation Using INCA Database"
+date: 2023-05-12
+author:
+  - name: Pozzo, Lorena
+  - name: Oliveira, Mércia Liane De
+  - name: Monteiro, Lucilena Rebelo
+  - name: Menezes, Mario Olímpio De
+  - name: Giammarile, Francesco
+  - name: Sadi, Marcus Vinícius
+abstract: > 
+  Introduction: Prostate cancer is the second most common cancer in men worldwide. In Brazil, regional disparities in incidences of intermediate and high-risk in late-diagnosed PC cases are expected. Objective: To investigate the clinical and demographic profiles of patients treated with metastatic castration-resistant prostate cancer (mCRPC) in Brazil, using real-world data from public databases. Method: Prostate cancer data from the Brazilian cancer registries were filtered from Brazilian public databases from 2008 to 2018. The number of health institutions and registries at a cancer public database were used to separate the Brazilian Federative Units into two comparison groups. mCRPC patients were estimated by using a combination of filters of staging and treatment (Tx, Nx and M1 + chemotherapy). The patients’ median age and the number and type of treatments were evaluated. Results: A total of 325,987 patients with prostate cancer and 5,367 patients with mCRPC were identified. The median age of the mCRPC patients was 63 years. The percentage of patients who underwent one, two or three treatments was 21.0%, 43.2% and 28.1%, respectively. In addition, management differences were noticed depending on the group analyzed. Conclusion: The results revealed regional discrepancies in the distribution of registered mCRPC patients in the Brazilian territory and in their treatment. This information can be used to strengthen the recently updated treatment and improve the palliative care offered. This work presents suggestions to improve specific prostate cancer databases.
+categories: [article]
+citation: 
+  container-title: "Revista Brasileira de Cancerologia"
+  volume: 69
+  issue: 2
+  doi: "10.32635/2176-9745.RBC.2023v69n2.3763"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-pozzo_metastatic_2023" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-pozzo_metastatic_2023" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Metastatic Castration-Resistant Prostate Cancer in Brazil: a Real-World Investigation Using INCA Database</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-pozzo_metastatic_2023");
+    let pubLink = document.getElementById("bc-pub-pozzo_metastatic_2023");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

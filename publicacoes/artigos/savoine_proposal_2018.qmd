@@ -1,0 +1,42 @@
+---
+title: "Proposal of a Methodology for the Assessment of Security Levels of IoT Wireless Sensor Networks in Nuclear Environments"
+date: 2018-01-01
+author:
+  - name: Savoine, Marcia Maria
+  - name: Menezes, Mario Olimpio De
+  - name: Andrade, Delvonei Alves De
+abstract: > 
+  Resumo não disponível.
+categories: [article]
+citation: 
+  container-title: "World Journal of Nuclear Science and Technology"
+  volume: 08
+  issue: 2
+  doi: "10.4236/wjnst.2018.82008"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-savoine_proposal_2018" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-savoine_proposal_2018" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Proposal of a Methodology for the Assessment of Security Levels of IoT Wireless Sensor Networks in Nuclear Environments</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-savoine_proposal_2018");
+    let pubLink = document.getElementById("bc-pub-savoine_proposal_2018");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

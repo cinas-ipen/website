@@ -1,0 +1,30 @@
+---
+title: "Software e Ferramentas"
+description: "Códigos, scripts e sistemas desenvolvidos pelo CINAS."
+listing:
+  - id: software-list
+    contents: 
+      - title: "Nome do Sistema AI"
+        description: "Um modelo de Deep Learning para segmentação de imagens radiológicas pronto para uso clínico em ambiente de testes."
+        path: "https://github.com/seu-usuario/repo-do-sistema"
+        image: "images/placeholder-software-small.png" # Uma imagem da interface ou um logo genérico de código
+        categories: [Python, Deep Learning, Imagem Médica]
+      - title: "CINAS Data Prep Script"
+        description: "Script especializado em R para limpeza e anonimização de bases de dados do DataSUS."
+        path: "https://github.com/seu-usuario/repo-do-script"
+        image: "images/placeholder-software-small.png"
+        categories: [R, Data Processing, DataSUS]
+    type: grid
+    categories: true
+    sort-ui: false
+#    filter-ui: true
+---
+
+Além da produção acadêmica, nosso grupo desenvolve soluções computacionais de código aberto para a comunidade científica e profissionais da saúde. Abaixo você encontra nossos principais repositórios e ferramentas.
+
+::: {.callout-warning}
+Por enquanto, apenas placeholders ... produção real em breve!
+:::
+
+::: {#software-list}
+:::

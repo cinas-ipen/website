@@ -1,0 +1,38 @@
+---
+title: "Methodology proposal for assessing safety in WSN and IOT devices in nuclear research laboratory"
+date: 2019-01-01
+author:
+  - name: Savoine, Marcia M.
+  - name: Andrade, Delvonei A.
+  - name: Menezes, Mario O. de
+abstract: > 
+  Nowadays there is a gap due to the absence of an updated and formalized methodology that can be used to assess security levels in WSNs (Wireless Sensor Network) under IoT (Internet of Things) devices in nuclear environments (which are considered hostile environments and require a higher level of security). This gap causes information security professionals to have difficulties in making a broad assessment of the vulnerabilities in their WSNs, with greater concern when coupled with IoT devices. This work aims to present a methodology to evaluate the reliability of the use of levels security with IoT devices for nuclear installations using WSNs. The proposal of the methodology consists of 5 main stages and 21 substage, which are part of the category of a function in groups of cyber security results that are linked to programmatic needs and specific activities of mandatory execution. Understanding so that the security of a WSN considering the current IoT context for nuclear installations is necessary, where important characteristics in these critical environments should be explored (e g., the presence of radioactivity, in addition to the decontamination of materials and equipment, determine access to authorized persons). The application of the defense-in-depth concept of anomaly solution management and prevention against atypical events to provide an effective safety mechanism, ensuring its safe use in these high criticality environments.
+categories: [inproceedings]
+
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-savoine_methodology_2019" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-savoine_methodology_2019" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Methodology proposal for assessing safety in WSN and IOT devices in nuclear research laboratory</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-savoine_methodology_2019");
+    let pubLink = document.getElementById("bc-pub-savoine_methodology_2019");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

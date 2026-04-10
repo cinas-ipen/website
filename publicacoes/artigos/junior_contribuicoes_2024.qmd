@@ -1,0 +1,45 @@
+---
+title: "Contribuições Do PET/CT Fdg-18f Na Detecção De Doença Avançada No Câncer De Mama"
+date: 2024-04-01
+author:
+  - name: Junior, Romel Jefferson Hilgemberg
+  - name: Prado, Leonardo Fonseca Monteiro Do
+  - name: Cavalcante, Jorge Augusto Gomes
+  - name: Viviani, Carla Lima Santos
+  - name: Alves, Alyne Sellani Ferreira
+  - name: Menezes, Mario Olimpio De
+  - name: Da Silva, Marcelo Moreira
+abstract: > 
+  Resumo não disponível.
+categories: [article]
+citation: 
+  container-title: "Hematology, Transfusion and Cell Therapy"
+  volume: 46
+  doi: "10.1016/j.htct.2024.04.072"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-junior_contribuicoes_2024" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-junior_contribuicoes_2024" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Contribuições Do PET/CT Fdg-18f Na Detecção De Doença Avançada No Câncer De Mama</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-junior_contribuicoes_2024");
+    let pubLink = document.getElementById("bc-pub-junior_contribuicoes_2024");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

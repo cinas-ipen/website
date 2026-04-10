@@ -1,0 +1,17 @@
+---
+title: "Tutoriais e Artigos Técnicos"
+description: "Guias passo a passo, notas técnicas e materiais de apoio do CINAS."
+listing:
+  contents: 
+    - "*/index.qmd" # Procura o index.qmd dentro de todas as subpastas
+  sort: "date desc" # Mais recentes primeiro
+  type: default # Pode ser 'default' (estilo blog clássico) ou 'grid' (cartões)
+  categories: true # Cria um menu lateral com as tags/categorias
+  sort-ui: false
+  filter-ui: true
+  page-size: 10 # Quantos artigos por página
+page-layout: full
+title-block-banner: true
+---
+
+Nesta seção, compartilhamos conhecimento prático e técnico gerado pelo grupo.

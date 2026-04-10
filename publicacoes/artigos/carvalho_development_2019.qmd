@@ -1,0 +1,38 @@
+---
+title: "Development of a semantic layer for a data repository prototype for neutron activation analysis domain data"
+date: 2019-10-21
+author:
+  - name: Carvalho, Glauber Mauch de
+  - name: Semmler, Renato
+  - name: Menezes, Mario Olimpio de
+abstract: > 
+  In order to provide greater transparency for scientific research and the results achieved, a great effort is ongoing to make available scientific data repositories, which allow for different researchers to validate, reproduce and reuse third party scientific data. With the always increasing use of technology in all kinds of scientific facilities, a growing amount of data is collected even from simple experiments. This scenario presents a new paradigm: the understanding of third party data easily found on data repositories. Consequently, being able to do useful searches on these data repositories poses a new challenge for traditional search engines. In this work, the approach taken to help solve these problems was to propose a semantic layer for scientific data repository. By using ontologies, with appropriated integration of traditional search mechanisms, it will be easier for users to nd related data that could be used in their work, improving the overall scientific yield. In order to achieve this goal, a ontology was developed, using the Protègè software, for the Neutron Activation Analysis (NAA) data domain. This ontology was validated by experts from NAA Laboratory of the Reactor Research Center (CERPq) at the Nuclear and Energy Research Institute (IPEN-CNEN/SP). A prototype of a semantic data repository is, thus, being developed using the Django web development framework. RDFlib, a software library written in Python is being used to allow the integration of semantic operations, based on the NAA ontology, with the relational database layer provided by Django.
+categories: [inproceedings]
+
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-carvalho_development_2019" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-carvalho_development_2019" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Development of a semantic layer for a data repository prototype for neutron activation analysis domain data</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-carvalho_development_2019");
+    let pubLink = document.getElementById("bc-pub-carvalho_development_2019");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

@@ -6,8 +6,10 @@ project:
     - about.qmd
     - research.qmd
     - people.qmd
-    - publications.qmd
+    - publicacoes
+    - software.qmd
     - join.qmd
+    - tutoriais
   resources:
     - images/
 
@@ -27,8 +29,14 @@ website:
         text: Pesquisa
       - href: people.qmd
         text: Equipe
-      - href: publications.qmd
-        text: Publicações
+      - text: Produção
+        menu: 
+          - text: Publicações
+            href: publicacoes/index.qmd
+          - text: Tutoriais e Notas
+            href: tutoriais/index.qmd
+          - href: software.qmd
+            text: Softwares e Scripts
       - href: join.qmd
         text: Oportunidades
     right:
@@ -39,7 +47,7 @@ website:
       - icon: linkedin
         href: https://linkedin.com/in/seu-perfil
       - icon: envelope
-        href: mailto:seu-email@ipen.br
+        href: mailto:cinas@ipen.br
 
 format:
   html:

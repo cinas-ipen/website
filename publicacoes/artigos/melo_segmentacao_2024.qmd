@@ -1,0 +1,37 @@
+---
+title: "Segmentação automática da próstata em imagens médicas com deep learning por meio da técnica de federate learning"
+date: 2024-07-10
+author:
+  - name: Melo, Luciana Silva Albuquerque
+  - name: Menezes, Mário Olímpio de
+abstract: > 
+  Resumo não disponível.
+categories: [inproceedings]
+
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-melo_segmentacao_2024" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-melo_segmentacao_2024" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Segmentação automática da próstata em imagens médicas com deep learning por meio da técnica de federate learning</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-melo_segmentacao_2024");
+    let pubLink = document.getElementById("bc-pub-melo_segmentacao_2024");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

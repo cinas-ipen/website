@@ -1,0 +1,43 @@
+---
+title: "Nutritional Evaluation of Brachiaria brizantha cv. marandu using Convolutional Neural Networks"
+date: 2020-01-01
+author:
+  - name: Dal Prá, Bruno Rover
+  - name: Mesquita, Roberto Navarro
+  - name: Menezes, Mário Olímpio de
+  - name: Andrade, Delvonei Alves
+abstract: > 
+  The identification of plant nutritional stress based on visual symptoms is predominantly done manually and is performed by trained specialists to identify such anomalies. In addition, this process tends to be very time consuming, has a variability between crop areas and is often required for analysis at various points of the property. This work proposes an image recognition system that analyzes the nutritional status of the plant to help solve these problems. The methodology uses deep learning that automates the process of identifying and classifying nutritional stress of Brachiaria brizantha cv. marandu. An image recognition system was built and analyzes the nutritional status of the plant using the digital images of its leaves. The system identifies and classifies Nitrogen and Potassium deficiencies. Upon receiving the image of the pasture leaf, after a classification performed by a convolutional neural network (CNN), the system presents the result of the diagnosed nutritional status. Tests performed to identify the nutritional status of the leaves presented an accuracy of 96%. We are working to expand the data of the image database to obtain an increase in the accuracy levels, aiming at the training with a larger amount of information presented to CNN and, thus, obtaining results that are more expressive.
+categories: [article]
+citation: 
+  container-title: "INTELIGENCIA ARTIFICIAL"
+  volume: 23
+  issue: 66
+  doi: "10.4114/intartif.vol23iss66pp85-96"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-dal_pra_nutritional_2020" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-dal_pra_nutritional_2020" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Nutritional Evaluation of Brachiaria brizantha cv. marandu using Convolutional Neural Networks</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-dal_pra_nutritional_2020");
+    let pubLink = document.getElementById("bc-pub-dal_pra_nutritional_2020");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

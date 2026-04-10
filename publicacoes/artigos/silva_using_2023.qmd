@@ -1,0 +1,38 @@
+---
+title: "Using Brazilian Health Surveys 2013 and 2019 for a nationwide diabetes risk assessment"
+date: 2023-05-11
+author:
+  - name: Silva, Marcelo Moreira Da
+  - name: Menezes, Mario Olímpio De
+abstract: > 
+  Brazil had, in 2021, almost 15.7 million people with diabetes (type 1 and 2). In this work, using the Pesquisa Nacional de Saúde (PNS) 2013 and 2019, the diabetes risk for the entire population covered by those surveys, with 18 years and older, was assessed applying the American Diabetes Association Risk Test. Only one question from that test, regarding relatives with diabetes, could not be answered from the PNS questionnaires. After applying the test to both PNS 2013 and 2019, 15.9% and 19.0% of the population with 18+ years was found to be at risk of developing diabetes, representing about 23 and 28 million people, respectively. Those with 65+ years were found to be more at risk, increasing from 42.3% in 2013 to 46.0% in 2019. A good result came from those with BMI textgreater 30, whose percentage at risk dropped from 47.9% in 2013 to 42.5% in 2019. Brazilian states with the biggest risk increase were Tocantins, Mato Grosso do Sul, Piauí and Bahia, all with more than 4pp, while ten states had increases bigger than 3pp. The results obtained in this work corroborate recent findings in diabetes prevalence studies and also reinforce the great importance of such nationwide health survey, as it represent an invaluable resource to public health policies.
+categories: [misc]
+citation: 
+  doi: "10.1590/SciELOPreprints.6039"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-silva_using_2023" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-silva_using_2023" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Using Brazilian Health Surveys 2013 and 2019 for a nationwide diabetes risk assessment</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-silva_using_2023");
+    let pubLink = document.getElementById("bc-pub-silva_using_2023");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

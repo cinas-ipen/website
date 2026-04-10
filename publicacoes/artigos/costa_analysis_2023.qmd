@@ -1,0 +1,39 @@
+---
+title: "Analysis of Research Progress in Nuclear Energy: A Bibliometric Review of the Web of Science Database for Identifying Trends in Evolution"
+date: 2023-01-01
+author:
+  - name: Costa, Robson
+  - name: Menezes, Mario O.
+  - name: Moura, Esperidiana A.B.
+abstract: > 
+  Resumo não disponível.
+categories: [misc]
+citation: 
+  doi: "10.2139/ssrn.4624546"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-costa_analysis_2023" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-costa_analysis_2023" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Analysis of Research Progress in Nuclear Energy: A Bibliometric Review of the Web of Science Database for Identifying Trends in Evolution</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-costa_analysis_2023");
+    let pubLink = document.getElementById("bc-pub-costa_analysis_2023");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

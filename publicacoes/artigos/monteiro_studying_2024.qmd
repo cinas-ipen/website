@@ -1,0 +1,42 @@
+---
+title: "Studying Scientific Collaboration Networks Using Social Network Analysis and Structural Equation Modeling"
+date: 2024-03-01
+author:
+  - name: Monteiro,, Carlos Anísio
+  - name: Menezes, Mário Olímpio de
+  - name: Barroso, Antônio Carlos de O.
+abstract: > 
+  Resumo não disponível.
+categories: [article]
+citation: 
+  container-title: "Journal Of Humanities And Social Science"
+  volume: 29
+  issue: 3
+  doi: "10.9790/0837-2903045870"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-monteiro_studying_2024" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-monteiro_studying_2024" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Studying Scientific Collaboration Networks Using Social Network Analysis and Structural Equation Modeling</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-monteiro_studying_2024");
+    let pubLink = document.getElementById("bc-pub-monteiro_studying_2024");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

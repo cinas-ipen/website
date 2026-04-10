@@ -1,0 +1,38 @@
+---
+title: "Data governance for neutron activation analysis"
+date: 2019-10-21
+author:
+  - name: Chamas, Claudia
+  - name: Moreira, Edson Gonçalves
+  - name: Menezes, Mário Olímpio de
+abstract: > 
+  This study describes the importance of managing scientific research data, and incorporating the demands that are currently presented such as data sharing, data repositories, metadata management, as well as ensuring the truth and value of data. A proper data management helps in gaining insight on data governance. The area of study is the Nuclear and Energy Research Institute (IPEN/CNEN-SP) where there is a wide variety of researches, yielding lots of data. IPEN has already recognized the importance of proper management of research data as an essential part of the research's good practices and of the institution's commitment to the truthfulness and quality of its scientific research. Following this commitment, IPEN has established the necessity of data management and sharing in order to ensure the greatest possible benefits for scientific and technological advancement. A case study with data from neutron activation analysis experiments, belonging to the Neutron Activation Analysis Laboratory (LANCERPq) of IPEN is presented. The current status of data management was assessed and a basic implementation plan for a proper data management was proposed, delineating also a path to the adoption of data governance practices at a larger scale in the whole IPEN-CNEN/SP. (author)
+categories: [inproceedings]
+
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-chamas_data_2019" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-chamas_data_2019" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data governance for neutron activation analysis</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-chamas_data_2019");
+    let pubLink = document.getElementById("bc-pub-chamas_data_2019");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

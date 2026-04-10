@@ -14,6 +14,8 @@ Estamos buscando especificamente pesquisadores e alunos para integrar nossa nova
 
 Imagens Médicas: Aplicação de leis físicas na reconstrução de imagens.
 
+Dosimetria Personalizada: Incorporação de princípios físicos em modelos de machine learning para predição de dose.
+
 Tecnologia Nuclear: Problemas inversos em tomografia com nêutrons.
 :::
 

@@ -1,0 +1,37 @@
+---
+title: "Desenvolvimento e aplicação de governança de dados no Laboratório de Análise por Ativação Neutrônica (LAN) do Instituto de Pesquisas Energéticas Nucleares (IPEN/CNEN): proposta do modelo estrutural de aplicação para e-Science"
+date: 2021-12-17
+author:
+  - name: Chamas, Claudia
+abstract: > 
+  The data governance of scientific research should be incorporated into scientific research institutions in view of the demands currently presented, such as: e-Science, data sharing, Open Science, data repositories, metadata, data quality, data management data, Data Management Plan (DMPs) for contributing to innovation and transparency of scientific research. The scope of the study is the Institute for Energy and Nuclear Research (IPEN/CNEN), where there is a great variety of researches and the production of loads of data; more specifically, in order to create the basis of an example to be replicated, data from the analytical techniques were chosen: Instrumental Neutron Activation Analysis (INAA) and Atomic Absorption Spectrometry (AAS), belonging to the Neutron Activation Laboratory - Reactor Center Research (LAN - CERPq). Essential data governance concepts such as data lifecycle, data quality and master data management are covered, including examples and explanations on the benefits of data governance and how it can be measured and quantified. A scientific data governance model, focusing on data from the previously mentioned analytical techniques, was developed and presented. Its framing was designed so that it can be applied to other techniques or research areas, as well as to other research institutions.
+categories: [thesis]
+citation: 
+  doi: "10.11606/D.85.2021.tde-23122022-145543"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-chamas_desenvolvimento_2021" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-chamas_desenvolvimento_2021" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Desenvolvimento e aplicação de governança de dados no Laboratório de Análise por Ativação Neutrônica (LAN) do Instituto de Pesquisas Energéticas Nucleares (IPEN/CNEN): proposta do modelo estrutural de aplicação para e-Science</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-chamas_desenvolvimento_2021");
+    let pubLink = document.getElementById("bc-pub-chamas_desenvolvimento_2021");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

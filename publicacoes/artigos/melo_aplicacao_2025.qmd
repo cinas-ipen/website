@@ -1,0 +1,37 @@
+---
+title: "Aplicação de algoritmo de machine learning para a segmentação automática de imagens médicas com deep learning por meio da técnica de federated learning"
+date: 2025-03-20
+author:
+  - name: Melo, Luciana Silva Albuquerque de
+abstract: > 
+  Artificial intelligence (AI) and data science have shown significant advances in the healthcare domain, greatly impacting the diagnosis and treatment of diseases. However, the application of AI in medicine still faces major challenges, such as the need for large volumes of data and the preservation of patient privacy. This work presents the development of a machine learning algorithm for the automatic segmentation of the prostate in magnetic resonance imaging (MRI), using the U-Net architecture and deep learning techniques integrated with federated learning. Three public datasets were used - PROMISE12, Medical Segmentation Decathlon (Task 05: Prostate), and PI-CAI - providing a diverse set of images for model training and validation. The model was initially trained in a centralized environment, followed by the simulation of a federated setting using the Flower framework. The results demonstrate that federated learning was able to achieve performance comparable to the centralized model, with relevant metrics such as Dice Score and Jaccard Index. The findings of this research suggest that the proposed approach is promising for clinical applications, especially in contexts that require data privacy and decentralization.
+categories: [thesis]
+citation: 
+  doi: "10.11606/D.85.2025.tde-23022026-105752"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-melo_aplicacao_2025" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-melo_aplicacao_2025" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Aplicação de algoritmo de machine learning para a segmentação automática de imagens médicas com deep learning por meio da técnica de federated learning</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-melo_aplicacao_2025");
+    let pubLink = document.getElementById("bc-pub-melo_aplicacao_2025");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

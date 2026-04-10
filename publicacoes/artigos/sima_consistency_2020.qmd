@@ -1,0 +1,66 @@
+---
+title: "Consistency test of coincidence-summing calculation methods for extended sources"
+date: 2020-01-01
+author:
+  - name: Sima, O.
+  - name: De Vismes Ott, A.
+  - name: Dias, M.S.
+  - name: Dryak, P.
+  - name: Ferreux, L.
+  - name: Gurau, D.
+  - name: Hurtado, S.
+  - name: Jodlowski, P.
+  - name: Karfopoulos, K.
+  - name: Koskinas, M.F.
+  - name: Laubenstein, M.
+  - name: Lee, Y.K.
+  - name: Lépy, M.C.
+  - name: Luca, A.
+  - name: Menezes, M.O.
+  - name: Moreira, D.S.
+  - name: Nikolič, J.
+  - name: Peyres, V.
+  - name: Saganowski, P.
+  - name: Savva, M.I.
+  - name: Semmler, R.
+  - name: Solc, J.
+  - name: Thanh, T.T.
+  - name: Tyminska, K.
+  - name: Tyminski, Z.
+  - name: Vidmar, T.
+  - name: Vukanac, I.
+  - name: Yucel, H.
+abstract: > 
+  Resumo não disponível.
+categories: [article]
+citation: 
+  container-title: "Applied Radiation and Isotopes"
+  volume: 155
+  doi: "10.1016/j.apradiso.2019.108921"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-sima_consistency_2020" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-sima_consistency_2020" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Consistency test of coincidence-summing calculation methods for extended sources</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-sima_consistency_2020");
+    let pubLink = document.getElementById("bc-pub-sima_consistency_2020");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

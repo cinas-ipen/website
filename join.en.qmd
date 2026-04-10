@@ -14,6 +14,8 @@ Areas of Interest:
 
 Medical Imaging: Application of physical laws in image reconstruction.
 
+Personalized Dosimetry: Incorporating physical principles in machine learning models for dose prediction.
+
 Nuclear Technology: Inverse problems in neutron tomography.
 :::
 

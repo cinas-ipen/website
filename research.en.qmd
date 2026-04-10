@@ -84,7 +84,7 @@ New Front (Nuclear PIML): Application in neutron tomography.
 
 [{{< fa atom >}}]{.text-primary} New Transversal Front: Physics-Informed Machine Learning (PIML)
 
-We are initiating advanced studies in PIML for two strategic applications, aiming to overcome the limitations of purely data-driven models by incorporating physical laws.
+We are initiating advanced studies in PIML for strategic applications, aiming to overcome the limitations of purely data-driven models by incorporating physical laws.
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-6}
@@ -98,6 +98,8 @@ Neutron Tomography: Resolution improvement and solving ill-posed inverse problem
 [{{< fa hospital >}}]{.text-danger} Health
 
 Medical Imaging: Low-dose tomographic reconstruction and artifact reduction.
+
+Personalized Dosimetry: incorporating physical principles in machine learning models used in dose prediction.
 :::
 :::
 

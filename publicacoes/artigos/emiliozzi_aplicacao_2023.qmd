@@ -1,0 +1,37 @@
+---
+title: "Aplicação de aprendizado de máquina para melhoria do fluxo de tratamento de radioterapia"
+date: 2023-04-24
+author:
+  - name: Emiliozzi, Caroline Zeppellini dos Santos
+abstract: > 
+  Cancer is the main public health problem in the world. Radiotherapy (RT) is an importante modality in the treatment of these patients. With this growing global burden, demand for RT has been increasing continuously and supply-demand imbalances have become a major concern, due to the negative impact of treatment delays. Evidence has been published of the negative impact of treatment delays on measures such as tumor progression, persistence of cancer symptoms, psychological distress and decreased cancer control and survival rates. The reason for delays in Radiotherapy is not only due to imbalance between capacity and demand, but also due to inefficiency of workflow, for instance, scheduling problems. Consequently, as there is pressure to contain costs, it is often not possible to solve the problem of the lack of equipment. However, the problem of inefficient processes can be attacked. This work, we analyze the data of electronic health records of radiotherapy department of Hospital das Clínicas de São Paulo to attempt to provide a better understanding of the problem and study ways of optimizing workflow and efficient management of waiting time. In order to make predictions of patient waiting time and treatment time, four machine learning algorithms were compared using regression technique (Support Vector Machine, Extreme Gradient Boosting , Random forest and Neural networks ) and for the optimization of radiotherapy scheduling, a mixed integer linear programming model was proposed.Based on this work, it is concluded that the use of AM helps to understand the problems of the departament. Changes in routine were proposed, more appropriate waiting and treatment times were defined and automatic scheduling made it possible to reduce patient waiting times, prioritizing patients with the worst prognosis
+categories: [thesis]
+citation: 
+  doi: "10.11606/D.85.2023.tde-12072023-120018"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-emiliozzi_aplicacao_2023" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-emiliozzi_aplicacao_2023" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Aplicação de aprendizado de máquina para melhoria do fluxo de tratamento de radioterapia</li>
+  </ol>
+</nav>
+
+<script>
+  // Detecta se a página foi renderizada na pasta do site em inglês
+  if (window.location.pathname.includes("/en/")) {
+    
+    let homeLink = document.getElementById("bc-home-emiliozzi_aplicacao_2023");
+    let pubLink = document.getElementById("bc-pub-emiliozzi_aplicacao_2023");
+    
+    // Atualiza os textos
+    pubLink.innerText = "Publications";
+    
+    // Atualiza os destinos (href) para as versões .en.html
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```
