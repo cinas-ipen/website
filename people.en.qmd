@@ -1,225 +1,107 @@
 ---
 title: "Our Team"
 toc: false
+# Listing configurations for each team section
+listing:
+  - id: researchers
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Mário O. de Menezes"
+        subtitle: "Group Leader | IPEN/CNEN Researcher"
+        image: "images/mario_375x375.jpg"
+        path: "https://lattes.cnpq.br/4882949829423994"
+
+  - id: academic-masters
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Nathália"
+        description: "Application of AI and ML in Radiotherapy Planning -- QA"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/3003837559320628"
+      - title: "Márcio"
+        description: "Explainability in Medical Image Segmentation Algorithms"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/8929076266229884"
+
+  - id: professional-masters
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Jardson"
+        description: "Dual-Energy Computed Tomography"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/0593907936651373"
+      - title: "Lílian"
+        description: "Radiological Biosafety in Clinical Dental Practice"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/8418302995136117"
+      - title: "Wendell"
+        description: "Improvement of Index-RA - post-mortem time prediction"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/1152049625204157"
+      - title: "Guilherme"
+        description: "Application of Neural Networks in VMAT Radiotherapy Planning"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/7336440520430054"
+      - title: "Juciene"
+        description: "Performance of Nuclear Medicine Technologies in the State of São Paulo"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/2557618507065599"
+
+  - id: undergrad-research
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Marcelo"
+        description: "LLM-based Support App Applied to High-Complexity System Operations"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/4993900685835319"
 ---
 
-CINAS is formed by multidisciplinary researchers, uniting Physicists, Computer Scientists, and Health Professionals.
+CINAS is composed of multidisciplinary researchers, bringing together Physicists, Computer Scientists, and Healthcare Professionals.
 
 ## Researchers and Advisors
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .p-3 .border .rounded .shadow-sm}
-![](images/mario_375x375.jpg){.rounded-circle .me-4 style="width: 100px; height: 100px; object-fit: cover; padding: 5px;"}
-
-<div>
-
-[Mário O. Menezes](#)
-
-Group Leader | Researcher IPEN/CNEN
-
-[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/SEU_ID){.btn .btn-outline-primary .btn-sm .mt-2}
-
-</div>
-:::
-
+:::{#researchers}
 :::
 
 ## Current Students
 
-### Academic M.Sc Candidates
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-
-<!-- Example WITH photo -->
-
-::: {.me-3}
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+### Academic Master's
+:::{#academic-masters}
 :::
 
-<div>
-Nathália
-
-
-
-
-<small class="text-muted">AI and ML applied to Radiotherapy planning -- QA</small>
-
-
-
-
-
-[{{< fa file-lines >}} CV](https://lattes.cnpq.br/3003837559320628){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-<!-- [{{< fa laptop-code >}} Project](#){.badge .bg-light .text-dark .text-decoration-none} -->
-</div>
+### Professional Master's
+:::{#professional-masters}
 :::
 
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-
-<!-- Example WITHOUT photo (Placeholder) -->
-
-::: {.me-3}
-
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-
+## Undergraduate Research
+:::{#undergrad-research}
 :::
-<div>
-Márcio
-
-
-
-<small class="text-muted">Explicability in Medical Images Segmentation Algorithms</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/8929076266229884){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-</div>
-:::
-
-:::
-
-### Professional Master's Students
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-::: {.me-3}
-
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-
-
-:::
-<div>
-Jardson
-
-
-
-
-<small class="text-muted">Double Energy Tomography</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/0593907936651373){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-</div>
-:::
-
-
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-::: {.me-3}
-
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-
-
-:::
-<div>
-Lílian
-
-
-<small class="text-muted">Radiological biosafety in clinical dental practice</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/8418302995136117){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-</div>
-:::
-
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-::: {.me-3}
-
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-
-
-:::
-<div>
-Wendell
-
-
-<small class="text-muted">Enhancement of Index-RA - post-mortem time prediction</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/1152049625204157){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-</div>
-:::
-
-
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-::: {.me-3}
-
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-
-
-:::
-<div>
-Guilherme
-
-
-<small class="text-muted">Application of Neural Networks in Radiotherapy Planning with VMAT</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/7336440520430054){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-</div>
-:::
-
-
-
-:::
-
-
-## Undergrad Students 
-
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-
-<!-- Exemplo COM foto -->
-
-::: {.me-3}
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-:::
-
-<div>
-Marcelo
-
-
-
-
-<small class="text-muted">Support app with LLM applied to highly complex systems operations.</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/4993900685835319){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-
-<!-- [{{< fa laptop-code >}} Projeto](#){.badge .bg-light .text-dark .text-decoration-none} -->
-</div>
-:::
-
-::: 
-
-
-
 
 ## Alumni
+*(List to be added)*
 
-<!-- Dr. Alumnus Name (PhD, 2023) - Current position: Sírio-Libanês Hospital -->
-
-<!-- Msc. Alumna Name (Msc, 2022) - Current position: Nuclear Industry -->
+```{=html}
+<script id="links-new-windows" type="application/javascript">
+  // Garante que os links dos cartões abram em uma nova janela
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    // CORREÇÃO AQUI: seleciona diretamente as tags 'a' com a classe '.quarto-grid-link'
+    const cards = document.querySelectorAll('a.quarto-grid-link'); 
+    
+    cards.forEach(card => {
+      // Voltei para 'http' para garantir que pegue tanto http:// quanto https://
+      if (card.href && card.href.startsWith('http')) {
+        card.setAttribute('target', '_blank');
+        card.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  });
+</script>
+```

@@ -1,238 +1,108 @@
 ---
 title: "Nossa Equipe"
 toc: false
+# Configuração dos Listings para cada seção da equipe
+listing:
+  - id: pesquisadores
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Mário O. de Menezes"
+        subtitle: "Líder do Grupo | Pesquisador IPEN/CNEN"
+        image: "images/mario_375x375.jpg"
+        path: "https://lattes.cnpq.br/4882949829423994"
+
+  - id: mestrado-academico
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Nathália"
+        description: "Aplicação de IA e ML em Planejamento em Radioterapia -- QA"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/3003837559320628"
+      - title: "Márcio"
+        description: "Explicabilidade em Algoritmos de Segmentação de Imagens Médicas"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/8929076266229884"
+
+  - id: mestrado-profissional
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Jardson"
+        description: "Tomografia de Dupla Energia"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/0593907936651373"
+      - title: "Lílian"
+        description: "Biossegurança radiológica na prática odontológica clínica"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/8418302995136117"
+      - title: "Wendell"
+        description: "Aprimoramento do Index-RA - predição tempo post-morten"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/1152049625204157"
+      - title: "Guilherme"
+        description: "Aplicação de Redes Neurais em Planejamento de Radioterapia com VMAT"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/7336440520430054"
+      - title: "Juciene"
+        description: "Desempenho das Tecnologias de Medicina Nuclear no Estado de São Paulo"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/2557618507065599"
+
+  - id: iniciacao
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Marcelo"
+        description: "App de apoio com LLM aplicado em operações de sistemas de alta complexidade"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/4993900685835319"
 ---
 
 O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cientistas da Computação e Profissionais da Saúde.
 
 ## Pesquisadores e Orientadores
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .p-3 .border .rounded .shadow-sm}
-![](images/mario_375x375.jpg){.rounded-circle .me-4 style="width: 100px; height: 100px; object-fit: cover; padding: 5px;"}
-
-<div>
-
-[Mário O. de Menezes](#)
-
-Líder do Grupo | Pesquisador IPEN/CNEN
-
-[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/SEU_ID){.btn .btn-outline-primary .btn-sm .mt-2}
-
-</div>
-:::
-
+:::{#pesquisadores}
 :::
 
 ## Alunos Atuais
 
 ### Mestrado Acadêmico
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-
-<!-- Exemplo COM foto -->
-
-::: {.me-3}
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-:::
-
-<div>
-Nathália
-
-
-
-
-<small class="text-muted">Aplicação de IA e ML em Planejamento em Radioterapia -- QA</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/3003837559320628){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-
-<!-- [{{< fa laptop-code >}} Projeto](#){.badge .bg-light .text-dark .text-decoration-none} -->
-</div>
-:::
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-
-<!-- Exemplo SEM foto (Placeholder) -->
-
-::: {.me-3}
-
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-
-:::
-<div>
-Márcio
-
-
-
-<small class="text-muted">Explicabilidade em Algoritmos de Segmentação de Imagens Médicas</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://www.google.com/search?q=http://lattes.cnpq.br/8929076266229884){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-</div>
-:::
-
+:::{#mestrado-academico}
 :::
 
 ### Mestrado Profissional
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-::: {.me-3}
-
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-
-
-:::
-<div>
-Jardson
-
-
-
-
-<small class="text-muted">Tomografia de Dupla Energia</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/0593907936651373){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-</div>
-:::
-
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-::: {.me-3}
-
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-
-
-:::
-<div>
-Lílian
-
-
-<small class="text-muted">Biossegurança radiológica na prática odontológica clínica</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/8418302995136117){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-</div>
-:::
-
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-::: {.me-3}
-
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-
-
-:::
-<div>
-Wendell
-
-
-<small class="text-muted">Aprimoramento do Index-RA - predição tempo <em>post-morten</em> </small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/1152049625204157){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-</div>
-:::
-
-
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-::: {.me-3}
-
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
-
-
-:::
-<div>
-Guilherme
-
-
-<small class="text-muted">Aplicação de Redes Neurais em Planejamento de Radioterapia com VMAT</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/7336440520430054){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-</div>
-:::
-
-
+:::{#mestrado-profissional}
 :::
 
 ## Iniciação Tecnológica/Científica (Graduação)
-
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .d-flex .align-items-center .mb-3}
-
-<!-- Exemplo COM foto -->
-
-::: {.me-3}
-![](images/person-cinas-avatar.jpg){.rounded-circle style="width: 80px; height: 80px; object-fit: cover;"}
+:::{#iniciacao}
 :::
-
-<div>
-Marcelo
-
-
-
-
-<small class="text-muted"><em>App</em> de apoio com LLM aplicado em operações de sistemas de alta comoplexidade</small>
-
-
-
-
-
-[{{< fa file-lines >}} Lattes](https://lattes.cnpq.br/4993900685835319){.badge .bg-light .text-dark .text-decoration-none target="_blank"}
-
-<!-- [{{< fa laptop-code >}} Projeto](#){.badge .bg-light .text-dark .text-decoration-none} -->
-</div>
-:::
-
-::: 
-
-
 
 ## Egressos (Alumni)
-
-<!-- Msc. Luciana Silva Albquerque de Melo   (Mestrado, 2025) -- Centro Paula Souza -->
-
-<!-- Msc. Ana Karolina Defente Caetano (Mestrado Profissional, 2024) - Hospital Sírio-Libanês -->
-
-<!-- Msc. Marcelo Moreira da Silva (Mestrado Profissional, 2024) -->
-
-<!-- Msc. Érica Maurício Policarpo (Mestrado Profissional, 2024) -->
-
-<!-- Msc. Caroline Zeppellini dos Santos Emilliozzi  (Mestrado, 2023) - InRad - Hospital das Clínicas -->
-
-<!-- Msc. Cintia Maria Perotto Mesquita da Silva (Mestrado Profissional, 2022) -->
-
-<!-- Msc. Claudia Chamas  (Mestrado, 2021) -->
-
-<!-- Msc. Glauber Mauch de Carvalho   (Mestrado, 2020)  -->
+*(Lista a ser adicionada)*
 
 
-
-
+```{=html}
+<script id="links-new-windows" type="application/javascript">
+  // Garante que os links dos cartões abram em uma nova janela
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    // CORREÇÃO AQUI: seleciona diretamente as tags 'a' com a classe '.quarto-grid-link'
+    const cards = document.querySelectorAll('a.quarto-grid-link'); 
+    
+    cards.forEach(card => {
+      // Voltei para 'http' para garantir que pegue tanto http:// quanto https://
+      if (card.href && card.href.startsWith('http')) {
+        card.setAttribute('target', '_blank');
+        card.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  });
+</script>
+```
