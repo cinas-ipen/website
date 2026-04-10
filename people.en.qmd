@@ -67,6 +67,9 @@ listing:
 CINAS is composed of multidisciplinary researchers, bringing together Physicists, Computer Scientists, and Healthcare Professionals.
 
 ## Researchers and Advisors
+
+::: {.team-cards}
+
 :::{#researchers}
 :::
 
@@ -82,6 +85,8 @@ CINAS is composed of multidisciplinary researchers, bringing together Physicists
 
 ## Undergraduate Research
 :::{#undergrad-research}
+:::
+
 :::
 
 ## Alumni
