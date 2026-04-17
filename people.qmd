@@ -35,7 +35,11 @@ listing:
         description: "Explicabilidade em Algoritmos de Segmentação de Imagens Médicas"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/8929076266229884"
-
+      - title: "Luíza"
+        description: "Segmentação das paredes da bexiga para tratamento de medicina nuclear"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/9322627996455700"
+        
   - id: mestrado-profissional
     type: grid
     grid-columns: 3

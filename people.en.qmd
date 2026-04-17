@@ -36,6 +36,11 @@ listing:
         description: "Explainability in Medical Image Segmentation Algorithms"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/8929076266229884"
+      - title: "Luíza"
+        description: "Bladder Wall Segmentation for Nuclear Medicine Therapy"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/9322627996455700"
+
 
   - id: professional-masters
     type: grid

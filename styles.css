@@ -124,13 +124,6 @@ footer {
 }
 
 
-
-.btn-primary {
-    background-color: #004a8f !important;
-    border: none;
-    font-weight: 600;
-}
-
 .card {
     transition: transform 0.2s ease-in-out;
 }
