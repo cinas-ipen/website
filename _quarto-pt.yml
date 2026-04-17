@@ -43,9 +43,9 @@ website:
       - text: "🇺🇸 EN"
         href: en/index.html
       - icon: github
-        href: https://github.com/seu-usuario
+        href: https://git.cinas.ipen.br/
       - icon: linkedin
-        href: https://linkedin.com/in/seu-perfil
+        href: https://linkedin.com/company/cinasgroup
       - icon: envelope
         href: mailto:cinas@ipen.br
 

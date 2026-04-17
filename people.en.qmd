@@ -12,6 +12,16 @@ listing:
         subtitle: "Group Leader | IPEN/CNEN Researcher"
         image: "images/mario_375x375.jpg"
         path: "https://lattes.cnpq.br/4882949829423994"
+  - id: pos-docs
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents: 
+      - title: "Aline Araújo Perini"
+        description: "Artificial Intelligence (AI) Governance at the Information-Security Nexus: RegTech Frameworks and the Risk Lifecycle for Economic-Financial and Critical Infrastructure Resilience (Energy Sector and ESG)"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/8813919037913516"
+        subtitle: "Supervision by Prof Anderson Zanardi de Freitas, PhD, in collaboration with CINAS"
 
   - id: academic-masters
     type: grid
@@ -66,24 +76,27 @@ listing:
 
 CINAS is composed of multidisciplinary researchers, bringing together Physicists, Computer Scientists, and Healthcare Professionals.
 
-## Researchers and Advisors
+## Researchers
 
 ::: {.team-cards}
 
 :::{#researchers}
 :::
 
-## Current Students
+## Postdocs
+:::{#pos-docs}
+:::
 
-### Academic Master's
+
+## Academic Master's
 :::{#academic-masters}
 :::
 
-### Professional Master's
+## Professional Master's
 :::{#professional-masters}
 :::
 
-## Undergraduate Research
+## Undergrads
 :::{#undergrad-research}
 :::
 

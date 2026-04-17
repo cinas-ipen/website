@@ -12,7 +12,16 @@ listing:
         subtitle: "Líder do Grupo | Pesquisador IPEN/CNEN"
         image: "images/mario_375x375.jpg"
         path: "https://lattes.cnpq.br/4882949829423994"
-
+  - id: pos-docs
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents: 
+      - title: "Aline Araújo Perini"
+        description: "A Governança da Inteligência Artificial (IA) no Eixo Informação–Segurança: Frameworks de RegTech e o Ciclo de Vida do Risco para a Resiliência Econômico-Financeira e de Infraestruturas Críticas (Setor de Energia e ESG)"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/8813919037913516"
+        subtitle: "Supervisão do Dr. Anderson Zanardi de Freitas, em colaboração com o CINAS"
   - id: mestrado-academico
     type: grid
     grid-columns: 3
@@ -66,31 +75,34 @@ listing:
 
 O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cientistas da Computação e Profissionais da Saúde.
 
-## Pesquisadores e Orientadores
+## Pesquisadores
 
 ::: {.cartoes-equipe}
 
 :::{#pesquisadores}
 :::
 
-## Alunos Atuais
+## Pós-Doutorado
+::: {#pos-docs}
+:::
 
-### Mestrado Acadêmico
+
+## Mestrado Acadêmico
 :::{#mestrado-academico}
 :::
 
-### Mestrado Profissional
+## Mestrado Profissional
 :::{#mestrado-profissional}
 :::
 
-## Iniciação Tecnológica/Científica (Graduação)
+## Graduação
 :::{#iniciacao}
 :::
 
 :::
 
 
-## Egressos (Alumni)
+## Egressos
 *(Lista a ser adicionada)*
 
 
