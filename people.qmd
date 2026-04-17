@@ -18,7 +18,7 @@ listing:
     image-height: 150px
     contents: 
       - title: "Aline Araújo Perini"
-        description: "A Governança da Inteligência Artificial (IA) no Eixo Informação–Segurança: Frameworks de RegTech e o Ciclo de Vida do Risco para a Resiliência Econômico-Financeira e de Infraestruturas Críticas (Setor de Energia e ESG)"
+        description: "A Governança de IA no eixo Informação–Segurança (Setor de Energia e ESG)"
         image: "images/aline_3_x_4.jpg"
         path: "https://lattes.cnpq.br/8813919037913516"
         subtitle: "Supervisão do Dr. Anderson Zanardi de Freitas, em colaboração com o CINAS"

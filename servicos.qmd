@@ -1,0 +1,112 @@
+---
+title: "Serviços Técnicos Especializados"
+subtitle: "Apoio à Inovação e Computação de Alto Desempenho"
+lang: pt
+toc: false
+format:
+  html:
+    page-layout: full
+---
+
+::: {.callout-warning title="Em breve"}
+Estamos finalizando a parte legal dentro do IPEN para o início da prestação de Serviços Técnicos Especializados!
+:::
+
+::: {.column-screen .bg-light .border-bottom .py-5 .mb-5}
+::: {.container}
+::: {.grid}
+
+
+
+
+::: {.g-col-12 .g-col-md-7 .my-auto}
+# Soluções em IA e Ciência de Dados
+
+O **CINAS** oferece serviços técnicos especializados de alta fidelidade, amparados pelo **Art. 8º da Lei nº 10.973/2004**. 
+
+Nossa atuação foca na aplicação de algoritmos avançados e infraestrutura computacional robusta para resolver desafios complexos em saúde, indústria e pesquisa científica.
+
+<a href="mailto:cinas@ipen.br" class="btn btn-primary btn-lg mt-4 shadow">Solicitar Proposta Técnica</a>
+:::
+
+::: {.g-col-12 .g-col-md-5}
+![](images/imagem_v2_servicos.jpg){.img-fluid .rounded-4 .shadow-lg style="max-height: 400px; width: 100%; object-fit: cover;"}
+:::
+
+:::
+:::
+:::
+
+::: {.container}
+## Nossas Áreas de Atuação {.text-center .mb-5}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### 🖥️ HPC & ML
+Treinamento de modelos complexos em hardware de alto desempenho.
+- 2x GPUs NVIDIA RTX A6000
+- Processadores Epyc (256 cores)
+- 144TB Storage de alta performance
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### 📊 Engenharia de Dados
+Curadoria e tratamento de bases como o **DATASUS**.
+- Conversão DBC para Parquet/Avro
+- Pipelines de ETL especializados
+- Higienização e integração de dados
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### 🧠 IA Generativa
+Modelos de linguagem (LLMs) **On-Premise**.
+- Sistemas RAG para dados privados
+- Privacidade e segurança total
+- Fine-tuning especializado
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### 🩺 Visão Computacional
+Análise automatizada de imagens médicas.
+- Diagnóstico auxiliado por IA
+- Segmentação e classificação
+- Processamento de sinais
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### 📉 Pesquisa Operacional
+Modelagem matemática e estatística avançada.
+- Otimização de processos logísticos
+- Análise de dados complexos
+- Suporte à decisão estratégica
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### 📈 Interfaces Técnicas
+Dashboards e APIs para visualização.
+- Desenvolvimento em Quarto/Shiny
+- Entrega pontual de interfaces
+- APIs de dados customizadas
+:::
+:::
+
+:::
+:::
+
+---
+
+::: {.text-center .text-muted .mt-5 .mb-5}
+*Todos os serviços listados são de natureza técnica especializada, eventuais e não continuados, conforme previsto no Marco Legal de Ciência, Tecnologia e Inovação.*
+:::

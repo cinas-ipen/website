@@ -10,6 +10,7 @@ project:
     - software.en.qmd
     - join.en.qmd
     - tutoriais
+    - services.en.qmd
   resources:
     - images/
 
@@ -42,6 +43,8 @@ website:
       - href: join.en.qmd
         text: Opportunities
     right:
+      - text: Services
+        href: services.en.qmd
       - text: "🇧🇷 PT"
         href: ../index.html
       - icon: github
