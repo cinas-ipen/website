@@ -19,7 +19,7 @@ listing:
     contents: 
       - title: "Aline Araújo Perini"
         description: "Artificial Intelligence (AI) Governance at the Information-Security Nexus: RegTech Frameworks and the Risk Lifecycle for Economic-Financial and Critical Infrastructure Resilience (Energy Sector and ESG)"
-        image: "images/person-cinas-avatar.jpg"
+        image: "images/aline_3_x_4.jpg"
         path: "https://lattes.cnpq.br/8813919037913516"
         subtitle: "Supervision by Prof Anderson Zanardi de Freitas, PhD, in collaboration with CINAS"
 
