@@ -39,6 +39,10 @@ listing:
         description: "Segmentação das paredes da bexiga para tratamento de medicina nuclear"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/9322627996455700"
+      - title: "Gabriel"
+        description: "Automatização de Análise de Simuladores de Mamografia via Machine Learning"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/2295414729717352"
         
   - id: mestrado-profissional
     type: grid

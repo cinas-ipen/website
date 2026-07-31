@@ -40,6 +40,10 @@ listing:
         description: "Bladder Wall Segmentation for Nuclear Medicine Therapy"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/9322627996455700"
+      - title: "Gabriel"
+        description: "Automating Mammography Phantom Analysis via Machine Learning"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/2295414729717352"
 
 
   - id: professional-masters
