@@ -2,6 +2,13 @@ stages:
   - build
   - deploy
 
+variables:
+  GIT_SSL_NO_VERIFY: "true"
+  
+default:
+  tags:
+    - cinas-deploy
+
 build-site:
   stage: build
   image: ghcr.io/quarto-dev/quarto:latest
