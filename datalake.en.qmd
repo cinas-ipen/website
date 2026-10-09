@@ -1,6 +1,6 @@
 ---
 title: "CINAS Data Lake"
-subtitle: "Medallion Architecture, ACID Governance, and Multi-Source Analytical Platform for Health, Climate, and Society"
+subtitle: "Multi-Source Analytical Platform for Health, Climate, Society, and Economy"
 lang: en
 page-layout: full
 toc: false
@@ -11,23 +11,23 @@ toc: false
 ::: {.grid .align-items-center}
 
 ::: {.g-col-12 .g-col-lg-8}
-<div class="hero-title" style="font-size: 2.2rem; margin-bottom: 0.5rem;">CINAS Multi-Source Data Lake</div>
-<div class="hero-subtitle" style="font-size: 1.15rem; margin-bottom: 1.5rem;">High-Performance Data Engineering for AI, Epidemiology, and Public Policy</div>
+<div class="hero-title" style="font-size: 2.2rem; margin-bottom: 0.5rem; font-weight: 700;">CINAS Multi-Sector Data Lake</div>
+<div class="hero-subtitle" style="font-size: 1.15rem; margin-bottom: 1.5rem; color: #495057;">Data Infrastructure for Artificial Intelligence, Epidemiology, and Public Policy</div>
 
-The **CINAS Data Lake** consolidates a unified data infrastructure of national public and governmental records in Brazil. Designed to overcome the fragmentation of health, demographic, and socioeconomic datasets, the platform powers cutting-edge research in Artificial Intelligence, spatial epidemiology, precision medicine, and resource allocation in radiation sciences and health.
+The **CINAS Data Lake** consolidates an integrated public data infrastructure at the national level in Brazil. Designed to overcome the historical fragmentation of health and social determinants data, the ecosystem supports multidisciplinary research in Artificial Intelligence, spatial epidemiology, nuclear medicine, health technology assessment, and predictive modeling for the public healthcare system (SUS).
 
-The ecosystem rigorously follows the **Medallion Architecture**, isolating raw immutable sources (**Bronze Layer** with cryptographic SHA-256 validation), curated columnar datasets in **Apache Parquet with ZSTD compression** (**Silver Layer**), and a standardized transversal **Star Schema** with geospatial capabilities (**Gold Layer**), governed by a central ACID repository in **DuckDB**.
+The platform adopts modern data engineering practices and layered architecture, performing curation, semantic harmonization, and analytical standardization of hundreds of millions of public records with high performance and scientific rigor.
 :::
 
 ::: {.g-col-12 .g-col-lg-4 .text-center}
 ::: {.card .p-4 .bg-white .rounded-4 .shadow-sm .border-0}
-### {{< fa database >}} Governance Dashboard
-Monitor volumes, providers, and compression rates in real time.
+### {{< fa chart-line >}} Integrated Dashboard
+Explore indicators, providers, and data volumes across the ecosystem.
 
 <a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg mt-3 shadow-sm w-100">
   {{< fa up-right-from-square >}} Open in Fullscreen
 </a>
-<span class="text-muted small d-block mt-2">{{< fa arrow-up-right-from-square >}} Will open in a new browser tab</span>
+<span class="text-muted small d-block mt-2">{{< fa arrow-up-right-from-square >}} Opens in a new browser tab</span>
 :::
 :::
 
@@ -39,7 +39,7 @@ Monitor volumes, providers, and compression rates in real time.
 
 ## Strategic Axes & Integrated Providers {.mb-4}
 
-The infrastructure transcends traditional hospital surveillance by articulating **seven major national data axes**:
+The platform transcends isolated hospital analytics by articulating data across **seven key national axes**:
 
 ::: {.grid .mb-5}
 
@@ -47,12 +47,11 @@ The infrastructure transcends traditional hospital surveillance by articulating 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa hospital >}} DATASUS
 **Brazilian Ministry of Health (SUS)**
-* **Hospital Inpatients (SIHSUS):** Reduced AIH (`RD`) and professional services (`SP`).
-* **Outpatient Care (SIASUS):** Procedures (`PA`), bulletins (`BI`), and psychosocial care (`PS`).
-* **Disease Surveillance (SINAN):** Compulsory notifiable diseases (Dengue, Chikungunya, Tuberculosis, etc.).
-* **Healthcare Facilities (CNES):** 380k facilities and health teams.
-* **Vital Statistics:** Mortality (SIM) and Live Births (SINASC).
-* *Processing:* Lock-free conversion from legacy DBC and CSV formats to partitioned Parquet.
+* **Hospital Inpatients (SIHSUS):** Care production and hospital clinical outcomes across Brazil.
+* **Outpatient Care (SIASUS):** Specialized procedures, diagnostic exams, and psychosocial care.
+* **Epidemiological Surveillance (SINAN):** Compulsory reporting of infectious diseases and public health events.
+* **Healthcare Facilities (CNES):** National registry of hospitals, clinics, beds, and health teams.
+* **Vital Statistics:** Historical series of mortality (SIM) and live births (SINASC).
 :::
 :::
 
@@ -60,10 +59,10 @@ The infrastructure transcends traditional hospital surveillance by articulating 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa cloud-sun >}} INMET
 **National Institute of Meteorology**
-* **Continuous Historical Records:** 2008 to 2026 with **84.4 million hourly observations**.
-* **National Coverage:** 703 weather stations across all 27 Brazilian states.
-* **Climatic Parameters:** 19 variables (extreme temperatures, precipitation, relative humidity, wind speed, solar radiation, pressure).
-* *Application:* Distributed lag non-linear models (*DLNM*) correlating climate extremes with arbovirus outbreaks and respiratory diseases.
+* **Continuous Historical Records:** Tens of millions of continuous hourly weather measurements since 2008.
+* **Station Network:** Continuous monitoring across hundreds of automatic and conventional weather stations.
+* **Environmental Variables:** Temperature, relative humidity, precipitation, solar radiation, and atmospheric pressure.
+* **Health Impacts:** Statistical modeling of climate extremes and temperature variations on morbimortality.
 :::
 :::
 
@@ -71,10 +70,10 @@ The infrastructure transcends traditional hospital surveillance by articulating 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa users >}} IBGE & Demographics
 **Brazilian Institute of Geography and Statistics**
-* **Complete Census 2022:** 203 million audited population across 5,570 municipalities and 468k census sectors (13 thematic modules).
-* **Projections 2000-2070:** Official demographic projections by single year of age and sex.
-* **POPSVS Estimates:** 26-year annual intercensal series (2000 to 2025).
-* *Application:* Standardized population denominators for epidemiological rates and demographic pyramids.
+* **2022 Demographic Census:** Audited data on population, households, and territory for all 5,570 municipalities.
+* **Census Tract Geography:** Detailed spatial mapping across hundreds of thousands of census sectors.
+* **Historical Series & Projections:** Intercensal annual population estimates and long-term demographic projections.
+* **Epidemiological Denominators:** Solid foundation for calculating standardized incidence and mortality rates.
 :::
 :::
 
@@ -82,10 +81,10 @@ The infrastructure transcends traditional hospital surveillance by articulating 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa shield-halved >}} ANS (Private Healthcare)
 **National Supplementary Health Agency**
-* **Elimination of Private Sector Blindness:** Over 25% of the Brazilian population covered by private healthcare plans.
-* **CADOP:** 1,106 active operators registered with tax ID (CNPJ) and modality.
-* **SIB (Beneficiaries):** 89.8 million active beneficiary links (medical and dental).
-* **DIOPS (Financial & Claims):** 1.43 million accounting entries of healthcare claims and operating revenues.
+* **Comprehensive Healthcare View:** Sector insights for more than 50 million beneficiaries in private healthcare.
+* **Active Health Plans (CADOP):** Complete registry of operators, coverage modalities, and market segments.
+* **Beneficiaries (SIB):** Medical and dental plan beneficiaries aggregated by age bracket, sex, and geographic region.
+* **Financial & Claims Data (DIOPS):** Accounting monitoring, operational revenues, and healthcare assistance claims.
 :::
 :::
 
@@ -93,19 +92,21 @@ The infrastructure transcends traditional hospital surveillance by articulating 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa pills >}} CMED & ANVISA
 **Pharmaceutical Market Regulation**
-* **Pharmacoeconomics Catalog:** 25,701 standardized commercial presentations.
-* **Maximum Consumer Price (PMC):** Factory price ceiling and state tax (ICMS) variations.
-* **Government Procurement (PMVG / CAP):** Price ceiling for public healthcare acquisitions and Price Adjustment Coefficient (CAP).
+* **Pharmacoeconomics Catalog:** Standardized commercial pharmaceutical presentations registered in Brazil.
+* **Price Ceilings:** Regulatory factory prices (PF) and maximum consumer prices (PMC) by state.
+* **Public Procurement:** Price adequacy coefficients (CAP) and rules for governmental health acquisitions.
+* **Access Research:** Cost-effectiveness and budgetary impact assessments for new clinical therapies.
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
-### {{< fa scale-balanced >}} IPEA / UNDP / FJP
+### {{< fa scale-balanced >}} IPEA & UNDP
 **Social Vulnerability & Human Development**
-* **Social Vulnerability Atlas (IVS):** 340k municipal records with 103 variables covering urban infrastructure, human capital, and income.
-* **Municipal Human Development Atlas (IDHM):** Longevity, education, and income sub-indices.
-* **São Paulo Dimension:** 100% coverage of all 645 municipalities in São Paulo state for social determinants control in oncology and nuclear medicine.
+* **Social Vulnerability Atlas (IVS):** Indicators covering urban infrastructure, human capital, and income.
+* **Municipal Human Development Atlas (IDHM):** Longevity, education, and municipal income dimensions.
+* **Social Determinants:** Control of socioeconomic inequalities in clinical trials and epidemiological studies.
+* **Regional Detail:** Comprehensive coverage of all 645 municipalities in São Paulo state and national coverage.
 :::
 :::
 
@@ -113,7 +114,7 @@ The infrastructure transcends traditional hospital surveillance by articulating 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa coins >}} SIOPS (Public Health Budgets)
 **Brazilian Ministry of Health**
-Monitoring of constitutional public health spending (ASPS - LC 141/2012) and municipal/state revenue allocations, allowing correlation of fiscal investment capacity with morbimortality outcomes.
+Tracking of municipal and state public health budgets and constitutional expenditures in Public Health Actions and Services (ASPS), correlating public investment capacity with health outcomes and regional infrastructure.
 :::
 :::
 
@@ -121,63 +122,32 @@ Monitoring of constitutional public health spending (ASPS - LC 141/2012) and mun
 
 ---
 
-## Medallion Architecture & Data Engineering {.mb-4}
+## Platform Pillars & Scientific Governance {.mb-4}
 
-Storage topology organizes data into three strictly delimited maturity layers:
+::: {.grid .mb-5}
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                      BRONZE LAYER (Local Mirror)                       │
-│  /datahome/datasets/mirror/{datasus, inmet, ibge, ans, anvisa, ipea...} │
-│  • Immutable mirror of original files (.dbc, .csv, .zip)               │
-│  • Cryptographic SHA-256 auditing in manifesto.duckdb                  │
-└───────────────────────────────────┬────────────────────────────────────┘
-                                    │ (Lock-Free Conversion Engines)
-                                    ▼
-┌────────────────────────────────────────────────────────────────────────┐
-│                      SILVER LAYER (Data Lake)                          │
-│  /datahome/datasets/datalake/{datasus, inmet, ibge, ans, anvisa...}    │
-│  • Standardized columnar Apache Parquet with ZSTD compression          │
-│  • Analytical Hive partitioning (ESTADO=UF / ANO=YYYY / TEMA=...)      │
-│  • Arrow semantic metadata injection (CINAS:versao_catalogo = 2.0)     │
-│  • Strict physical mtime preservation matching mirror timestamps       │
-└───────────────────────────────────┬────────────────────────────────────┘
-                                    │
-                                    ▼
-┌────────────────────────────────────────────────────────────────────────┐
-│               GOLD LAYER & TRANSVERSAL STAR SCHEMA                     │
-│  /datahome/datasets/datalake/Dimensoes/ (Dimensional Tables)           │
-│  • Universal domain lookup tables for sub-second JOINs in DuckDB       │
-│  • DuckDB Spatial and GeoParquet support for spatial joins             │
-└────────────────────────────────────────────────────────────────────────┘
-```
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .border-0 .shadow-sm .p-3}
+#### {{< fa layers-group >}} Layered Architecture
+Structured processing from raw data ingestion to refined analytical representations, ensuring provenance integrity and query performance for advanced AI models.
+:::
+:::
 
-### Transversal Dimensional Catalog (Gold Layer)
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .border-0 .shadow-sm .p-3}
+#### {{< fa network-wired >}} Semantic Interoperability
+Cross-domain standardization using universal codes: IBGE geocodes, International Classification of Diseases (ICD-10), SUS unified procedure codes (SIGTAP), and health occupations (CBO).
+:::
+:::
 
-Standardized dimensional tables in `/datahome/datasets/datalake/Dimensoes/` enable instant analytical enrichment without full-table scans of massive factual datasets:
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .border-0 .shadow-sm .p-3}
+#### {{< fa check-double >}} Traceability & Reproducibility
+Continuous auditing of data lineage and temporal integrity, ensuring that scientific experiments, academic papers, and technical reports can be reproduced with full reliability.
+:::
+:::
 
-| Dimensional Table | Scope / Contents | Records / Coverage |
-| :--- | :--- | :---: |
-| `dim_municipios.parquet` | Canonical IBGE municipality codes (6 and 7 digits, State, Region) | 5,570 municipalities |
-| `dim_cid10.parquet` | International Statistical Classification of Diseases (WHO ICD-10) | 12,448 codes |
-| `dim_sigtap.parquet` | Unified SUS Procedure and Medication Management System | 5,190 procedures |
-| `dim_cbo.parquet` | Brazilian Classification of Health Occupations | 2,714 occupations |
-| `dim_estabelecimentos.parquet` | Active National Healthcare Facilities Registry (CNES) | 380,000+ facilities |
-| `dim_cmed.parquet` | Commercialized pharmaceuticals, active ingredient, PMC, PF, CAP | 25,701 presentations |
-| `dim_estacoes_inmet.parquet` | Meteorological stations with WGS84 geographic coordinates and altitude | 672 stations |
-| `dim_setores_censitarios.parquet`| Census 2022 enumeration sectors with urban/rural status and area | 468,099 sectors |
-| `dim_populacao_municipios_ano.parquet`| Historical intercensal municipal population by age bracket and sex | 144,821 rows (2000-2025) |
-| `dim_idhm_ivs_sp.parquet` | Social determinants of all 645 São Paulo municipalities (IDHM, IVS, Gini) | 645 municipalities (100% SP) |
-
----
-
-## Centralized Governance & Lineage
-
-The data lake is audited in real time by continuous governance components:
-* **ACID Central Repository (`manifesto.duckdb`):** Tracks every mirrored file with MD5/SHA-256 hash, byte size, and remote collection timestamp.
-* **Lock-Free Quarantine Model:** Dead Letter Queue and automated healing for corrupted files or schema shifts.
-* **Human-Readable YAML Catalog:** Semantic dictionaries in `/src/metadados/` defining variables, types, and ontologies across all providers.
-* **Temporal Lineage Preservation:** Synchronization routines that preserve the original source file *mtime*, guaranteeing digital forensics standards.
+:::
 
 ---
 
@@ -202,7 +172,7 @@ The data lake is audited in real time by continuous governance components:
 :::
 
 ::: {.callout-tip appearance="simple"}
-**Automated Sync:** Dashboard indicators are computed by CINAS governance pipelines directly from local mirrors and Parquet stores.
+**Continuous Updates:** Indicators in this dashboard are computed directly from CINAS data pipelines, reflecting consolidated metrics across all integrated providers.
 :::
 
 :::

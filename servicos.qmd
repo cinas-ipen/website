@@ -54,11 +54,11 @@ Treinamento de modelos complexos em hardware de alto desempenho.
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
-### 📊 Engenharia de Dados
-Curadoria e pipelines de Big Data em escala nacional (**DATASUS, IBGE, INMET, ANS, CMED, IPEA**).
-- Conversão de bases legadas para Apache Parquet colunar
-- Arquitetura Medallion e Star Schema transversal
-- Governança ACID e consultas de sub-segundo via DuckDB
+### 📊 Engenharia de Dados & Data Lake
+Curadoria e integração de bases públicas nacionais (**DATASUS, IBGE, INMET, ANS, CMED, IPEA, SIOPS**).
+- Infraestrutura unificada de dados multissetoriais em saúde
+- Padronização semântica e suporte a modelos de Inteligência Artificial
+- Consultas analíticas de alta velocidade e séries históricas contínuas
 
 <a href="datalake.qmd" class="btn btn-outline-primary btn-sm mt-3">{{< fa database >}} Conheça nosso Data Lake</a>
 :::

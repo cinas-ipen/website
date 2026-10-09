@@ -52,11 +52,11 @@ Large-scale model training on high-performance hardware.
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
-### 📊 Data Engineering
-Curation and Big Data pipelines at national scale (**DATASUS, IBGE, INMET, ANS, CMED, IPEA**).
-- Legacy database conversion to columnar Apache Parquet
-- Medallion Architecture and transversal Star Schema
-- ACID governance and sub-second analytics via DuckDB
+### 📊 Data Engineering & Data Lake
+Curation and integration of national public datasets (**DATASUS, IBGE, INMET, ANS, CMED, IPEA, SIOPS**).
+- Unified multi-sector health and socioeconomic data infrastructure
+- Semantic standardization and ready-to-use feeds for AI models
+- High-velocity analytical queries and continuous historical series
 
 <a href="datalake.en.qmd" class="btn btn-outline-primary btn-sm mt-3">{{< fa database >}} Explore our Data Lake</a>
 :::
