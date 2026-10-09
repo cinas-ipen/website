@@ -37,8 +37,12 @@ deploy-site:
     - find /storage/cinas-website/html/ -mindepth 1 -maxdepth 1 ! -name 'dashboards' -exec rm -rf {} +
     # Copia o conteúdo do site (docs) para o servidor web
     - cp -R docs/* /storage/cinas-website/html/
-    # Copia o dashboard da pasta do usuário para a localização definitiva (se presente)
-    - if [ -f "/home/mario/dashboard_cinas/dashboard_cinas_datasus.html" ]; then cp -f /home/mario/dashboard_cinas/dashboard_cinas_datasus.html /storage/cinas-website/html/dashboards/; fi
+    # Obtém o GID do servidor web (ex: www-data) a partir da pasta raiz html
+    - WEB_GID=$(stat -c '%g' /storage/cinas-website/html)
+    # Atribui a posse de todo o site para o usuário mario (UID 1000) e o grupo do servidor web
+    - chown -R 1000:${WEB_GID} /storage/cinas-website/html/
+    # Define permissões de leitura/escrita (775) para o usuário e grupo web
+    - chmod -R 775 /storage/cinas-website/html/
   only:
     - main
   tags:
