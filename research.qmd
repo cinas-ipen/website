@@ -46,7 +46,7 @@ Reconhecemos que sem dados organizados não há inteligência artificial. Atuamo
 
 Engenharia de Conhecimento: Ontologias para domínios nucleares e governança de dados (FAIR principles).
 
-Saúde Pública e Big Data: Mineração de dados do DATASUS (ex: rastreamento de mamografia).
+Saúde Pública e Big Data: Mineração e modelagem preditiva sobre o [Data Lake Multissetorial CINAS](datalake.qmd) (cruzando DATASUS, Censo IBGE, clima INMET e determinantes sociais do IPEA).
 
 Busca Inteligente: Soluções semânticas para Sistemas de Informação Radiológica (RIS).
 

@@ -55,10 +55,10 @@ Treinamento de modelos complexos em hardware de alto desempenho.
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### 📊 Engenharia de Dados
-Curadoria e tratamento de bases como o **DATASUS**.
-- Conversão DBC para Parquet/Avro
-- Pipelines de ETL especializados
-- Higienização e integração de dados
+Curadoria e pipelines de Big Data em escala nacional (**DATASUS, IBGE, INMET, ANS, CMED, IPEA**).
+- Conversão de bases legadas para Apache Parquet colunar
+- Arquitetura Medallion e Star Schema transversal
+- Governança ACID e consultas de sub-segundo via DuckDB
 
 <a href="datalake.qmd" class="btn btn-outline-primary btn-sm mt-3">{{< fa database >}} Conheça nosso Data Lake</a>
 :::

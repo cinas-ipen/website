@@ -1,27 +1,28 @@
 ---
 title: "Data Lake CINAS"
-subtitle: "Arquitetura Medallion e Monitoramento Multi-Base de Dados em Saúde e Ambiente"
+subtitle: "Arquitetura Medallion, Governança ACID e Plataforma Analítica Multissetorial em Saúde, Clima e Sociedade"
 lang: pt
 page-layout: full
 toc: false
 ---
 
-::: {.column-screen .bg-light .border-bottom .py-4 .mb-4}
+::: {.column-screen .bg-light .border-bottom .py-5 .mb-5}
 ::: {.container}
 ::: {.grid .align-items-center}
 
-::: {.g-col-12 .g-col-md-8}
-# Data Lake & Governança de Dados
+::: {.g-col-12 .g-col-lg-8}
+<div class="hero-title" style="font-size: 2.2rem; margin-bottom: 0.5rem;">Data Lake Multissetorial CINAS</div>
+<div class="hero-subtitle" style="font-size: 1.15rem; margin-bottom: 1.5rem;">Engenharia de Dados de Alta Performance para IA, Epidemiologia e Políticas Públicas</div>
 
-O **Data Lake CINAS** é a espinha dorsal de engenharia de dados do grupo de pesquisa, consolidando grandes volumes de dados públicos e governamentais para apoiar pesquisas em Inteligência Artificial, epidemiologia, saúde pública e modelos preditivos em saúde e radiação.
+O **Data Lake do CINAS** consolida uma infraestrutura unificada de dados governamentais e públicos em escala nacional. Projetado para superar a fragmentação de bases de dados em saúde e determinantes sociais, o ecossistema apoia pesquisas de ponta em Inteligência Artificial, epidemiologia espacial, medicina de precisão e modelos de planejamento em saúde e radiações.
 
-Adotamos a **Arquitetura Medallion** (Bronze, Silver e Gold), convertendo formatos legados para colunar de alta performance (**Apache Parquet** comprimido com **ZSTD**), governados por esquemas dimensionais e consultas de sub-segundo via **DuckDB**.
+A plataforma adota a **Arquitetura Medallion**, isolando dados brutos originais (**Camada Bronze** com hashes criptográficos SHA-256), dados curados colunares em **Apache Parquet com compressão ZSTD** (**Camada Silver**) e um esquema dimensional transversal em **Star Schema** com enriquecimento geoespacial (**Camada Gold**), tudo governado por um banco central ACID em **DuckDB**.
 :::
 
-::: {.g-col-12 .g-col-md-4 .text-center}
-::: {.p-4 .bg-white .rounded-4 .shadow-sm .border}
-### {{< fa database >}} Acesso Rápido
-Visualize indicadores e volumes em tempo real.
+::: {.g-col-12 .g-col-lg-4 .text-center}
+::: {.card .p-4 .bg-white .rounded-4 .shadow-sm .border-0}
+### {{< fa database >}} Painel de Monitoramento
+Acompanhe os volumes, provedores e taxas de compressão em tempo real.
 
 <a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg mt-3 shadow-sm w-100">
   {{< fa up-right-from-square >}} Abrir em Tela Cheia
@@ -36,57 +37,155 @@ Visualize indicadores e volumes em tempo real.
 
 ::: {.container}
 
-## Eixos Integrados no Ecossistema {.mb-4}
+## Eixos Estratégicos & Provedores Integrados {.mb-4}
+
+A infraestrutura transcende a vigilância hospitalar tradicional, articulando **sete grandes eixos nacionais de dados**:
 
 ::: {.grid .mb-5}
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa hospital >}} DATASUS
-**Ministério da Saúde**
-Curadoria completa de internações hospitalares (SIHSUS), ambulatório (SIASUS), agravos e epidemias (SINAN), estabelecimentos de saúde (CNES), mortalidade (SIM) e nascidos vivos (SINASC). Conversão lock-free de arquivos DBC e CSV legados para Parquet.
+**Ministério da Saúde (SUS)**
+* **Internações (SIHSUS):** AIH reduzida (`RD`) e serviços profissionais (`SP`).
+* **Ambulatorial (SIASUS):** Procedimentos (`PA`), boletins (`BI`) e atenção psicossocial (`PS`).
+* **Vigilância Epidemiológica (SINAN):** Agravos de notificação (Dengue, Chikungunya, Tuberculose, etc.).
+* **Cadastros (CNES):** 380 mil estabelecimentos e equipes.
+* **Estatísticas Vitais:** Mortalidade (SIM) e Nascidos Vivos (SINASC).
+* *Tratamento:* Conversão lock-free de arquivos legados DBC e CSV para Parquet particionado.
 :::
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa cloud-sun >}} INMET
 **Instituto Nacional de Meteorologia**
-Séries históricas horárias e diárias de mais de 700 estações meteorológicas em todas as 27 UFs do Brasil (de 2008 até o presente), permitindo cruzar eventos climáticos e extremos com desfechos em saúde.
+* **Série Histórica Contínua:** 2008 a 2026 com **84,4 milhões de registros horários**.
+* **Cobertura Nacional:** 703 estações meteorológicas em todas as 27 UFs.
+* **Variáveis Climáticas:** 19 parâmetros (temperaturas extremas, precipitação, umidade, vento, radiação solar e pressão).
+* *Aplicação:* Modelagem de defasagem não-linear (*DLNM*) cruzando extremos climáticos com surtos de arboviroses e afecções respiratórias.
 :::
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa users >}} IBGE & Demografia
 **Instituto Brasileiro de Geografia e Estatística**
-Dados completos do Censo Demográfico 2022 (5.570 municípios e mais de 468 mil setores censitários), projeções populacionais oficiais 2000-2070 e estimativas anuais de população.
+* **Censo 2022 Completo:** 203 milhões de habitantes em 5.570 municípios e 468 mil setores censitários (13 temas completos).
+* **Projeções 2000-2070:** Projeções oficiais populacionais por sexo e idade simples.
+* **Estimativas POPSVS:** 26 anos de série anual histórica intercensitária municipal (2000 a 2025).
+* *Aplicação:* Denominadores populacionais padronizados para taxas epidemiológicas e pirâmides etárias.
 :::
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa shield-halved >}} ANS (Saúde Suplementar)
 **Agência Nacional de Saúde Suplementar**
-Cadastro geral de operadoras ativas (CADOP), histórico de beneficiários (SIB) e demonstrações contábeis e sinistros assistenciais (DIOPS).
+* **Eliminação da Cegueira Suplementar:** Cobertura de mais de 25% da população atendida na saúde privada.
+* **CADOP:** 1.106 operadoras ativas cadastradas com modalidade e CNPJ.
+* **SIB (Beneficiários):** 89,8 milhões de vínculos assistenciais (médicos e odontológicos).
+* **DIOPS (Contábil & Sinistros):** 1,43 milhão de lançamentos de receitas e despesas assistenciais.
 :::
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa pills >}} CMED & ANVISA
 **Regulação do Mercado de Medicamentos**
-Tabelas de conformidade de preços de fábrica e consumidor (PMC), compras públicas governamentais e catálogo dimensional de apresentações farmacêuticas.
+* **Catálogo Farmacoeconômico:** 25.701 apresentações comerciais catalogadas.
+* **Preço Máximo ao Consumidor (PMC):** Tabela regulatória com Preço Fábrica e alíquotas de ICMS.
+* **Compras Públicas (PMVG / CAP):** Preço Máximo de Venda ao Governo e Coeficiente de Adequação de Preço para aquisições do SUS.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa scale-balanced >}} IPEA / PNUD / FJP
+**Vulnerabilidade Social & Desenvolvimento Humano**
+* **Atlas da Vulnerabilidade Social (IVS):** 340 mil registros municipais com 103 variáveis de infraestrutura urbana, capital humano e renda.
+* **Atlas do Desenvolvimento Humano (IDHM):** Indicadores de longevidade, educação e renda.
+* **Dimensão Paulista:** Cobertura de 100% dos 645 municípios de São Paulo para controle de determinantes sociais em estudos de oncologia e medicina nuclear.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-12}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa coins >}} SIOPS (Orçamentos Públicos em Saúde)
+**Ministério da Saúde**
+Monitoramento de receitas e despesas constitucionais em Ações e Serviços Públicos de Saúde (ASPS - LC 141/2012) para estados e municípios, permitindo correlacionar capacidade de investimento público com resultados de morbimortalidade.
 :::
 :::
 
 :::
+
+---
+
+## Arquitetura Medallion & Engenharia de Dados {.mb-4}
+
+A topologia de armazenamento organiza os dados em três camadas de maturidade estritamente delimitadas:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                      CAMADA BRONZE (Mirror Local)                      │
+│  /datahome/datasets/mirror/{datasus, inmet, ibge, ans, anvisa, ipea...} │
+│  • Espelho imutável dos arquivos fontes originais (.dbc, .csv, .zip)   │
+│  • Auditoria criptográfica SHA-256 no banco central manifesto.duckdb   │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    │ (Motores de Conversão Lock-Free)
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                       CAMADA SILVER (Data Lake)                        │
+│  /datahome/datasets/datalake/{datasus, inmet, ibge, ans, anvisa...}    │
+│  • Formato Apache Parquet colunar de alta vazão com compressão ZSTD    │
+│  • Particionamento Hive analítico (ESTADO=UF / ANO=YYYY / TEMA=...)    │
+│  • Injeção de metadados semânticos Arrow (CINAS:versao_catalogo = 2.0)  │
+│  • Preservação rigorosa de linhagem temporal física (mtime idêntico)   │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    │
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                CAMADA GOLD & STAR SCHEMA TRANSVERSAL                   │
+│  /datahome/datasets/datalake/Dimensoes/ (Tabelas Dimensionais)         │
+│  • Tabelas de domínio universais para JOINs sub-segundo no DuckDB      │
+│  • Suporte a DuckDB Spatial e GeoParquet para análise geoespacial      │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+### Catálogo de Dimensões Transversais (Camada Gold)
+
+As tabelas dimensionais consolidadas em `/datahome/datasets/datalake/Dimensoes/` viabilizam enriquecimento analítico instantâneo sem a necessidade de varredura das bases factuais massivas:
+
+| Tabela Dimensional | Escopo / Conteúdo | Registros / Cobertura |
+| :--- | :--- | :---: |
+| `dim_municipios.parquet` | Catálogo canônico de municípios IBGE (código 6 e 7 dígitos, UF, Região) | 5.570 municípios |
+| `dim_cid10.parquet` | Classificação Estatística Internacional de Doenças (OMS) | 12.448 códigos |
+| `dim_sigtap.parquet` | Tabela Unificada de Procedimentos, Medicamentos e OPM do SUS | 5.190 procedimentos |
+| `dim_cbo.parquet` | Classificação Brasileira de Ocupações em Saúde | 2.714 ocupações |
+| `dim_estabelecimentos.parquet` | Cadastro Nacional de Estabelecimentos de Saúde (CNES ativo) | 380.000+ unidades |
+| `dim_cmed.parquet` | Medicamentos comercializados, princípio ativo, PMC, PF e CAP | 25.701 apresentações |
+| `dim_estacoes_inmet.parquet` | Estações meteorológicas com coordenadas WGS84 e altitude | 672 estações |
+| `dim_setores_censitarios.parquet`| Setores censitários do Censo 2022 com situação urbana/rural e áreas | 468.099 setores |
+| `dim_populacao_municipios_ano.parquet`| População municipal intercensitária desagregada por faixa etária e sexo | 144.821 registros (2000-2025) |
+| `dim_idhm_ivs_sp.parquet` | Determinantes sociais dos 645 municípios paulistas (IDHM, IVS, Gini, Renda) | 645 municípios (100% SP) |
+
+---
+
+## Governança Centralizada & Rastreabilidade
+
+O ecossistema é auditado em tempo real por componentes de governança contínua:
+* **Banco Central ACID (`manifesto.duckdb`):** Rastreia cada arquivo espelhado com hash MD5/SHA-256, tamanho em bytes e data de coleta remota.
+* **Modelo Lock-Free de Quarentena:** Fila de isolamento (*Dead Letter Queue*) e auto-cura para arquivos corrompidos ou com quebra de esquema.
+* **Dicionários Semânticos YAML:** Catálogo legível por humanos em `/src/metadados/` padronizando variáveis, tipos e conceitos de todos os provedores.
+* **Preservação de Integridade Temporal:** Rotinas de sincronização que preservam o *mtime* original emitido pelos órgãos oficiais, garantindo rastreabilidade forense.
+
+---
 
 ## Painel Integrado de Monitoramento & Métricas {.mb-3}
 
 ::: {.d-flex .justify-content-between .align-items-center .flex-wrap .gap-2 .mb-3}
 <div>
-  <span>Explore os indicadores diretamente no visualizador abaixo ou acesse em tela cheia:</span>
+  <span>Acompanhe abaixo o painel interativo de governança ou visualize em tela cheia:</span>
   <span class="text-muted small d-block mt-1">{{< fa info-circle >}} O botão abaixo abre o painel completo em uma nova aba do navegador.</span>
 </div>
 <a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">

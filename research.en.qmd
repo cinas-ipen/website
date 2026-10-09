@@ -46,7 +46,7 @@ We recognize that without organized data, there is no artificial intelligence. W
 
 Knowledge Engineering: Ontologies for nuclear domains and data governance (FAIR principles).
 
-Public Health & Big Data: Data mining from DATASUS (e.g., mammography screening tracking).
+Public Health & Big Data: Mining and predictive modeling powered by the [CINAS Multi-Source Data Lake](datalake.en.qmd) (linking DATASUS, IBGE Census, INMET climate, and IPEA social determinants).
 
 Intelligent Search: Semantic solutions for Radiology Information Systems (RIS).
 
