@@ -26,6 +26,7 @@ Explore live metrics and storage statistics.
 <a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg mt-3 shadow-sm w-100">
   {{< fa up-right-from-square >}} Open in Fullscreen
 </a>
+<span class="text-muted small d-block mt-2">{{< fa arrow-up-right-from-square >}} Will open in a new browser tab</span>
 :::
 :::
 
@@ -83,15 +84,22 @@ Maximum price regulations (consumer and hospital procurement) and standardized d
 
 ## Integrated Monitoring & Governance Dashboard {.mb-3}
 
-::: {.d-flex .justify-content-between .align-items-center .mb-3}
-<span>Explore the interactive dashboard below or open it directly in full screen:</span>
+::: {.d-flex .justify-content-between .align-items-center .flex-wrap .gap-2 .mb-3}
+<div>
+  <span>Explore metrics directly in the embedded viewer below or open fullscreen:</span>
+  <span class="text-muted small d-block mt-1">{{< fa info-circle >}} The button below opens the full dashboard in a new browser tab.</span>
+</div>
 <a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">
-  {{< fa expand >}} View Fullscreen
+  {{< fa up-right-from-square >}} View Fullscreen (New Tab)
 </a>
 :::
 
-::: {.ratio style="--bs-aspect-ratio: 75%; min-height: 850px;" .rounded-4 .shadow .border .overflow-hidden .mb-5}
-<iframe src="/dashboards/dashboard_cinas_datasus.html" title="CINAS Data Lake - Governance Dashboard" style="border: 0; width: 100%; height: 100%; min-height: 850px;" loading="lazy"></iframe>
+::: {.card .shadow .border .rounded-4 .overflow-hidden .mb-4}
+<iframe src="/dashboards/dashboard_cinas_datasus.html" title="CINAS Data Lake - Governance Dashboard" width="100%" height="900" style="border: 0; display: block; min-height: 850px;" allowfullscreen></iframe>
+:::
+
+::: {.callout-note appearance="simple"}
+**Display Note:** If the viewer above is blocked by browser security policies or content blockers, click **"View Fullscreen"** to open the report in a new tab.
 :::
 
 ::: {.callout-tip appearance="simple"}
