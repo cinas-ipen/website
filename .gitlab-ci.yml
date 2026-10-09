@@ -31,10 +31,14 @@ deploy-site:
   stage: deploy
   image: alpine:latest
   script:
-    # Limpa o destino no ZFS
-    - rm -rf /storage/cinas-website/html/*
-    # MUDANÇA: Copia o conteúdo da pasta docs para o servidor web
+    # Garante a existência do diretório de dashboards
+    - mkdir -p /storage/cinas-website/html/dashboards
+    # Limpa o destino no ZFS preservando o diretório dashboards
+    - find /storage/cinas-website/html/ -mindepth 1 -maxdepth 1 ! -name 'dashboards' -exec rm -rf {} +
+    # Copia o conteúdo do site (docs) para o servidor web
     - cp -R docs/* /storage/cinas-website/html/
+    # Copia o dashboard da pasta do usuário para a localização definitiva (se presente)
+    - if [ -f "/home/mario/dashboard_cinas/dashboard_cinas_datasus.html" ]; then cp -f /home/mario/dashboard_cinas/dashboard_cinas_datasus.html /storage/cinas-website/html/dashboards/; fi
   only:
     - main
   tags:

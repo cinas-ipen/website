@@ -1,0 +1,101 @@
+---
+title: "Data Lake CINAS"
+subtitle: "Arquitetura Medallion e Monitoramento Multi-Base de Dados em Saúde e Ambiente"
+lang: pt
+page-layout: full
+toc: false
+---
+
+::: {.column-screen .bg-light .border-bottom .py-4 .mb-4}
+::: {.container}
+::: {.grid .align-items-center}
+
+::: {.g-col-12 .g-col-md-8}
+# Data Lake & Governança de Dados
+
+O **Data Lake CINAS** é a espinha dorsal de engenharia de dados do grupo de pesquisa, consolidando grandes volumes de dados públicos e governamentais para apoiar pesquisas em Inteligência Artificial, epidemiologia, saúde pública e modelos preditivos em saúde e radiação.
+
+Adotamos a **Arquitetura Medallion** (Bronze, Silver e Gold), convertendo formatos legados para colunar de alta performance (**Apache Parquet** comprimido com **ZSTD**), governados por esquemas dimensionais e consultas de sub-segundo via **DuckDB**.
+:::
+
+::: {.g-col-12 .g-col-md-4 .text-center}
+::: {.p-4 .bg-white .rounded-4 .shadow-sm .border}
+### {{< fa database >}} Acesso Rápido
+Visualize indicadores e volumes em tempo real.
+
+<a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg mt-3 shadow-sm w-100">
+  {{< fa up-right-from-square >}} Abrir em Tela Cheia
+</a>
+:::
+:::
+
+:::
+:::
+:::
+
+::: {.container}
+
+## Eixos Integrados no Ecossistema {.mb-4}
+
+::: {.grid .mb-5}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa hospital >}} DATASUS
+**Ministério da Saúde**
+Curadoria completa de internações hospitalares (SIHSUS), ambulatório (SIASUS), agravos e epidemias (SINAN), estabelecimentos de saúde (CNES), mortalidade (SIM) e nascidos vivos (SINASC). Conversão lock-free de arquivos DBC e CSV legados para Parquet.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa cloud-sun >}} INMET
+**Instituto Nacional de Meteorologia**
+Séries históricas horárias e diárias de mais de 700 estações meteorológicas em todas as 27 UFs do Brasil (de 2008 até o presente), permitindo cruzar eventos climáticos e extremos com desfechos em saúde.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa users >}} IBGE & Demografia
+**Instituto Brasileiro de Geografia e Estatística**
+Dados completos do Censo Demográfico 2022 (5.570 municípios e mais de 468 mil setores censitários), projeções populacionais oficiais 2000-2070 e estimativas anuais de população.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa shield-halved >}} ANS (Saúde Suplementar)
+**Agência Nacional de Saúde Suplementar**
+Cadastro geral de operadoras ativas (CADOP), histórico de beneficiários (SIB) e demonstrações contábeis e sinistros assistenciais (DIOPS).
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa pills >}} CMED & ANVISA
+**Regulação do Mercado de Medicamentos**
+Tabelas de conformidade de preços de fábrica e consumidor (PMC), compras públicas governamentais e catálogo dimensional de apresentações farmacêuticas.
+:::
+:::
+
+:::
+
+## Painel Integrado de Monitoramento & Métricas {.mb-3}
+
+::: {.d-flex .justify-content-between .align-items-center .mb-3}
+<span>Explore o painel interativo abaixo ou acesse diretamente em tela cheia:</span>
+<a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">
+  {{< fa expand >}} Visualizar em Tela Cheia
+</a>
+:::
+
+::: {.ratio style="--bs-aspect-ratio: 75%; min-height: 850px;" .rounded-4 .shadow .border .overflow-hidden .mb-5}
+<iframe src="/dashboards/dashboard_cinas_datasus.html" title="Data Lake CINAS - Dashboard de Monitoramento" style="border: 0; width: 100%; height: 100%; min-height: 850px;" loading="lazy"></iframe>
+:::
+
+::: {.callout-tip appearance="simple"}
+**Atualização Contínua:** Os dados deste painel são processados automaticamente a partir dos repositórios de governança e espelhamento do CINAS, refletindo as métricas consolidadas dos pipelines de ingestão.
+:::
+
+:::

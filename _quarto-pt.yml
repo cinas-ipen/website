@@ -11,6 +11,7 @@ project:
     - join.qmd
     - tutoriais
     - servicos.qmd
+    - datalake.qmd
   resources:
     - images/
 
@@ -38,6 +39,8 @@ website:
             href: tutoriais/index.qmd
           - href: software.qmd
             text: Softwares e Scripts
+          - href: datalake.qmd
+            text: Data Lake & Dashboards
       - href: join.qmd
         text: Oportunidades
     right:

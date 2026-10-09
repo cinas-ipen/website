@@ -51,7 +51,10 @@ Highlight: Initiating studies in Physics-Informed ML for medical imaging, alongs
 
 Information management, quality, and processes. Data governance, ontologies, and Big Data analysis (DATASUS).
 
-[More ...](research.en.qmd#gestao-info-processos){.btn .btn-secondary .btn-lg .mt-5 role="button"}
+<div class="mt-4">
+  <a href="datalake.en.qmd" class="btn btn-outline-primary btn-sm mb-2 w-100">{{< fa database >}} Access Data Lake & Dashboard</a>
+  <a href="research.en.qmd#gestao-info-processos" class="btn btn-secondary btn-sm w-100">More ...</a>
+</div>
 
 :::
 

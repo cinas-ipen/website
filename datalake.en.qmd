@@ -1,0 +1,101 @@
+---
+title: "CINAS Data Lake"
+subtitle: "Medallion Architecture and Multi-Source Data Governance for Health & Climate"
+lang: en
+page-layout: full
+toc: false
+---
+
+::: {.column-screen .bg-light .border-bottom .py-4 .mb-4}
+::: {.container}
+::: {.grid .align-items-center}
+
+::: {.g-col-12 .g-col-md-8}
+# Data Lake & Data Governance
+
+The **CINAS Data Lake** is the data engineering backbone of our research group, consolidating large-scale public and governmental datasets to empower research in Artificial Intelligence, epidemiology, public health, and predictive models in radiation and medical sciences.
+
+Built on the **Medallion Architecture** (Bronze, Silver, and Gold), we convert legacy source formats into high-performance columnar data (**Apache Parquet** with **ZSTD** compression), orchestrated with dimensional star-schemas and sub-second analytics via **DuckDB**.
+:::
+
+::: {.g-col-12 .g-col-md-4 .text-center}
+::: {.p-4 .bg-white .rounded-4 .shadow-sm .border}
+### {{< fa database >}} Quick Access
+Explore live metrics and storage statistics.
+
+<a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg mt-3 shadow-sm w-100">
+  {{< fa up-right-from-square >}} Open in Fullscreen
+</a>
+:::
+:::
+
+:::
+:::
+:::
+
+::: {.container}
+
+## Integrated Data Providers {.mb-4}
+
+::: {.grid .mb-5}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa hospital >}} DATASUS
+**Brazilian Ministry of Health**
+Complete curation of hospital admissions (SIHSUS), outpatient services (SIASUS), disease surveillance (SINAN), healthcare facilities registry (CNES), mortality data (SIM), and live births (SINASC). Lock-free conversion from legacy DBC/CSV to Parquet.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa cloud-sun >}} INMET
+**National Institute of Meteorology**
+Hourly and daily historical records from over 700 meteorological stations across all 27 Brazilian states (from 2008 to present), allowing correlation of climatic variables with health outcomes.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa users >}} IBGE & Demographics
+**Brazilian Institute of Geography and Statistics**
+Census 2022 micro-aggregates (5,570 municipalities and 468k+ census sectors), official demographic projections 2000-2070, and annual population estimates.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa shield-halved >}} ANS (Supplementary Health)
+**National Supplementary Health Agency**
+Registry of active private health plan operators (CADOP), beneficiary enrollments (SIB), and financial/accounting records (DIOPS).
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa pills >}} CMED & ANVISA
+**Pharmaceutical Market Regulation**
+Maximum price regulations (consumer and hospital procurement) and standardized drug presentations dimensional catalog.
+:::
+:::
+
+:::
+
+## Integrated Monitoring & Governance Dashboard {.mb-3}
+
+::: {.d-flex .justify-content-between .align-items-center .mb-3}
+<span>Explore the interactive dashboard below or open it directly in full screen:</span>
+<a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">
+  {{< fa expand >}} View Fullscreen
+</a>
+:::
+
+::: {.ratio style="--bs-aspect-ratio: 75%; min-height: 850px;" .rounded-4 .shadow .border .overflow-hidden .mb-5}
+<iframe src="/dashboards/dashboard_cinas_datasus.html" title="CINAS Data Lake - Governance Dashboard" style="border: 0; width: 100%; height: 100%; min-height: 850px;" loading="lazy"></iframe>
+:::
+
+::: {.callout-tip appearance="simple"}
+**Automated Sync:** Dashboard indicators are computed by CINAS governance pipelines directly from local mirrors and Parquet stores.
+:::
+
+:::

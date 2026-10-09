@@ -57,6 +57,8 @@ Curation and processing of public databases (e.g., DATASUS).
 - DBC to Parquet/Avro conversion
 - Specialized ETL pipelines
 - Data cleansing and integration
+
+<a href="datalake.en.qmd" class="btn btn-outline-primary btn-sm mt-3">{{< fa database >}} Explore our Data Lake</a>
 :::
 :::
 

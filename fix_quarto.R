@@ -10,6 +10,7 @@ files_to_process <- c(
   "people.qmd",
   "publications.qmd",
   "join.qmd",
+  "datalake.qmd",
   
   # Inglês (.qmd)
   "index.en.qmd",
@@ -18,6 +19,7 @@ files_to_process <- c(
   "people.en.qmd",
   "publications.en.qmd",
   "join.en.qmd",
+  "datalake.en.qmd",
   
   # Configurações (.yml)
   "_quarto.yml",

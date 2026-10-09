@@ -59,6 +59,8 @@ Curadoria e tratamento de bases como o **DATASUS**.
 - Conversão DBC para Parquet/Avro
 - Pipelines de ETL especializados
 - Higienização e integração de dados
+
+<a href="datalake.qmd" class="btn btn-outline-primary btn-sm mt-3">{{< fa database >}} Conheça nosso Data Lake</a>
 :::
 :::
 

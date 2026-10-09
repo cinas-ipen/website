@@ -20,6 +20,7 @@ Estamos estreiando nossa nova infraestrutura:
 * GitLab para o gerenciamento do desenvolvimento (version control)
 * NextCloud para o compartilhamento seguro de dados; nossa nuvem privada.
 * OpenProject para o gerenciamento dos projetos do grupo.
+* Data Lake CINAS: armazenamento curado em Apache Parquet e governança com DuckDB.
 
 
 [Saiba mais sobre nós](about.qmd){.btn .btn-primary .btn-lg role="button" .me-2} [Nossas Pesquisas](research.qmd){.btn .btn-outline-primary .btn-lg role="button"}
@@ -58,7 +59,10 @@ Destaque: Iniciando estudos em Physics-Informed ML para imagens médicas, além 
 
 Gestão da informação, qualidade e processos. Governança de dados, ontologias e análise de Big Data (DATASUS).
 
-[Saiba mais ...](research.qmd#gestao-info-processos){.btn .btn-secondary .btn-lg .mt-5 role="button"}
+<div class="mt-4">
+  <a href="datalake.qmd" class="btn btn-outline-primary btn-sm mb-2 w-100">{{< fa database >}} Acessar Data Lake & Painel</a>
+  <a href="research.qmd#gestao-info-processos" class="btn btn-secondary btn-sm w-100">Saiba mais ...</a>
+</div>
 
 :::
 
