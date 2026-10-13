@@ -55,7 +55,7 @@ Treinamento de modelos complexos em hardware de alto desempenho.
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### 📊 Engenharia de Dados & Data Lake
-Curadoria e integração de bases públicas nacionais (**DATASUS, IBGE, INMET, ANS, CMED, IPEA, SIOPS**).
+Curadoria e integração de bases públicas nacionais (**DATASUS, INMET, IBGE, ANS, ANVISA, CONITEC, INPE, FOSP, ClinicalTrials, CETESB, PNCP, IPEA, SIOPS**).
 - Infraestrutura unificada de dados multissetoriais em saúde
 - Padronização semântica e suporte a modelos de Inteligência Artificial
 - Consultas analíticas de alta velocidade e séries históricas contínuas

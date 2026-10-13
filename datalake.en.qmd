@@ -1,6 +1,6 @@
 ---
 title: "CINAS Data Lake"
-subtitle: "Multi-Source Analytical Platform for Health, Climate, Society, and Economy"
+subtitle: "Multi-Source Analytical Platform for Health, Climate, Society, Regulation, and Economy"
 lang: en
 page-layout: full
 toc: false
@@ -12,17 +12,17 @@ toc: false
 
 ::: {.g-col-12 .g-col-lg-8}
 <div class="hero-title" style="font-size: 2.2rem; margin-bottom: 0.5rem; font-weight: 700;">CINAS Multi-Sector Data Lake</div>
-<div class="hero-subtitle" style="font-size: 1.15rem; margin-bottom: 1.5rem; color: #495057;">Data Infrastructure for Artificial Intelligence, Epidemiology, and Public Policy</div>
+<div class="hero-subtitle" style="font-size: 1.15rem; margin-bottom: 1.5rem; color: #495057;">Unified Data Infrastructure for Artificial Intelligence, Epidemiology, and Public Policy</div>
 
-The **CINAS Data Lake** consolidates an integrated public data infrastructure at the national level in Brazil. Designed to overcome the historical fragmentation of health and social determinants data, the ecosystem supports multidisciplinary research in Artificial Intelligence, spatial epidemiology, nuclear medicine, health technology assessment, and predictive modeling for the public healthcare system (SUS).
+The **CINAS Data Lake** consolidates an integrated public data infrastructure at the national level in Brazil, articulating over **220 GB of optimized columnar data** and hundreds of millions of curated records. Designed to overcome the historical fragmentation of health and social determinants data, the ecosystem supports multidisciplinary research in Artificial Intelligence, spatial epidemiology, nuclear medicine, health technology assessment, biomedical innovation, and predictive modeling for the public healthcare system (SUS).
 
-The platform adopts modern data engineering practices and layered architecture, performing curation, semantic harmonization, and analytical standardization of hundreds of millions of public records with high performance and scientific rigor.
+The platform adopts the **Medallion Architecture** (Bronze, Silver, and Gold), rigorous semantic harmonization via **YAML contracts**, centralized governance powered by an **ACID DuckDB** database, and high-performance columnar storage in **Apache Parquet (ZSTD)**.
 :::
 
 ::: {.g-col-12 .g-col-lg-4 .text-center}
 ::: {.card .p-4 .bg-white .rounded-4 .shadow-sm .border-0}
 ### {{< fa chart-line >}} Integrated Dashboard
-Explore indicators, providers, and data volumes across the ecosystem.
+Explore indicators, providers, and data volumes across the ecosystem in 10 integrated thematic axes.
 
 <a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg mt-3 shadow-sm w-100">
   {{< fa up-right-from-square >}} Open in Fullscreen
@@ -39,7 +39,7 @@ Explore indicators, providers, and data volumes across the ecosystem.
 
 ## Strategic Axes & Integrated Providers {.mb-4}
 
-The platform transcends isolated hospital analytics by articulating data across **seven key national axes**:
+The platform transcends isolated hospital analytics by articulating data across **fourteen national strategic providers and domains**:
 
 ::: {.grid .mb-5}
 
@@ -47,9 +47,9 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa hospital >}} DATASUS
 **Brazilian Ministry of Health (SUS)**
-* **Hospital Inpatients (SIHSUS):** Care production and hospital clinical outcomes across Brazil.
+* **Hospital Inpatients (SIHSUS):** Care production, morbimortality, and hospital outcomes across Brazil.
 * **Outpatient Care (SIASUS):** Specialized procedures, diagnostic exams, and psychosocial care.
-* **Epidemiological Surveillance (SINAN):** Compulsory reporting of infectious diseases and public health events.
+* **Epidemiological Surveillance (SINAN):** Compulsory reporting of diseases and arboviruses.
 * **Healthcare Facilities (CNES):** National registry of hospitals, clinics, beds, and health teams.
 * **Vital Statistics:** Historical series of mortality (SIM) and live births (SINASC).
 :::
@@ -57,12 +57,34 @@ The platform transcends isolated hospital analytics by articulating data across 
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa ribbon >}} Integrated Oncology
+**FOSP (RHC-SP) & DATASUS (POBR)**
+* **Oncology Panel (POBR):** Historical series (2013–2026) of time to cancer diagnosis and treatment (60/30-Day Laws).
+* **Clinical Microdata (FOSP RHC):** Detailed clinical and pathological tumor staging (TNM).
+* **Therapeutic Modalities:** First oncological treatment modalities (surgery, radiotherapy, chemotherapy).
+* **Topography & Morphology:** ICD-O-3 histopathological classification linkable to ICD-10.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa cloud-sun >}} INMET
 **National Institute of Meteorology**
-* **Continuous Historical Records:** Tens of millions of continuous hourly weather measurements since 2008.
-* **Station Network:** Continuous monitoring across hundreds of automatic and conventional weather stations.
-* **Environmental Variables:** Temperature, relative humidity, precipitation, solar radiation, and atmospheric pressure.
-* **Health Impacts:** Statistical modeling of climate extremes and temperature variations on morbimortality.
+* **Continuous Historical Records:** 84 million continuous, audited hourly weather measurements since 2008.
+* **National Station Network:** Continuous monitoring across 672 telemetric stations in all 27 Brazilian states.
+* **Environmental Variables:** Temperature, relative humidity, precipitation, solar radiation, and wind.
+* **Health Impact:** Distributed lag non-linear modeling (DLNM) for thermal extremes and vector-borne diseases.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa fire-flame-curved >}} Environment & Air Quality
+**INPE (BDQueimadas) & CETESB (QUALAR)**
+* **Fire Active Spots (INPE):** Daily satellite observations with Fire Radiative Power (FRP) and biomes.
+* **Meteorological Fire Risk:** Biomass burning dynamics crossed with municipal boundaries.
+* **Air Quality (CETESB):** Hourly telemetric series of atmospheric pollutants ($PM_{2.5}, PM_{10}, O_3, NO_2, SO_2, CO$).
+* **Planetary Health:** Impact modeling of air pollution on cardiorespiratory hospital admissions.
 :::
 :::
 
@@ -70,10 +92,43 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa users >}} IBGE & Demographics
 **Brazilian Institute of Geography and Statistics**
-* **2022 Demographic Census:** Audited data on population, households, and territory for all 5,570 municipalities.
-* **Census Tract Geography:** Detailed spatial mapping across hundreds of thousands of census sectors.
-* **Historical Series & Projections:** Intercensal annual population estimates and long-term demographic projections.
-* **Epidemiological Denominators:** Solid foundation for calculating standardized incidence and mortality rates.
+* **2022 Demographic Census:** Population, households, and territory for all 5,570 Brazilian municipalities.
+* **Census Tract Geography:** Granular spatial mapping across 468,099 census sectors.
+* **Historical Series & Projections:** Long-term projections (2000–2070) by single age and POPSVS estimates.
+* **Epidemiological Denominators:** Standardized denominator foundation for rate calculations.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa pills >}} CMED & ANVISA
+**Pharmaceutical Regulation & Pharmacovigilance**
+* **Regulated Prices (CMED):** Factory ceiling prices (PF) and maximum consumer prices (PMC).
+* **Public Procurement (PMVG/CAP):** Government price adequacy coefficients and procurement rules.
+* **Registered Drugs:** Catalog of 32,800+ pharmaceutical presentations with therapeutic classes and active ingredients.
+* **Pharmacovigilance (VigiMed):** Adverse event reports standardized using MedDRA and WHODrug.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa microchip >}} Medical Devices
+**ANVISA (Health Products & Equipment)**
+* **Technology Infrastructure:** Official registry of 116,000+ medical devices and health products.
+* **High-Complexity Equipment:** Imaging equipment (PET-CT, SPECT, CT scanners, MRI).
+* **Radiotherapy & Biomedical:** Linear accelerators, brachytherapy systems, and implantable devices.
+* **Lifecycle & Risk:** Risk classification (Classes I to IV), technical standards, and validity dates.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100 .shadow-sm .border-0 .p-3}
+### {{< fa flask-vial >}} Clinical Research
+**ClinicalTrials.gov (NLM/NIH)**
+* **Clinical Trials in Brazil:** Global and national clinical studies with research sites across Brazil.
+* **Innovation Pipeline:** Clinical trial phase monitoring (Phases 1 to 4), recruitment status, and experimental drugs.
+* **Clinical Conditions & Interventions:** Targeted diseases, tested therapies, and trial designs.
+* **Research Network Support:** Location of research centers and clinical trial opportunities.
 :::
 :::
 
@@ -81,21 +136,21 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa shield-halved >}} ANS (Private Healthcare)
 **National Supplementary Health Agency**
-* **Comprehensive Healthcare View:** Sector insights for more than 50 million beneficiaries in private healthcare.
-* **Active Health Plans (CADOP):** Complete registry of operators, coverage modalities, and market segments.
-* **Beneficiaries (SIB):** Medical and dental plan beneficiaries aggregated by age bracket, sex, and geographic region.
-* **Financial & Claims Data (DIOPS):** Accounting monitoring, operational revenues, and healthcare assistance claims.
+* **Sector Overview:** Insights on health plans covering over 50 million Brazilian beneficiaries.
+* **Active Health Plans (CADOP):** Directory of 1,106 operators by corporate modality and coverage segment.
+* **Beneficiaries (SIB):** Nearly 90 million medical and dental coverage links by age bracket and sex.
+* **Financial Accounting (DIOPS):** Quarterly balance sheets, operational revenues, and healthcare claims.
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
-### {{< fa pills >}} CMED & ANVISA
-**Pharmaceutical Market Regulation**
-* **Pharmacoeconomics Catalog:** Standardized commercial pharmaceutical presentations registered in Brazil.
-* **Price Ceilings:** Regulatory factory prices (PF) and maximum consumer prices (PMC) by state.
-* **Public Procurement:** Price adequacy coefficients (CAP) and rules for governmental health acquisitions.
-* **Access Research:** Cost-effectiveness and budgetary impact assessments for new clinical therapies.
+### {{< fa scale-unbalanced >}} CONITEC
+**Technology Incorporation in SUS**
+* **Health Technology Assessment (HTA):** Deliberations and recommendations issued since 2012.
+* **Clinical Protocols (PCDT):** Incorporation history of innovative therapies and radiopharmaceuticals.
+* **Pharmacoeconomics:** Mapping of applicants, clinical specialties, and evaluation turnaround times.
+* **Regulatory Integration:** Analytical joins with ANVISA registrations and CMED price ceilings.
 :::
 :::
 
@@ -103,18 +158,21 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa scale-balanced >}} IPEA & UNDP
 **Social Vulnerability & Human Development**
-* **Social Vulnerability Atlas (IVS):** Indicators covering urban infrastructure, human capital, and income.
-* **Municipal Human Development Atlas (IDHM):** Longevity, education, and municipal income dimensions.
-* **Social Determinants:** Control of socioeconomic inequalities in clinical trials and epidemiological studies.
-* **Regional Detail:** Comprehensive coverage of all 645 municipalities in São Paulo state and national coverage.
+* **Social Vulnerability Index (SVI/IVS):** Urban infrastructure, human capital, and income indicators.
+* **Municipal Human Development Index (MHDI/IDHM):** Longevity, education, and municipal income.
+* **Social Determinants:** Control of socioeconomic inequalities in clinical research and AI models.
+* **National & Regional Coverage:** 103 socioeconomic variables for all 5,570 Brazilian municipalities.
 :::
 :::
 
-::: {.g-col-12 .g-col-md-12}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
-### {{< fa coins >}} SIOPS (Public Health Budgets)
-**Brazilian Ministry of Health**
-Tracking of municipal and state public health budgets and constitutional expenditures in Public Health Actions and Services (ASPS), correlating public investment capacity with health outcomes and regional infrastructure.
+### {{< fa file-invoice-dollar >}} Procurement & Budgets
+**PNCP & SIOPS (Ministry of Health)**
+* **Public Procurement (PNCP):** Contracts, tenders, and pricing agreements under Federal Law 14,133/2021.
+* **Effective Unit Prices:** Transparency in public acquisition of hospital supplies and medications.
+* **Public Health Budgets (SIOPS):** Execution of constitutional healthcare revenues and expenses (ASPS).
+* **Fiscal Capacity:** Correlations between municipal per capita healthcare investments and health outcomes.
 :::
 :::
 
@@ -122,28 +180,28 @@ Tracking of municipal and state public health budgets and constitutional expendi
 
 ---
 
-## Platform Pillars & Scientific Governance {.mb-4}
+## Platform Pillars and Scientific Governance {.mb-4}
 
 ::: {.grid .mb-5}
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
-#### {{< fa layers-group >}} Layered Architecture
-Structured processing from raw data ingestion to refined analytical representations, ensuring provenance integrity and query performance for advanced AI models.
+#### {{< fa layers-group >}} Medallion Architecture
+Three-tier structured processing: **Bronze (Mirror)** with immutable raw files; **Silver (Data Lake)** in partitioned columnar Apache Parquet; and **Gold (Dimensions)** with 17 standardized lookup tables (*Star Schema*).
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa network-wired >}} Semantic Interoperability
-Cross-domain standardization using universal codes: IBGE geocodes, International Classification of Diseases (ICD-10), SUS unified procedure codes (SIGTAP), and health occupations (CBO).
+Cross-domain standardization rooted in universal codes and YAML metadata contracts: IBGE geocodes, ICD-10, CBO, CNES, SIGTAP, ANVISA registries, MedDRA, WHODrug, and trial identifiers.
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
-#### {{< fa check-double >}} Traceability & Reproducibility
-Continuous auditing of data lineage and temporal integrity, ensuring that scientific experiments, academic papers, and technical reports can be reproduced with full reliability.
+#### {{< fa check-double >}} Traceability and Reproducibility
+ACID audit via DuckDB (`manifesto.duckdb`) with SHA-256 cryptographic hashes and strict physical timestamp (`mtime`) preservation, ensuring 100% reproducible scientific experiments and AI models.
 :::
 :::
 
@@ -151,15 +209,15 @@ Continuous auditing of data lineage and temporal integrity, ensuring that scient
 
 ---
 
-## Integrated Monitoring & Governance Dashboard {.mb-3}
+## Integrated Monitoring & Metrics Dashboard {.mb-3}
 
 ::: {.d-flex .justify-content-between .align-items-center .flex-wrap .gap-2 .mb-3}
 <div>
-  <span>Explore metrics directly in the embedded viewer below or open fullscreen:</span>
+  <span>Explore the interactive governance dashboard below or open in fullscreen:</span>
   <span class="text-muted small d-block mt-1">{{< fa info-circle >}} The button below opens the full dashboard in a new browser tab.</span>
 </div>
 <a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">
-  {{< fa up-right-from-square >}} View Fullscreen (New Tab)
+  {{< fa up-right-from-square >}} Open in Fullscreen (New Tab)
 </a>
 :::
 
@@ -168,11 +226,11 @@ Continuous auditing of data lineage and temporal integrity, ensuring that scient
 :::
 
 ::: {.callout-note appearance="simple"}
-**Display Note:** If the viewer above is blocked by browser security policies or content blockers, click **"View Fullscreen"** to open the report in a new tab.
+**Display Note:** If the embedded dashboard above is blocked by your browser due to security policies or content blockers, click **"Open in Fullscreen"** to view it directly in a new tab.
 :::
 
 ::: {.callout-tip appearance="simple"}
-**Continuous Updates:** Indicators in this dashboard are computed directly from CINAS data pipelines, reflecting consolidated metrics across all integrated providers.
+**Continuous Updates:** Data presented in this dashboard is processed automatically from CINAS governance repositories, reflecting real-time pipeline metrics.
 :::
 
 :::
