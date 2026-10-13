@@ -60,9 +60,9 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ### {{< fa ribbon >}} Oncologia Integrada
 **FOSP (RHC-SP) & DATASUS (POBR)**
 * **Painel de Oncologia (POBR):** Histórico 2013–2026 de tempo até diagnóstico e tratamento (Leis dos 60 e 30 Dias).
-* **Microdados Clínicos RHC (FOSP):** Série observacional detalhada de estadiamento clínico e patológico (TNM).
+* **Microdados Clínicos RHC (FOSP):** Série histórica de 2000 a 2026 com 1,38 milhão de casos, estadiamento (TNM) e histologia (CID-O-3).
 * **Perfil Terapêutico:** Modalidades de primeiro tratamento oncológico (cirurgia, radioterapia, quimioterapia).
-* **Topografia e Morfologia:** Classificação histopatológica pelo CID-O-3 cruzável com o CID-10.
+* **Topografia e Morfologia:** Classificação histopatológica pelo CID-O-3 cruzável com o CID-10 e causas básicas do SIM.
 :::
 :::
 

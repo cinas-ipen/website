@@ -60,9 +60,9 @@ The platform transcends isolated hospital analytics by articulating data across 
 ### {{< fa ribbon >}} Integrated Oncology
 **FOSP (RHC-SP) & DATASUS (POBR)**
 * **Oncology Panel (POBR):** Historical series (2013–2026) of time to cancer diagnosis and treatment (60/30-Day Laws).
-* **Clinical Microdata (FOSP RHC):** Detailed clinical and pathological tumor staging (TNM).
+* **Clinical Microdata (FOSP RHC):** Complete 2000–2026 series with 1.38 million cases, tumor staging (TNM), and histology (ICD-O-3).
 * **Therapeutic Modalities:** First oncological treatment modalities (surgery, radiotherapy, chemotherapy).
-* **Topography & Morphology:** ICD-O-3 histopathological classification linkable to ICD-10.
+* **Topography & Morphology:** ICD-O-3 histopathological classification linkable to ICD-10 and mortality registries (SIM).
 :::
 :::
 
