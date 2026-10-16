@@ -47,6 +47,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa hospital >}} DATASUS
 **Brazilian Ministry of Health (SUS)**
+
 * **Hospital Inpatients (SIHSUS):** Care production, morbimortality, and hospital outcomes across Brazil.
 * **Outpatient Care (SIASUS):** Specialized procedures, diagnostic exams, and psychosocial care.
 * **Epidemiological Surveillance (SINAN):** Compulsory reporting of diseases and arboviruses.
@@ -59,6 +60,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa ribbon >}} Integrated Oncology
 **FOSP (RHC-SP) & DATASUS (POBR)**
+
 * **Oncology Panel (POBR):** Historical series (2013–2026) of time to cancer diagnosis and treatment (60/30-Day Laws).
 * **Clinical Microdata (FOSP RHC):** Complete 2000–2026 series with 1.38 million cases, tumor staging (TNM), and histology (ICD-O-3).
 * **Therapeutic Modalities:** First oncological treatment modalities (surgery, radiotherapy, chemotherapy).
@@ -70,6 +72,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa cloud-sun >}} INMET
 **National Institute of Meteorology**
+
 * **Continuous Historical Records:** 84 million continuous, audited hourly weather measurements since 2008.
 * **National Station Network:** Continuous monitoring across 672 telemetric stations in all 27 Brazilian states.
 * **Environmental Variables:** Temperature, relative humidity, precipitation, solar radiation, and wind.
@@ -81,6 +84,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa fire-flame-curved >}} Environment & Air Quality
 **INPE (BDQueimadas) & CETESB (QUALAR)**
+
 * **Fire Active Spots (INPE):** Daily satellite observations with Fire Radiative Power (FRP) and biomes.
 * **Meteorological Fire Risk:** Biomass burning dynamics crossed with municipal boundaries.
 * **Air Quality (CETESB):** Hourly telemetric series of atmospheric pollutants ($PM_{2.5}, PM_{10}, O_3, NO_2, SO_2, CO$).
@@ -90,12 +94,13 @@ The platform transcends isolated hospital analytics by articulating data across 
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
-### {{< fa users >}} IBGE & Demographics
-**Brazilian Institute of Geography and Statistics**
-* **2022 Demographic Census:** Population, households, and territory for all 5,570 Brazilian municipalities.
-* **Census Tract Geography:** Granular spatial mapping across 468,099 census sectors.
-* **Historical Series & Projections:** Long-term projections (2000–2070) by single age and POPSVS estimates.
-* **Epidemiological Denominators:** Standardized denominator foundation for rate calculations.
+### {{< fa users >}} IBGE & Surveys (PNS)
+**IBGE & Fiocruz (Demographics & Health)**
+
+* **National Health Survey (PNS):** 2013 and 2019 household microdata (516k interviews on NCDs, SUS access, and anthropometry) plus laboratory exam biomarkers (8,952 samples).
+* **2022 Demographic Census:** Population, households, and granular spatial mapping across 468,099 census tracts in 5,570 municipalities.
+* **Historical Series & Projections:** Long-term projections (2000–2070) by single age and POPSVS estimates (2000–2025).
+* **Denominators & Survey Weights:** Standardized denominator foundation for incidence, population prevalence, and complex survey expansion.
 :::
 :::
 
@@ -103,6 +108,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa pills >}} CMED & ANVISA
 **Pharmaceutical Regulation & Pharmacovigilance**
+
 * **Regulated Prices (CMED):** Factory ceiling prices (PF) and maximum consumer prices (PMC).
 * **Public Procurement (PMVG/CAP):** Government price adequacy coefficients and procurement rules.
 * **Registered Drugs:** Catalog of 32,800+ pharmaceutical presentations with therapeutic classes and active ingredients.
@@ -114,6 +120,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa microchip >}} Medical Devices
 **ANVISA (Health Products & Equipment)**
+
 * **Technology Infrastructure:** Official registry of 116,000+ medical devices and health products.
 * **High-Complexity Equipment:** Imaging equipment (PET-CT, SPECT, CT scanners, MRI).
 * **Radiotherapy & Biomedical:** Linear accelerators, brachytherapy systems, and implantable devices.
@@ -125,6 +132,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa flask-vial >}} Clinical Research
 **ClinicalTrials.gov (NLM/NIH)**
+
 * **Clinical Trials in Brazil:** Global and national clinical studies with research sites across Brazil.
 * **Innovation Pipeline:** Clinical trial phase monitoring (Phases 1 to 4), recruitment status, and experimental drugs.
 * **Clinical Conditions & Interventions:** Targeted diseases, tested therapies, and trial designs.
@@ -136,6 +144,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa shield-halved >}} ANS (Private Healthcare)
 **National Supplementary Health Agency**
+
 * **Sector Overview:** Insights on health plans covering over 50 million Brazilian beneficiaries.
 * **Active Health Plans (CADOP):** Directory of 1,106 operators by corporate modality and coverage segment.
 * **Beneficiaries (SIB):** Nearly 90 million medical and dental coverage links by age bracket and sex.
@@ -147,6 +156,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa scale-unbalanced >}} CONITEC
 **Technology Incorporation in SUS**
+
 * **Health Technology Assessment (HTA):** Deliberations and recommendations issued since 2012.
 * **Clinical Protocols (PCDT):** Incorporation history of innovative therapies and radiopharmaceuticals.
 * **Pharmacoeconomics:** Mapping of applicants, clinical specialties, and evaluation turnaround times.
@@ -158,6 +168,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa scale-balanced >}} IPEA & UNDP
 **Social Vulnerability & Human Development**
+
 * **Social Vulnerability Index (SVI/IVS):** Urban infrastructure, human capital, and income indicators.
 * **Municipal Human Development Index (MHDI/IDHM):** Longevity, education, and municipal income.
 * **Social Determinants:** Control of socioeconomic inequalities in clinical research and AI models.
@@ -169,6 +180,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa file-invoice-dollar >}} Procurement & Budgets
 **PNCP & SIOPS (Ministry of Health)**
+
 * **Public Procurement (PNCP):** Contracts, tenders, and pricing agreements under Federal Law 14,133/2021.
 * **Effective Unit Prices:** Transparency in public acquisition of hospital supplies and medications.
 * **Public Health Budgets (SIOPS):** Execution of constitutional healthcare revenues and expenses (ASPS).
@@ -187,14 +199,14 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa layers-group >}} Medallion Architecture
-Three-tier structured processing: **Bronze (Mirror)** with immutable raw files; **Silver (Data Lake)** in partitioned columnar Apache Parquet; and **Gold (Dimensions)** with 17 standardized lookup tables (*Star Schema*).
+Three-tier structured processing: **Bronze (Mirror)** with immutable raw files; **Silver (Data Lake)** in partitioned columnar Apache Parquet; and **Gold (Dimensions)** with 18 standardized lookup tables (*Star Schema*).
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa network-wired >}} Semantic Interoperability
-Cross-domain standardization rooted in universal codes and YAML metadata contracts: IBGE geocodes, ICD-10, CBO, CNES, SIGTAP, ANVISA registries, MedDRA, WHODrug, and trial identifiers.
+Cross-domain standardization rooted in universal codes and YAML metadata contracts: IBGE geocodes, ICD-10, CBO, CNES, SIGTAP, ANVISA registries, MedDRA, WHODrug, unified PNS dictionary, and trial identifiers.
 :::
 :::
 

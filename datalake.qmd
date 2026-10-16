@@ -47,6 +47,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa hospital >}} DATASUS
 **Ministério da Saúde (SUS)**
+
 * **Internações Hospitalares (SIHSUS):** Produção, morbimortalidade e AIHs em todo o território nacional.
 * **Atendimento Ambulatorial (SIASUS):** Procedimentos especializados, exames e atenção psicossocial.
 * **Vigilância Epidemiológica (SINAN):** Notificações compulsórias de agravos e arboviroses.
@@ -59,6 +60,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa ribbon >}} Oncologia Integrada
 **FOSP (RHC-SP) & DATASUS (POBR)**
+
 * **Painel de Oncologia (POBR):** Histórico 2013–2026 de tempo até diagnóstico e tratamento (Leis dos 60 e 30 Dias).
 * **Microdados Clínicos RHC (FOSP):** Série histórica de 2000 a 2026 com 1,38 milhão de casos, estadiamento (TNM) e histologia (CID-O-3).
 * **Perfil Terapêutico:** Modalidades de primeiro tratamento oncológico (cirurgia, radioterapia, quimioterapia).
@@ -70,6 +72,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa cloud-sun >}} INMET
 **Instituto Nacional de Meteorologia**
+
 * **Série Histórica Contínua:** 84 milhões de medições horárias contínuas e consistidas desde 2008.
 * **Rede Nacional:** Monitoramento contínuo em 672 estações telemétricas em todas as 27 UFs.
 * **Variáveis Micrometeorológicas:** Temperatura, umidade relativa, precipitação, radiação solar e vento.
@@ -81,6 +84,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa fire-flame-curved >}} Meio Ambiente & Ar
 **INPE (BDQueimadas) & CETESB (QUALAR)**
+
 * **Focos de Queimadas (INPE):** Monitoramento orbital diário de focos de calor com Potência Radiativa (FRP).
 * **Risco Meteorológico:** Dinâmica de queima de biomassa cruzada com biomas e limites municipais.
 * **Qualidade do Ar (CETESB):** Séries telemétricas horárias de poluentes ($MP_{2.5}, MP_{10}, O_3, NO_2, SO_2, CO$).
@@ -90,12 +94,13 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
-### {{< fa users >}} IBGE & Demografia
-**Instituto Brasileiro de Geografia e Estatística**
-* **Censo Demográfico 2022:** População, domicílios e características dos 5.570 municípios brasileiros.
-* **Malha Censitária Territorial:** Detalhamento geográfico por 468.099 setores censitários.
+### {{< fa users >}} IBGE & Inquéritos (PNS)
+**IBGE & Fiocruz (Demografia e Saúde)**
+
+* **Pesquisa Nacional de Saúde (PNS):** Microdados domiciliares 2013 e 2019 (516 mil entrevistas sobre DCNT, acesso ao SUS e antropometria) e exames laboratoriais (8.952 biomarcadores).
+* **Censo Demográfico 2022:** População, domicílios e malha territorial de 468.099 setores censitários nos 5.570 municípios.
 * **Séries Históricas e Projeções:** Projeções 2000–2070 por idade simples e estimativas POPSVS 2000–2025.
-* **Denominadores Epidemiológicos:** Base padronizada para taxas de incidência e pirâmides etárias.
+* **Denominadores e Pesos Amostrais:** Base padronizada para taxas de incidência, prevalência populacional e expansão amostral complexa.
 :::
 :::
 
@@ -103,6 +108,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa pills >}} CMED & ANVISA
 **Regulação Farmacêutica & Farmacovigilância**
+
 * **Preços Regulatórios (CMED):** Monitoramento de Preço Fábrica (PF) e Preço Máximo ao Consumidor (PMC).
 * **Compras Públicas (PMVG/CAP):** Coeficientes de adequação de preços e compras governamentais.
 * **Medicamentos Registrados:** Catálogo de 32.800+ registros com classe terapêutica e princípio ativo.
@@ -114,6 +120,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa microchip >}} Dispositivos Médicos
 **ANVISA (Produtos para a Saúde)**
+
 * **Parque Tecnológico:** Catálogo oficial de 116.000+ produtos e dispositivos para saúde cadastrados.
 * **Equipamentos de Alta Complexidade:** Diagnóstico por imagem (PET-CT, SPECT, Tomógrafos, Ressonâncias).
 * **Radioterapia e Biomédicos:** Aceleradores lineares, sistemas de braquiterapia e materiais implantáveis.
@@ -125,6 +132,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa flask-vial >}} Pesquisa Clínica
 **ClinicalTrials.gov (NLM/NIH)**
+
 * **Ensaios Clínicos no Brasil:** Estudos clínicos globais e nacionais com centros de pesquisa no país.
 * **Pipeline de Inovação:** Monitoramento de fases clínicas (Fase 1 a 4), recrutamento e novas moléculas.
 * **Condições Clínicas & Terapias:** Doenças investigadas, fármacos experimentais e desenhos de estudo.
@@ -136,6 +144,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa shield-halved >}} ANS (Saúde Suplementar)
 **Agência Nacional de Saúde Suplementar**
+
 * **Panorama Setorial:** Cobertura de operadoras e seguradoras que atendem mais de 50 milhões de pessoas.
 * **Operadoras Ativas (CADOP):** Cadastro analítico de 1.106 operadoras por modalidade e abrangência geográfica.
 * **Beneficiários (SIB):** Quase 90 milhões de vínculos médicos e odontológicos por faixa etária e sexo.
@@ -147,6 +156,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa scale-unbalanced >}} CONITEC
 **Incorporação Tecnológica no SUS**
+
 * **Avaliação de Tecnologias em Saúde (ATS):** Deliberações e pareceres emitidos desde 2012.
 * **Protocolos Clínicos (PCDT):** Histórico de incorporação de fármacos inovadores e radiofármacos.
 * **Farmacoeconomia:** Mapeamento de demandantes, especialidades clínicas e prazos de decisão.
@@ -158,6 +168,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa scale-balanced >}} IPEA & PNUD
 **Vulnerabilidade Social e Desenvolvimento Humano**
+
 * **Atlas da Vulnerabilidade Social (IVS):** Indicadores de infraestrutura urbana, capital humano e renda.
 * **Atlas do Desenvolvimento Humano (IDHM):** Dimensões de longevidade, educação e renda municipal.
 * **Determinantes Sociais:** Controle de desigualdades socioeconômicas em estudos clínicos e de IA.
@@ -169,6 +180,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa file-invoice-dollar >}} Compras & Orçamentos
 **PNCP & SIOPS (Ministério da Saúde)**
+
 * **Contratações Públicas (PNCP):** Editais, contratos e atas de registro de preços de saúde sob a Lei 14.133/2021.
 * **Preços Praticados:** Transparência de compras públicas de insumos hospitalares e medicamentos.
 * **Orçamentos em Saúde (SIOPS):** Execução de receitas e despesas constitucionais em ASPS.
@@ -187,14 +199,14 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa layers-group >}} Arquitetura Medallion
-Tratamento estruturado em três camadas: **Bronze (Mirror)** com os arquivos brutos originais imutáveis; **Silver (Data Lake)** em Apache Parquet colunar particionado; e **Gold (Dimensoes)** com 17 tabelas de domínio padronizadas (*Star Schema*).
+Tratamento estruturado em três camadas: **Bronze (Mirror)** com os arquivos brutos originais imutáveis; **Silver (Data Lake)** em Apache Parquet colunar particionado; e **Gold (Dimensoes)** com 18 tabelas de domínio padronizadas (*Star Schema*).
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa network-wired >}} Interoperabilidade Semântica
-Padronização transversal baseada em códigos universais e contratos YAML: geocódigos IBGE, CID-10, CBO, CNES, SIGTAP, registros ANVISA, códigos MedDRA, WHODrug e identificadores de estações e ensaios clínicos.
+Padronização transversal baseada em códigos universais e contratos YAML: geocódigos IBGE, CID-10, CBO, CNES, SIGTAP, registros ANVISA, códigos MedDRA, WHODrug, dicionário unificado da PNS e identificadores de estações e ensaios clínicos.
 :::
 :::
 
