@@ -131,12 +131,12 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa flask-vial >}} Clinical Research
-**ClinicalTrials.gov (NLM/NIH)**
+**ClinicalTrials.gov & ReBEC (Fiocruz/MS)**
 
-* **Clinical Trials in Brazil:** Global and national clinical studies with research sites across Brazil.
-* **Innovation Pipeline:** Clinical trial phase monitoring (Phases 1 to 4), recruitment status, and experimental drugs.
-* **Clinical Conditions & Interventions:** Targeted diseases, tested therapies, and trial designs.
-* **Research Network Support:** Location of research centers and clinical trial opportunities.
+* **Global and National Clinical Trials:** International protocols (NLM/NIH) and national trials via ReBEC (ensaiosclinicos.gov.br).
+* **WHO ICTRP & Ethics Approval:** 9,777 validated trials in Brazil with Plataforma Brasil CAAE and CEP/Conep approvals.
+* **Innovation Pipeline:** Phase monitoring (Phases 1 to 4), recruitment status, novel molecules, and radiopharmaceuticals.
+* **Clinical Conditions & Interventions:** Targeted diseases (DeCS/ICD-10), sponsors, and research center mappings.
 :::
 :::
 
@@ -199,7 +199,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa layers-group >}} Medallion Architecture
-Three-tier structured processing: **Bronze (Mirror)** with immutable raw files; **Silver (Data Lake)** in partitioned columnar Apache Parquet; and **Gold (Dimensions)** with 18 standardized lookup tables (*Star Schema*).
+Three-tier structured processing: **Bronze (Mirror)** with immutable raw files; **Silver (Data Lake)** in partitioned columnar Apache Parquet; and **Gold (Dimensions)** with 19 standardized lookup tables (*Star Schema*).
 :::
 :::
 

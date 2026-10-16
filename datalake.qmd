@@ -131,12 +131,12 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
 ### {{< fa flask-vial >}} Pesquisa Clínica
-**ClinicalTrials.gov (NLM/NIH)**
+**ClinicalTrials.gov & ReBEC (Fiocruz/MS)**
 
-* **Ensaios Clínicos no Brasil:** Estudos clínicos globais e nacionais com centros de pesquisa no país.
-* **Pipeline de Inovação:** Monitoramento de fases clínicas (Fase 1 a 4), recrutamento e novas moléculas.
-* **Condições Clínicas & Terapias:** Doenças investigadas, fármacos experimentais e desenhos de estudo.
-* **Apoio a Redes de Pesquisa:** Localização de centros de excelência e recrutamento de pacientes.
+* **Ensaios Clínicos Globais e Nacionais:** Protocolos internacionais (NLM/NIH) e nacionais via ReBEC (ensaiosclinicos.gov.br).
+* **Registro Primário OMS & CEP:** 9.777 ensaios clínicos validados no Brasil, com CAAE Plataforma Brasil e pareceres CEP.
+* **Pipeline de Inovação:** Monitoramento de fases clínicas (Fase 1 a 4), recrutamento, novas moléculas e radiofármacos.
+* **Condições Clínicas & Terapias:** Doenças investigadas (DeCS/CID-10), patrocinadores e mapeamento de centros de excelência.
 :::
 :::
 
@@ -199,7 +199,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa layers-group >}} Arquitetura Medallion
-Tratamento estruturado em três camadas: **Bronze (Mirror)** com os arquivos brutos originais imutáveis; **Silver (Data Lake)** em Apache Parquet colunar particionado; e **Gold (Dimensoes)** com 18 tabelas de domínio padronizadas (*Star Schema*).
+Tratamento estruturado em três camadas: **Bronze (Mirror)** com os arquivos brutos originais imutáveis; **Silver (Data Lake)** em Apache Parquet colunar particionado; e **Gold (Dimensoes)** com 19 tabelas de domínio padronizadas (*Star Schema*).
 :::
 :::
 
