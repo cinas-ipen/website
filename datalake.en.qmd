@@ -39,7 +39,7 @@ Explore indicators, providers, and data volumes across the ecosystem in 10 integ
 
 ## Strategic Axes & Integrated Providers {.mb-4}
 
-The platform transcends isolated hospital analytics by articulating data across **fourteen national strategic providers and domains**:
+The platform transcends isolated hospital analytics by articulating data across **sixteen national strategic providers and domains**:
 
 ::: {.grid .mb-5}
 
@@ -94,13 +94,14 @@ The platform transcends isolated hospital analytics by articulating data across 
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
-### {{< fa users >}} IBGE & Surveys (PNS)
-**IBGE & Fiocruz (Demographics & Health)**
+### {{< fa users >}} Surveys & Demographics
+**IBGE & Ministry of Health (PNS and Vigitel)**
 
+* **Vigitel Brazil (2006–2024):** Uninterrupted 18-edition time series of 833,217 telephone interviews across 26 state capitals and DF, tracking NCD risk and protective factors.
 * **National Health Survey (PNS):** 2013 and 2019 household microdata (516k interviews on NCDs, SUS access, and anthropometry) plus laboratory exam biomarkers (8,952 samples).
 * **2022 Demographic Census:** Population, households, and granular spatial mapping across 468,099 census tracts in 5,570 municipalities.
 * **Historical Series & Projections:** Long-term projections (2000–2070) by single age and POPSVS estimates (2000–2025).
-* **Denominators & Survey Weights:** Standardized denominator foundation for incidence, population prevalence, and complex survey expansion.
+* **Denominators & Survey Weights:** Standardized denominator foundation for incidence, population prevalence, and complex sample calibration (Rake).
 :::
 :::
 
@@ -199,14 +200,14 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa layers-group >}} Medallion Architecture
-Three-tier structured processing: **Bronze (Mirror)** with immutable raw files; **Silver (Data Lake)** in partitioned columnar Apache Parquet; and **Gold (Dimensions)** with 19 standardized lookup tables (*Star Schema*).
+Three-tier structured processing: **Bronze (Mirror)** with immutable raw files; **Silver (Data Lake)** in partitioned columnar Apache Parquet; and **Gold (Dimensions)** with 20 standardized lookup tables (*Star Schema*).
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa network-wired >}} Semantic Interoperability
-Cross-domain standardization rooted in universal codes and YAML metadata contracts: IBGE geocodes, ICD-10, CBO, CNES, SIGTAP, ANVISA registries, MedDRA, WHODrug, unified PNS dictionary, and trial identifiers.
+Cross-domain standardization rooted in universal codes and YAML metadata contracts: IBGE geocodes, ICD-10, CBO, CNES, SIGTAP, ANVISA registries, MedDRA, WHODrug, unified PNS and Vigitel dictionaries, and trial identifiers.
 :::
 :::
 

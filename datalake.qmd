@@ -39,7 +39,7 @@ Acompanhe os indicadores, fontes e volumes de dados do ecossistema em 10 eixos a
 
 ## Eixos Estratégicos & Provedores Integrados {.mb-4}
 
-A infraestrutura transcende a análise hospitalar isolada, articulando dados de **quatorze grandes provedores e eixos estratégicos nacionais**:
+A infraestrutura transcende a análise hospitalar isolada, articulando dados de **dezesseis grandes provedores e eixos estratégicos nacionais**:
 
 ::: {.grid .mb-5}
 
@@ -94,13 +94,14 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100 .shadow-sm .border-0 .p-3}
-### {{< fa users >}} IBGE & Inquéritos (PNS)
-**IBGE & Fiocruz (Demografia e Saúde)**
+### {{< fa users >}} Inquéritos & Demografia
+**IBGE & Ministério da Saúde (PNS e Vigitel)**
 
+* **Vigitel Brasil (2006–2024):** Série temporal ininterrupta de 18 edições com 833.217 entrevistas telefônicas nas 26 capitais e DF, monitorando fatores de risco e proteção para DCNT.
 * **Pesquisa Nacional de Saúde (PNS):** Microdados domiciliares 2013 e 2019 (516 mil entrevistas sobre DCNT, acesso ao SUS e antropometria) e exames laboratoriais (8.952 biomarcadores).
 * **Censo Demográfico 2022:** População, domicílios e malha territorial de 468.099 setores censitários nos 5.570 municípios.
 * **Séries Históricas e Projeções:** Projeções 2000–2070 por idade simples e estimativas POPSVS 2000–2025.
-* **Denominadores e Pesos Amostrais:** Base padronizada para taxas de incidência, prevalência populacional e expansão amostral complexa.
+* **Denominadores e Pesos Amostrais:** Base padronizada para taxas de incidência, prevalência populacional e calibração amostral complexa (Rake).
 :::
 :::
 
@@ -199,14 +200,14 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa layers-group >}} Arquitetura Medallion
-Tratamento estruturado em três camadas: **Bronze (Mirror)** com os arquivos brutos originais imutáveis; **Silver (Data Lake)** em Apache Parquet colunar particionado; e **Gold (Dimensoes)** com 19 tabelas de domínio padronizadas (*Star Schema*).
+Tratamento estruturado em três camadas: **Bronze (Mirror)** com os arquivos brutos originais imutáveis; **Silver (Data Lake)** em Apache Parquet colunar particionado; e **Gold (Dimensoes)** com 20 tabelas de domínio padronizadas (*Star Schema*).
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa network-wired >}} Interoperabilidade Semântica
-Padronização transversal baseada em códigos universais e contratos YAML: geocódigos IBGE, CID-10, CBO, CNES, SIGTAP, registros ANVISA, códigos MedDRA, WHODrug, dicionário unificado da PNS e identificadores de estações e ensaios clínicos.
+Padronização transversal baseada em códigos universais e contratos YAML: geocódigos IBGE, CID-10, CBO, CNES, SIGTAP, registros ANVISA, códigos MedDRA, WHODrug, dicionários unificados da PNS e Vigitel, e identificadores de estações e ensaios clínicos.
 :::
 :::
 
