@@ -22,7 +22,7 @@ The platform adopts the **Medallion Architecture** (Bronze, Silver, and Gold), r
 ::: {.g-col-12 .g-col-lg-4 .text-center}
 ::: {.card .p-4 .bg-white .rounded-4 .shadow-sm .border-0}
 ### {{< fa chart-line >}} Integrated Dashboard
-Explore indicators, providers, and data volumes across the ecosystem in 10 integrated thematic axes.
+Explore indicators, providers, and data volumes across the ecosystem in 11 integrated thematic axes (including end-to-end data lineage and governance).
 
 <a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg mt-3 shadow-sm w-100">
   {{< fa up-right-from-square >}} Open in Fullscreen
@@ -200,7 +200,7 @@ The platform transcends isolated hospital analytics by articulating data across 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa layers-group >}} Medallion Architecture
-Three-tier structured processing: **Bronze (Mirror)** with immutable raw files; **Silver (Data Lake)** in partitioned columnar Apache Parquet; and **Gold (Dimensions)** with 20 standardized lookup tables (*Star Schema*).
+Three-tier structured processing: **Bronze (Mirror)** with immutable raw files; **Silver (Data Lake)** in partitioned columnar Apache Parquet; and **Gold (Dimensions)** with 21 standardized lookup tables (*Star Schema*).
 :::
 :::
 
@@ -214,7 +214,7 @@ Cross-domain standardization rooted in universal codes and YAML metadata contrac
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa check-double >}} Traceability and Reproducibility
-ACID audit via DuckDB (`manifesto.duckdb`) with SHA-256 cryptographic hashes and strict physical timestamp (`mtime`) preservation, ensuring 100% reproducible scientific experiments and AI models.
+ACID audit via DuckDB (`manifesto.duckdb`), formal 5-layer data lineage catalog (DAMA-DMBOK) under unified *data stewardship*, SHA-256 cryptographic hashes, and strict physical timestamp (`mtime`) preservation, ensuring 100% reproducible scientific experiments and AI models.
 :::
 :::
 

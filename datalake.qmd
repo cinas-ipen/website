@@ -22,7 +22,7 @@ A plataforma adota a **Arquitetura Medallion** (Bronze, Silver e Gold), harmoniz
 ::: {.g-col-12 .g-col-lg-4 .text-center}
 ::: {.card .p-4 .bg-white .rounded-4 .shadow-sm .border-0}
 ### {{< fa chart-line >}} Painel Integrado
-Acompanhe os indicadores, fontes e volumes de dados do ecossistema em 10 eixos analíticos integrados.
+Acompanhe os indicadores, fontes e volumes de dados do ecossistema em 11 eixos analíticos integrados (incluindo linhagem de dados e governança ponta a ponta).
 
 <a href="/dashboards/dashboard_cinas_datasus.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg mt-3 shadow-sm w-100">
   {{< fa up-right-from-square >}} Visualizar em Tela Cheia
@@ -200,7 +200,7 @@ A infraestrutura transcende a análise hospitalar isolada, articulando dados de 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa layers-group >}} Arquitetura Medallion
-Tratamento estruturado em três camadas: **Bronze (Mirror)** com os arquivos brutos originais imutáveis; **Silver (Data Lake)** em Apache Parquet colunar particionado; e **Gold (Dimensoes)** com 20 tabelas de domínio padronizadas (*Star Schema*).
+Tratamento estruturado em três camadas: **Bronze (Mirror)** com os arquivos brutos originais imutáveis; **Silver (Data Lake)** em Apache Parquet colunar particionado; e **Gold (Dimensoes)** com 21 tabelas de domínio padronizadas (*Star Schema*).
 :::
 :::
 
@@ -214,7 +214,7 @@ Padronização transversal baseada em códigos universais e contratos YAML: geoc
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card .h-100 .border-0 .shadow-sm .p-3}
 #### {{< fa check-double >}} Rastreabilidade e Reprodutibilidade
-Auditoria ACID via DuckDB (`manifesto.duckdb`) com hashes criptográficos SHA-256 e preservação estrita de linhagem temporal física (`mtime`), garantindo que experimentos e modelos de IA sejam 100% reproduzíveis.
+Auditoria ACID via DuckDB (`manifesto.duckdb`), catálogo formal de linhagem em 5 camadas (DAMA-DMBOK) com *data stewardship* unificado, hashes criptográficos SHA-256 e preservação estrita de linhagem temporal física (`mtime`), garantindo que experimentos e modelos de IA sejam 100% reproduzíveis.
 :::
 :::
 
