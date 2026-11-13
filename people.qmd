@@ -96,6 +96,7 @@ listing:
         subtitle: "Bacharelado em Física Médica (USP)"
         description: "Iniciação Científica (PIBIC/PROBIC — IPEN/CNEN)"
         image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/1341529052031400"
 ---
 
 O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cientistas da Computação e Profissionais da Saúde.

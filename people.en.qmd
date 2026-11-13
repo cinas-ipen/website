@@ -98,6 +98,7 @@ listing:
         subtitle: "B.Sc. in Medical Physics (USP)"
         description: "Undergraduate Research (PIBIC/PROBIC — IPEN/CNEN)"
         image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/1341529052031400"
 ---
 
 CINAS is composed of multidisciplinary researchers, bringing together Physicists, Computer Scientists, and Healthcare Professionals.
