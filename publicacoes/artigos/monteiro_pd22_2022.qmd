@@ -1,0 +1,37 @@
+---
+title: "PD22 Exploratory Analysis of a Brazilian Real-World Open Database Applied to Prostate Cancer"
+date: 2022-01-01
+author:
+  - name: "MONTEIRO, LUCILENA REBELO"
+  - name: "OLIVEIRA, MÉRCIA LIANE"
+  - name: "MENEZES, MARIO OLÍMPIO"
+  - name: "POZZO, LORENA"
+abstract: >
+  Resumo não disponível.
+categories: [article]
+citation:
+  container-title: "INTERNATIONAL JOURNAL OF TECHNOLOGY ASSESSMENT IN HEALTH CARE"
+  volume: 38
+  page: "S97-S98"
+  doi: "10.1017/s0266462322002835"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-monteiro_pd22_2022" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-monteiro_pd22_2022" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">PD22 Exploratory Analysis of a Brazilian Real-World Open Database Applied to Prostate Cancer</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-monteiro_pd22_2022");
+    let pubLink = document.getElementById("bc-pub-monteiro_pd22_2022");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

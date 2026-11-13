@@ -1,0 +1,33 @@
+---
+title: "Protótipo de Ferramenta para o Auxílio de Exercícios Fisioterapêuticos"
+date: 2024-01-01
+author:
+  - name: "GUARNIERI, E."
+  - name: "MENEZES, M.O."
+abstract: >
+  Resumo não disponível.
+categories: [inproceedings]
+citation:
+  container-title: "II Simpósio do CI-IA Saúde da UFMG, 2024, Belo Horizonte, MG. Anais do II Simpósio CI-IA Saúde da UFMG: inteligência artificial responsável no ensino, pesquisa e práticas em saúde.. Belo Horizonte, MG: Universidade Federal de Minas Gerais"
+  page: "148-150"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-guarnieri_prototipo_2024" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-guarnieri_prototipo_2024" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Protótipo de Ferramenta para o Auxílio de Exercícios Fisioterapêuticos</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-guarnieri_prototipo_2024");
+    let pubLink = document.getElementById("bc-pub-guarnieri_prototipo_2024");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

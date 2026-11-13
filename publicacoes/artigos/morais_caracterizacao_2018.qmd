@@ -1,0 +1,37 @@
+---
+title: "Caracterização de Testbed em WSN e IoT na Reserva Indígena no Norte do Tocantins"
+date: 2018-01-01
+author:
+  - name: "MORAIS, H. M."
+  - name: "ROCHA, K. R."
+  - name: "TEIXEIRA, L. S."
+  - name: "COSTA, M. F."
+  - name: "SAVOINE, MARCIA MARIA"
+  - name: "MENEZES, M.O. de"
+abstract: >
+  Resumo não disponível.
+categories: [inproceedings]
+citation:
+  container-title: "Workshop Latino-Americano de Trabalhos em Andamento em Computação - WLATAC"
+  page: "11-16"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-morais_caracterizacao_2018" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-morais_caracterizacao_2018" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Caracterização de Testbed em WSN e IoT na Reserva Indígena no Norte do Tocantins</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-morais_caracterizacao_2018");
+    let pubLink = document.getElementById("bc-pub-morais_caracterizacao_2018");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

@@ -1,0 +1,32 @@
+---
+title: "Distribuição geográfica e situação de atendimento dos equipamentos PET-CT NO BRASIL, Considerados os fatores distância e população: estudo e proPosta a partir dos dados do DATASUS"
+date: 2021-01-01
+author:
+  - name: "CIABATTARI, F. M. C."
+  - name: "DE MENEZES, MARIO O."
+abstract: >
+  Resumo não disponível.
+categories: [inproceedings]
+citation:
+  container-title: "XVII - Jornada de Iniciação Científica e Mostra de Iniciação Tecnológica"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-ciabattari_distribuicao_2021" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-ciabattari_distribuicao_2021" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Distribuição geográfica e situação de atendimento dos equipamentos PET-CT NO BRASIL, Considerados os fatores distância e população: estudo e proPosta a partir dos dados do DATASUS</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-ciabattari_distribuicao_2021");
+    let pubLink = document.getElementById("bc-pub-ciabattari_distribuicao_2021");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

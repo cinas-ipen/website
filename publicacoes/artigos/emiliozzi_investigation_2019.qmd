@@ -1,0 +1,34 @@
+---
+title: "Investigation of the parameters affecting patients waiting time in the radiotherapy treatment by using algorithms to evaluate electronic health records"
+date: 2019-01-01
+author:
+  - name: "Emiliozzi, C.Z.S."
+  - name: "MENEZES, M.O."
+  - name: "Moreira, E. G."
+abstract: >
+  Resumo não disponível.
+categories: [inproceedings]
+citation:
+  container-title: "International Nuclear Atlantic Conference - INAC 2019"
+  page: "1659-1668"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-emiliozzi_investigation_2019" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-emiliozzi_investigation_2019" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Investigation of the parameters affecting patients waiting time in the radiotherapy treatment by using algorithms to evaluate electronic health records</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-emiliozzi_investigation_2019");
+    let pubLink = document.getElementById("bc-pub-emiliozzi_investigation_2019");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

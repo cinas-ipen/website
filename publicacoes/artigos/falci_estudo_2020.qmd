@@ -1,0 +1,32 @@
+---
+title: "Estudo de Características de Bases de Dados para Seleção de Algoritmos de Modelagem"
+date: 2020-01-01
+author:
+  - name: "Falci, A.A.S."
+  - name: "MENEZES, M.O."
+abstract: >
+  Resumo não disponível.
+categories: [inproceedings]
+citation:
+  container-title: "XV Jornada de Iniciação Científica e IX Mostra de Iniciação Tecnológica - 2019 - Universidade Presbiteriana Mackenzie"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-falci_estudo_2020" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-falci_estudo_2020" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Estudo de Características de Bases de Dados para Seleção de Algoritmos de Modelagem</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-falci_estudo_2020");
+    let pubLink = document.getElementById("bc-pub-falci_estudo_2020");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

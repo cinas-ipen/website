@@ -1,15 +1,39 @@
 ---
 pagetitle: "PUBLICATIONS"
-toc: false
+toc: true
 listing:
   - id: articles
     contents: "artigos/*.qmd"
+    include:
+      categories: article
+    fields: [title, author, date]
+    categories: false
+    sort:
+      - "date desc"
+      - "title desc"
+      - "author desc"
+    sort-ui: [title, author, date]
+    filter-ui: [title, author, date]
+  - id: proceedings
+    contents: "artigos/*.qmd"
+    exclude:
+      categories: article
     fields: [title, author, date]
     categories: true
     sort:
       - "date desc"
       - "title desc"
       - "author desc"
-    sort-ui: [title,author,publication,year]
-    filter-ui: [title,author,publication,year]
+    sort-ui: [title, author, date]
+    filter-ui: [title, author, date]
 ---
+
+## Journal Articles
+
+::: {#articles}
+:::
+
+## Conference Papers and Other Productions
+
+::: {#proceedings}
+:::

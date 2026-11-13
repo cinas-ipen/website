@@ -1,0 +1,34 @@
+---
+title: "Repositório Semântico de Dados de Análise por Ativação Neutrônica - uma proposta para eScience"
+date: 2018-01-01
+author:
+  - name: "CARVALHO, G. M."
+  - name: "R. Semmler"
+  - name: "MENEZES, M.O. de"
+abstract: >
+  Resumo não disponível.
+categories: [inproceedings]
+citation:
+  container-title: "I WORKSHOP LATINO-AMERICANO DE TRABALHOS EM ANDAMENTO EM COMPUTAÇÃO (WLATAC)"
+  page: "135-140"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-carvalho_repositorio_2018" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-carvalho_repositorio_2018" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Repositório Semântico de Dados de Análise por Ativação Neutrônica - uma proposta para eScience</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-carvalho_repositorio_2018");
+    let pubLink = document.getElementById("bc-pub-carvalho_repositorio_2018");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

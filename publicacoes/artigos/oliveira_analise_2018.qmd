@@ -1,0 +1,34 @@
+---
+title: "Análise de reviews de produtos utilizando a técnica de Análise de Sentimento"
+date: 2018-01-01
+author:
+  - name: "OLIVEIRA, I. F. Y."
+  - name: "PICHATELLI, P. I. D."
+  - name: "MENEZES, M.O. de"
+abstract: >
+  Resumo não disponível.
+categories: [inproceedings]
+citation:
+  container-title: "I Workshop Latino-Americano de Trabalhos em Andamento em Computação - WLATAC"
+  page: "68-73"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-oliveira_analise_2018" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-oliveira_analise_2018" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Análise de reviews de produtos utilizando a técnica de Análise de Sentimento</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-oliveira_analise_2018");
+    let pubLink = document.getElementById("bc-pub-oliveira_analise_2018");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

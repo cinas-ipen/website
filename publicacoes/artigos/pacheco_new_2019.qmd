@@ -1,0 +1,39 @@
+---
+title: "New Formulation for Semi-Empirical Correlations for Penetration Jets"
+date: 2019-01-01
+author:
+  - name: "PACHECO, R. R."
+  - name: "FREIRE, L. O."
+  - name: "ROCHA, M. S."
+  - name: "SCURO, N. L."
+  - name: "MENEZES, M. O."
+  - name: "Andrade, D. A."
+abstract: >
+  Resumo não disponível.
+categories: [article]
+citation:
+  container-title: "WORLD JOURNAL OF NUCLEAR SCIENCE AND TECHNOLOGY"
+  volume: 09
+  page: "96-111"
+  doi: "10.4236/wjnst.2019.92007"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-pacheco_new_2019" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-pacheco_new_2019" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">New Formulation for Semi-Empirical Correlations for Penetration Jets</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-pacheco_new_2019");
+    let pubLink = document.getElementById("bc-pub-pacheco_new_2019");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

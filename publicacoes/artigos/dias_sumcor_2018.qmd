@@ -1,0 +1,40 @@
+---
+title: "SUMCOR: Cascade summing correction for volumetric sources applying MCNP6"
+date: 2018-01-01
+author:
+  - name: "DIAS, M. S."
+  - name: "Semmler, R."
+  - name: "Moreira, D.S."
+  - name: "MENEZES, M. O."
+  - name: "BARROS, L.F."
+  - name: "RIBEIRO, R.V."
+  - name: "Koskinas, M.F."
+abstract: >
+  Resumo não disponível.
+categories: [article]
+citation:
+  container-title: "APPLIED RADIATION AND ISOTOPES"
+  volume: 134
+  page: "205-211"
+  doi: "10.1016/j.apradiso.2017.09.014"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-dias_sumcor_2018" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-dias_sumcor_2018" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">SUMCOR: Cascade summing correction for volumetric sources applying MCNP6</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-dias_sumcor_2018");
+    let pubLink = document.getElementById("bc-pub-dias_sumcor_2018");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```

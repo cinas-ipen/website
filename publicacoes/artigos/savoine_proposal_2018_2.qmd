@@ -1,0 +1,34 @@
+---
+title: "A Proposal for WSN Cybersecurity Levels for IoT Devices in Nuclear Research Facilities"
+date: 2018-01-01
+author:
+  - name: "SAVOINE, MARCIA MARIA"
+  - name: "DE MENEZES, MÁRIO OLIMPIO"
+  - name: "DE ANDRADE, DELVONEI ALVES"
+abstract: >
+  Resumo não disponível.
+categories: [inproceedings]
+citation:
+  container-title: "the 10th Latin America Networking Conference"
+  page: "102-105"
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id="bc-home-savoine_proposal_2018_2" href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a id="bc-pub-savoine_proposal_2018_2" href="../index.html">Publicações</a></li>
+    <li class="breadcrumb-item active" aria-current="page">A Proposal for WSN Cybersecurity Levels for IoT Devices in Nuclear Research Facilities</li>
+  </ol>
+</nav>
+
+<script>
+  if (window.location.pathname.includes("/en/")) {
+    let homeLink = document.getElementById("bc-home-savoine_proposal_2018_2");
+    let pubLink = document.getElementById("bc-pub-savoine_proposal_2018_2");
+    pubLink.innerText = "Publications";
+    homeLink.href = "../../index.en.html";
+    pubLink.href = "../index.en.html";
+  }
+</script>
+```
