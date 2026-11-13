@@ -22,15 +22,27 @@ listing:
         image: "images/aline_3_x_4.jpg"
         path: "https://lattes.cnpq.br/8813919037913516"
         subtitle: "Supervisão do Dr. Anderson Zanardi de Freitas, em colaboração com o CINAS"
+  - id: doutorado
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Nathália Luzia Aidar Alves"
+        subtitle: "Mestre pelo IPEN (2026) | Autora do software RadIA (Registro INPI)"
+        description: "RADIA-Twin: Gêmeo Digital do Paciente para Verificação Virtual Integrada e Trigger Adaptativo em Radioterapia IMRT/VMAT em Cenários de Recursos Limitados"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/3003837559320628"
+      - title: "Wendell da Luz Silva"
+        subtitle: "Mestre pelo IPEN (2026) | Autor do Sistema 7ORENSE ERD (PI em processo)"
+        description: "Deposição de Aerossóis Radiológicos Densos e Assimilação Estocástica de Dados em Microescala Urbana"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/1152049625204157"
+
   - id: mestrado-academico
     type: grid
     grid-columns: 3
     image-height: 150px
     contents:
-      - title: "Nathália"
-        description: "Aplicação de IA e ML em Planejamento em Radioterapia -- QA"
-        image: "images/person-cinas-avatar.jpg"
-        path: "https://lattes.cnpq.br/3003837559320628"
       - title: "Márcio"
         description: "Explicabilidade em Algoritmos de Segmentação de Imagens Médicas"
         image: "images/person-cinas-avatar.jpg"
@@ -43,6 +55,15 @@ listing:
         description: "Automatização de Análise de Simuladores de Mamografia via Machine Learning"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/2295414729717352"
+      - title: "Marcelo Henrique da Cunha Ponciano"
+        subtitle: "Desenvolvedor do sistema RAG IPEN (IC)"
+        description: "Simulação Monte Carlo no GATE com Parada Adaptativa Sequencial e Co-Processamento em WebGPU/WebAssembly no IRDose"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/4993900685835319"
+      - title: "Maria Eduarda Perotti Friggi Gonçalves"
+        description: "Otimização da Localização de Radiofarmácia Hospitalar: impactos na eficiência do fluxo de trabalho e na exposição à radiação"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/5362135984377915"
         
   - id: mestrado-profissional
     type: grid
@@ -57,10 +78,6 @@ listing:
         description: "Biossegurança radiológica na prática odontológica clínica"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/8418302995136117"
-      - title: "Wendell"
-        description: "Aprimoramento do Index-RA - predição tempo post-morten"
-        image: "images/person-cinas-avatar.jpg"
-        path: "https://lattes.cnpq.br/1152049625204157"
       - title: "Guilherme"
         description: "Aplicação de Redes Neurais em Planejamento de Radioterapia com VMAT"
         image: "images/person-cinas-avatar.jpg"
@@ -69,16 +86,6 @@ listing:
         description: "Desempenho das Tecnologias de Medicina Nuclear no Estado de São Paulo"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/2557618507065599"
-
-  - id: iniciacao
-    type: grid
-    grid-columns: 3
-    image-height: 150px
-    contents:
-      - title: "Marcelo"
-        description: "App de apoio com LLM aplicado em operações de sistemas de alta complexidade"
-        image: "images/person-cinas-avatar.jpg"
-        path: "https://lattes.cnpq.br/4993900685835319"
 ---
 
 O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cientistas da Computação e Profissionais da Saúde.
@@ -94,6 +101,9 @@ O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cienti
 ::: {#pos-docs}
 :::
 
+## Doutorado
+:::{#doutorado}
+:::
 
 ## Mestrado Acadêmico
 :::{#mestrado-academico}
@@ -104,8 +114,7 @@ O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cienti
 :::
 
 ## Graduação
-:::{#iniciacao}
-:::
+*(Vagas abertas para Iniciação Científica — consulte [Oportunidades](join.qmd))*
 
 :::
 

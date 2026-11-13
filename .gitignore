@@ -10,3 +10,5 @@ docs/
 
 /.quarto/
 .positai
+
+local_only/

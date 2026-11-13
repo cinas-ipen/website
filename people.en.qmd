@@ -23,15 +23,27 @@ listing:
         path: "https://lattes.cnpq.br/8813919037913516"
         subtitle: "Supervision by Prof Anderson Zanardi de Freitas, PhD, in collaboration with CINAS"
 
+  - id: phd
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Nathália Luzia Aidar Alves"
+        subtitle: "M.Sc. from IPEN (2026) | Author of RadIA software (INPI Registered)"
+        description: "RADIA-Twin: Patient Digital Twin for Integrated Virtual Verification and Adaptive Triggering in IMRT/VMAT Radiotherapy in Resource-Limited Settings"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/3003837559320628"
+      - title: "Wendell da Luz Silva"
+        subtitle: "M.Sc. from IPEN (2026) | Author of 7ORENSE ERD System (IP pending)"
+        description: "Deposition of Dense Radiological Aerosols and Stochastic Data Assimilation at Urban Microscale"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/1152049625204157"
+
   - id: academic-masters
     type: grid
     grid-columns: 3
     image-height: 150px
     contents:
-      - title: "Nathália"
-        description: "Application of AI and ML in Radiotherapy Planning -- QA"
-        image: "images/person-cinas-avatar.jpg"
-        path: "https://lattes.cnpq.br/3003837559320628"
       - title: "Márcio"
         description: "Explainability in Medical Image Segmentation Algorithms"
         image: "images/person-cinas-avatar.jpg"
@@ -44,6 +56,15 @@ listing:
         description: "Automating Mammography Phantom Analysis via Machine Learning"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/2295414729717352"
+      - title: "Marcelo Henrique da Cunha Ponciano"
+        subtitle: "Developer of the RAG IPEN system (Undergrad Research)"
+        description: "Monte Carlo Simulation in GATE with Sequential Adaptive Stopping and WebGPU/WebAssembly Co-Processing in IRDose"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/4993900685835319"
+      - title: "Maria Eduarda Perotti Friggi Gonçalves"
+        description: "Hospital Radiopharmacy Location Optimization: impacts on workflow efficiency and radiation exposure"
+        image: "images/person-cinas-avatar.jpg"
+        path: "https://lattes.cnpq.br/5362135984377915"
 
 
   - id: professional-masters
@@ -59,10 +80,6 @@ listing:
         description: "Radiological Biosafety in Clinical Dental Practice"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/8418302995136117"
-      - title: "Wendell"
-        description: "Improvement of Index-RA - post-mortem time prediction"
-        image: "images/person-cinas-avatar.jpg"
-        path: "https://lattes.cnpq.br/1152049625204157"
       - title: "Guilherme"
         description: "Application of Neural Networks in VMAT Radiotherapy Planning"
         image: "images/person-cinas-avatar.jpg"
@@ -71,16 +88,6 @@ listing:
         description: "Performance of Nuclear Medicine Technologies in the State of São Paulo"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/2557618507065599"
-
-  - id: undergrad-research
-    type: grid
-    grid-columns: 3
-    image-height: 150px
-    contents:
-      - title: "Marcelo"
-        description: "LLM-based Support App Applied to High-Complexity System Operations"
-        image: "images/person-cinas-avatar.jpg"
-        path: "https://lattes.cnpq.br/4993900685835319"
 ---
 
 CINAS is composed of multidisciplinary researchers, bringing together Physicists, Computer Scientists, and Healthcare Professionals.
@@ -96,6 +103,9 @@ CINAS is composed of multidisciplinary researchers, bringing together Physicists
 :::{#pos-docs}
 :::
 
+## Ph.D.
+:::{#phd}
+:::
 
 ## Academic Master's
 :::{#academic-masters}
@@ -106,8 +116,7 @@ CINAS is composed of multidisciplinary researchers, bringing together Physicists
 :::
 
 ## Undergrads
-:::{#undergrad-research}
-:::
+*(Open positions for Undergraduate Research — see [Opportunities](join.en.qmd))*
 
 :::
 
