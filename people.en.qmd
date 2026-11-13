@@ -132,7 +132,180 @@ CINAS is composed of multidisciplinary researchers, bringing together Physicists
 :::
 
 ## Alumni
-*(List to be added)*
+
+::: {.grid .gap-4 .mt-3}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start">Academic Master's · 2025</span>
+
+#### Luciana Silva Albuquerque de Melo {.h5 .fw-bold .mb-2}
+
+**Application of machine learning algorithm for automatic segmentation of medical images using deep learning through federated learning technique**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Read abstract</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Artificial intelligence (AI) and data science have shown significant advances in the healthcare domain, greatly impacting the diagnosis and treatment of diseases. However, the application of AI in medicine still faces major challenges, such as the need for large volumes of data and the preservation of patient privacy. This work presents the development of a machine learning algorithm for the automatic segmentation of the prostate in magnetic resonance imaging (MRI), using the U-Net architecture and deep learning techniques integrated with federated learning. Three public datasets were used — PROMISE12, Medical Segmentation Decathlon (Task 05: Prostate), and PI-CAI — providing a diverse set of images for model training and validation. The model was initially trained in a centralized environment, followed by the simulation of a federated setting using the Flower framework. The results demonstrate that federated learning was able to achieve performance comparable to the centralized model, with relevant metrics such as Dice Score and Jaccard Index. The findings of this research suggest that the proposed approach is promising for clinical applications, especially in contexts that require data privacy and decentralization.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-info-subtle text-info-emphasis mb-2 align-self-start">Professional Master's · 2024</span>
+
+#### Ana Karolina Defente Caetano {.h5 .fw-bold .mb-2}
+
+**Implementation and analysis of quality indicators in the nuclear medicine and PET/CT sector: experience at Sociedade Beneficente de Senhoras Hospital Sírio-Libanês**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Read abstract</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Nuclear Medicine is a medical imaging specialty employing unsealed, ionizing radiation emitters. While considered complex and expensive within the Brazilian Unified Health System (SUS), it requires a specialized biomedical team. Ensuring process quality is crucial for effective management, and monitoring these processes using specific quality indicators provides a valuable tool for measuring noncompliance rates related to biomedical team performance. METHOD: A database was created through a literature review, brainstorming sessions with the multidisciplinary team, and management to define relevant quality indicators, as well as daily checklist verification of all diagnostic exams performed within the nuclear medicine and PET/CT services. The checklist, integrated into service forms, tracked processes from exam initiation to image delivery to physicians, based on predefined institutional criteria for care excellence. Data were subsequently entered into the institution's indicator management software. RESULTS: The implementation of quality indicators targeting biomedical professionals in nuclear medicine and PET/CT enabled the measurement of non-compliance rates related to established processes. This data informed leadership in developing targeted action plans for critical areas, leading to a more efficient and effective achievement of goals and improved outcomes. CONCLUSION: The use of specific quality indicators confirmed the necessity of a specialized team. Furthermore, it provided management with data to drive continuous improvement, ensuring data integrity and fostering a new organizational culture within the institution.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-info-subtle text-info-emphasis mb-2 align-self-start">Professional Master's · 2024</span>
+
+#### Érica Mauricio Policarpo {.h5 .fw-bold .mb-2}
+
+**Development of a methodology for radiomics in digital mammography**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Read abstract</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Breast cancer is the most common type among women and accounts for the majority of cancer-related deaths. Its prognosis still relies on early diagnosis. In digital mammography, although it is considered the method with the highest sensitivity and specificity for breast cancer screening, detecting tumors at an early stage remains a challenging task due to the variations in breast tissue. The introduction of digital medical imaging acquisition technologies has enabled additional tools, such as radiomics, to assist in the analysis and identification of potential pathologies. This study developed a strategy for planning radiomic analyses and standardizing mammographic images using available image processing tools from the open-source software 3D Slicer, in accordance with the recommendations of the IBSI. The results of the standardization of images from a standard mammography phantom, acquired from three different digital mammography equipment, were analyzed through the calculation of radiomic features of the test objects present in the simulator. Out of 108 radiomic features extracted from the test objects in the images obtained from the three equipment, 23 showed coefficients of variation less than 15% for the fiber test object, and 25 for both the microcalcification and mass test objects. The same strategy was applied to human images, and the calculated values for the radiomic features were compared with the results obtained from the test objects, with 7 features showing similar results for fiber, 8 for microcalcifications, and 7 for mass. It was concluded that the employed strategy yielded satisfactory results for the standardization of mammographic images for radiomic analyses.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-info-subtle text-info-emphasis mb-2 align-self-start">Professional Master's · 2024</span>
+
+#### Marcelo Moreira da Silva {.h5 .fw-bold .mb-2}
+
+**Solution for Information Retrieval in Radiological Report Databases**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Read abstract</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Academic institutions face challenges in collecting data for scientific research, such as limited resources, methodological variation between centers, the need for specialized training, and ethical issues. Studies that rely on self-reports or questionnaires face bias, while the required technological infrastructure is complex and costly. Comprehensive databases help investigate subgroups and rare events, and in imaging diagnostics, the use of the Radiology Information System (RIS) offers potential but struggles with data collection and management. This study proposed the creation of an intelligent search tool integrated with the RIS, which is easy to use and implement, employing indexing technologies to efficiently and securely extract data from radiology reports. The tool, successfully tested in simulations, offers a robust solution for performing precise queries in databases, enabling the identification of radiological patterns and significantly contributing to the advancement of medical research and diagnostics.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start">Academic Master's · 2023</span>
+
+#### Caroline Zeppellini dos Santos Emiliozzi {.h5 .fw-bold .mb-2}
+
+**Machine learning application to improve the flow of radiotherapy treatment**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Read abstract</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Cancer is the main public health problem in the world. Radiotherapy (RT) is an important modality in the treatment of these patients. With this growing global burden, demand for RT has been increasing continuously and supply-demand imbalances have become a major concern, due to the negative impact of treatment delays. Evidence has been published of the negative impact of treatment delays on measures such as tumor progression, persistence of cancer symptoms, psychological distress and decreased cancer control and survival rates. The reason for delays in Radiotherapy is not only due to imbalance between capacity and demand, but also due to inefficiency of workflow, for instance, scheduling problems. Consequently, as there is pressure to contain costs, it is often not possible to solve the problem of the lack of equipment. However, the problem of inefficient processes can be attacked. This work analyzes the data of electronic health records of radiotherapy department of Hospital das Clínicas de São Paulo to attempt to provide a better understanding of the problem and study ways of optimizing workflow and efficient management of waiting time. In order to make predictions of patient waiting time and treatment time, four machine learning algorithms were compared using regression technique (Support Vector Machine, Extreme Gradient Boosting, Random forest and Neural networks) and for the optimization of radiotherapy scheduling, a mixed integer linear programming model was proposed. Based on this work, it is concluded that the use of ML helps to understand the problems of the department. Changes in routine were proposed, more appropriate waiting and treatment times were defined and automatic scheduling made it possible to reduce patient waiting times, prioritizing patients with the worst prognosis.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start">Academic Master's · 2023</span>
+
+#### Patrícia Pedrosa Moreira Mendes {.h5 .fw-bold .mb-2}
+
+**Predictive model of hospital infection using machine learning**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Read abstract</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Machine learning is increasingly gaining ground in the health area due to its ability to improve disease prediction and assist professionals in conducting clinical treatments. Hospital infection is the most common negative event for hospitalized patients and continues to pose a serious threat to patient safety. The objective of this work was to find an optimized and efficient machine learning technique that can effectively predict the condition of nosocomial infection, identifying the main factors responsible for this condition. In this work, we used six machine learning techniques, the algorithms used in the work were Random Forest, Logistic Regression, KNN, Adaboost, Bagging and XGBoost; modern explainability techniques were also used for these algorithms. In this process, the data were divided into training and test data, the models were trained in a first moment with standard hyperparameters, in a second moment the models were trained with improved hyperparameters. The models that presented the best metrics were XGBoost and Random Forest, XGBoost presented the best result in all metrics, except for Precision, Random Forest obtained the second best result in accuracy and precision, in cross-validation the result was the same as XGBoost. For the explanation of the model, the SHAP library was used, it was evaluated how the value of each variable influenced the result achieved by the predictive model XGBoost, SHAP pointed out as the most important variables: NR_DIA_INTERNADO (number of days of hospitalization), CD_DOENCA_PRINCIPAL_E (ICD-10 International classification of diseases), DS_PROC_PRINCIPAL_E (Main procedure during hospitalization) and QT_DIAS_SONDA_VESICAL (Days that the patient had a urinary catheter). The study proved to be feasible for the adoption of machine learning in health research routines, in the work of the hospital infection committee and in innovation initiatives in health institutions in Brazil.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-info-subtle text-info-emphasis mb-2 align-self-start">Professional Master's · 2023</span>
+
+#### Carolina Roberta Caldeira {.h5 .fw-bold .mb-2}
+
+**Roadmap for the evaluation of patients with chronic thromboembolic pulmonary hypertension using Computed Tomography pulmonary angiography**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Read abstract</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Chronic Thromboembolic Pulmonary Hypertension (CTEPH) is a rare, serious condition with high morbidity and mortality, the correct and early diagnosis of which is essential for reducing mortality. The evaluation of patients with CTEPH using Computed Tomography Pulmonary Angiography (CTPA) is an essential approach for the diagnostic investigation of this disease. CTPA plays a key role in the diagnosis, therapeutic definition and surgical planning of patients with CTEPH, according to several recent studies. However, because it is an uncommon disease, radiology teams may not be familiar with the particularities required for an assertive diagnosis of CTEPH on CTPA. Considering the importance of high-quality CTPA and qualified medical staff for better accuracy in the search for CTEPH, training and education programs in this area are essential. The aim of this work is to study the problem and present a roadmap for carrying out CTPA at an appropriate level of quality within the CTEPH investigation process. This roadmap will contain a compilation of guidelines to help train medical radiology teams in the assessment of this disease.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-info-subtle text-info-emphasis mb-2 align-self-start">Professional Master's · 2022</span>
+
+#### Cintia Maria Perotto Mesquita da Silva {.h5 .fw-bold .mb-2}
+
+**Effectiveness of early diagnosis in clinical staging of breast cancer using information obtained in SIA/SUS through oncological APACs and outpatient production**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Read abstract</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Early cancer detection programs aim to reduce mortality through effective treatment when diagnosis is made in early staging of the disease. The SUS (Unified Health System) provides women with two forms of examination: screening mammography and diagnostic mammography. The objective of this work was to evaluate data from DATASUS (Department of Informatics of the Unified Health System) in the hospital information system in the archives PA, AQ, AR and EQ to verify the influence of screening mammography on the clinical staging of cancer treatment in women, in the SUS, between 2010 and 2019. The information used from the DATASUS directory were the Archives of Outpatient Procedures (PA) for mammography examinations; the Archives of Authorizations of Outpatient Procedures (AQ and AR) for clinical staging; and mammography equipment (EQ). The PA, AQ, AR, and EQ are APAC from the DATASUS directory that were collected on the portal in March 2021. The results of the PA analyses showed that, as of October 2013, with the mammograms of screening, the highest number of exams per month was recorded in Brazil. This data indicates the influence of the "Outubro Rosa" awareness campaign, and screening mammography was included in the SUS in 2009. The age group recommended by INCA (National Cancer Institute) and Ministério da Saúde for the screening examination constituted the largest number of exams compared to the other age groups. Chemotherapy treatment represents cases of confirmation of diagnosis for breast cancer by mammography examination and showed a high rate of treatment in older women. This point suggests that mammography screening should be evaluated for the inclusion of women aged 70 years or older. The results found in the AQ, and AR indicated that the Southeast and South regions, for the advanced staging, obtained a reduction of 30% between 2015 and 2019.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start">Academic Master's · 2021</span>
+
+#### Claudia Chamas {.h5 .fw-bold .mb-2}
+
+**Development and application of data governance in the Neutron Activation Analysis Laboratory (LAN) of IPEN/CNEN: proposal of a structural application model for e-Science**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Read abstract</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+The data governance of scientific research should be incorporated into scientific research institutions in view of the demands currently presented, such as: e-Science, data sharing, Open Science, data repositories, metadata, data quality, data management, Data Management Plan (DMPs) for contributing to innovation and transparency of scientific research. The scope of the study is the Institute for Energy and Nuclear Research (IPEN/CNEN), where there is a great variety of researches and the production of loads of data; more specifically, in order to create the basis of an example to be replicated, data from the analytical techniques were chosen: Instrumental Neutron Activation Analysis (INAA) and Atomic Absorption Spectrometry (AAS), belonging to the Neutron Activation Laboratory Reactor Center Research (LAN - CERPq). Essential data governance concepts such as data lifecycle, data quality and master data management are covered, including examples and explanations on the benefits of data governance and how it can be measured and quantified. A scientific data governance model, focusing on data from the previously mentioned analytical techniques, was developed and presented. Its framing was designed so that it can be applied to other techniques or research areas, as well as to other research institutions.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start">Academic Master's · 2020</span>
+
+#### Glauber Mauch de Carvalho {.h5 .fw-bold .mb-2}
+
+**Development of a Semantic Layer for a Prototype of Research Data Repository in Neutron Activation Analysis**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Read abstract</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+One of the pillars of Science is the possibility of replicating the results of scientific research by independent researchers, making possible the validation of methods, results and their conclusions. For this to be possible in the current scenario, where the production of scientific data grows fast (Big Data), systematic methods of data storing, curating and delivering need to be implemented. Faced with the avalanche of available data, the entire scientific process is impacted, enabling the emergence of a new scientific paradigm called e-Science. That new paradigm, called "The Fourth Paradigm of Scientific Exploration", distinguishes data-intensive science from traditional computational science. In this work, an ontology was developed for the domain of data in the area of Analysis by Neutron Activation and a prototype of research data repository. The integration of the semantic layer with the PostgreSQL SGBD was emulated through Protégé and its Ontop tool, making a direct connection to the relational database. In this emulation, semantic queries were performed in SPARQL. The results presented demonstrate the gains from that integration and point to several advantages of having a semantic layer in a data repository, including, but not limited to, a greater possibility of data reuse since these data can be better understood because of all description that the ontology provides. Also, as a result of this work, the methodology developed for the creation of the ontology is presented in details, allowing its application in other correlated domains in IPEN-CNEN/SP as well as in other institutions. The repository prototype was developed using the open source web development framework Django along with Python programming language, in a way that provided a lot of flexibility and agility to the process.
+</p>
+</details>
+:::
+:::
+
+:::
 
 ```{=html}
 <script id="links-new-windows" type="application/javascript">

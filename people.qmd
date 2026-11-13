@@ -131,7 +131,180 @@ O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cienti
 
 
 ## Egressos
-*(Lista a ser adicionada)*
+
+::: {.grid .gap-4 .mt-3}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start">Mestrado Acadêmico · 2025</span>
+
+#### Luciana Silva Albuquerque de Melo {.h5 .fw-bold .mb-2}
+
+**Aplicação de algoritmo de machine learning para a segmentação automática de imagens médicas com deep learning por meio da técnica de federated learning**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Ler resumo</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+A inteligência artificial (IA) e a ciência de dados têm apresentado avanços expressivos na área da saúde, impactando significativamente o diagnóstico e tratamento de doenças. No entanto, a aplicação de IA na medicina enfrenta desafios, como a necessidade de grandes volumes de dados e a preservação da privacidade dos pacientes. Este trabalho apresenta o desenvolvimento de um algoritmo de machine learning para a segmentação automática da próstata em imagens de ressonância magnética, utilizando a arquitetura U-Net e técnicas de deep learning aliadas ao aprendizado federado (federated learning). Foram empregadas três bases de dados públicas – PROMISE12, Medical Segmentation Decathlon (Task 05: Prostate) e PI-CAI – que proporcionaram um conjunto diversificado de imagens para o treinamento e a validação do modelo. O treinamento foi realizado inicialmente em um ambiente centralizado, seguido pela simulação de um cenário federado com uso do framework Flower. Os resultados obtidos demonstram que o aprendizado federado foi capaz de atingir desempenho comparável ao modelo centralizado, com métricas relevantes como Dice Score e Coeficiente de Jaccard. Os achados desta pesquisa indicam que a abordagem proposta é promissora para aplicações clínicas, especialmente em contextos que exigem a preservação da privacidade e a descentralização dos dados.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-info-subtle text-info-emphasis mb-2 align-self-start">Mestrado Profissional · 2024</span>
+
+#### Ana Karolina Defente Caetano {.h5 .fw-bold .mb-2}
+
+**Implementação e análise de indicadores de qualidade no setor de medicina nuclear e PET/CT: experiência na Sociedade Beneficente de Senhoras Hospital Sírio-Libanês**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Ler resumo</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+A Medicina Nuclear é uma especialidade médica de diagnóstico por imagem que usa emissores de radiação ionizante, na forma não selada. Segundo o SUS é considerada de alta complexidade e alto custo. Para que seja aplicada é necessária uma equipe de biomédicos especialistas. Garantir a qualidade dos processos dentro do setor é meta fundamental a ser atingida pelos modelos de gestão atuais, por isso, monitorar a qualidade dos processos conduzidos pelo biomédico dentro do setor usando indicadores de qualidade específicos, se tornou uma ferramenta eficaz para mensurar o percentual de não conformidades relacionadas à atuação desses profissionais. MÉTODO: Através de um levantamento bibliográfico e um brainstorming com a equipe multidisciplinar e gestores, para definição de quais indicadores de qualidade seriam implantados foi criado um banco de dados por meio da conferência de todos os exames diagnósticos realizados no setor, com um check-list diário nas fichas de atendimento, desde a abertura, até o envio das imagens para o médico, baseada em critérios específicos de excelência no atendimento definidos dentro da organização. Os dados foram publicados dentro de um software de gestão de indicadores disponível na instituição. RESULTADOS: Com a criação de indicadores de qualidade direcionados para o biomédico atuante no serviço de medicina nuclear e PET/CT foi possível medir o percentual de não conformidades relacionadas à sua atuação em concordância aos processos executados e com isso, fornecer dados suficientes para que a liderança criasse planos de ação direcionados a áreas críticas, alcançando metas e gerando resultados com mais eficiência e eficácia. CONCLUSÃO: O uso de indicadores específicos confirmou a necessidade de ter uma equipe formada por especialistas, fornecendo aos gestores dados para melhorias contínuas, garantindo a veracidade dos dados e perpetuando a nova cultura organizacional dentro da Instituição.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-info-subtle text-info-emphasis mb-2 align-self-start">Mestrado Profissional · 2024</span>
+
+#### Érica Mauricio Policarpo {.h5 .fw-bold .mb-2}
+
+**Desenvolvimento de uma metodologia para radiômica em mamografia digital**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Ler resumo</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+O câncer de mama é o tipo mais comum em mulheres, e é o responsável pela maioria das mortes por câncer. Seu prognóstico ainda depende de seu diagnóstico precoce. Em mamografia digital, apesar de ser considerado o método com maior sensibilidade e especificidade para o rastreamento do câncer de mama, detectar tumores em fase inicial ainda é uma tarefa difícil, dado ao fato das variações que o tecido mamário pode ter. A introdução de tecnologias de aquisição de imagens médicas no formato digital possibilitou que mais ferramentas, como a radiômica, auxiliem na análise e identificação de possíveis patologias. Neste trabalho foi desenvolvido uma estratégia para o planejamento de análises por radiômica e padronização da imagem mamográfica utilizando as ferramentas disponíveis para tratamento de imagens do software livre 3D Slicer, seguindo as recomendações do IBSI. Foram analisados os resultados da padronização de imagens de um simulador padrão que foram adquiridas em três equipamentos diferentes de mamografia, através do cálculo das características radiômicas dos test objects presentes no simulador. Das 108 características radiômicas extraídas dos test objects das imagens obtidas dos três equipamentos, 23 apresentaram coeficientes de variação menores de 15% para o test object fibra, 25 para o test object microcalcificação e massa. A mesma estratégia foi empregada em imagens de humanos e os valores calculados foram comparados com os resultados obtidos nos test objects, e 7 características apresentaram resultados semelhantes para fibra, 8 para microcalcificação e 7 para massa. Foi concluído que a estratégia empregada apresentou resultados satisfatórios para a padronização de imagens mamográficas para análises radiômicas.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-info-subtle text-info-emphasis mb-2 align-self-start">Mestrado Profissional · 2024</span>
+
+#### Marcelo Moreira da Silva {.h5 .fw-bold .mb-2}
+
+**Solução para recuperação de informações em bases de laudos radiológicos**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Ler resumo</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+As instituições acadêmicas enfrentam desafios na coleta de dados para pesquisas científicas, como limitações de recursos, variação metodológica entre centros, necessidade de treinamento especializado e questões éticas. Estudos que utilizam auto-relatos ou questionários enfrentam viés, enquanto a infraestrutura tecnológica necessária é complexa e cara. Bases de dados abrangentes ajudam a investigar subgrupos e eventos raros, e, em diagnóstico por imagem, o uso do Sistema de Informação Radiológica (RIS) oferece potencial, mas enfrenta dificuldades com a coleta e gestão de dados. Este trabalho propôs a criação de uma ferramenta de busca inteligente integrada ao RIS, de fácil uso e implementação, usando tecnologias de indexação para extrair dados de laudos radiológicos com eficiência e privacidade. A ferramenta, testada com sucesso em simulações, oferece uma solução robusta para realizar consultas precisas em bases de dados, possibilitando a identificação de padrões radiológicos e contribuindo significativamente para o avanço de estudos médicos e diagnósticos.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start">Mestrado Acadêmico · 2023</span>
+
+#### Caroline Zeppellini dos Santos Emiliozzi {.h5 .fw-bold .mb-2}
+
+**Aplicação de aprendizado de máquina para melhoria do fluxo de tratamento de radioterapia**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Ler resumo</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+O câncer é o principal problema de saúde pública no mundo. A radioterapia é uma das formas mais comuns e efetivas de tratamento de câncer. Porém, atualmente existe um desequilíbrio entre a demanda de tratamentos e a disponibilidade de equipamentos de radioterapia o que leva a atrasos no início de tratamento, esses atrasos produzem sofrimento psicológico e menor probabilidade de controle da doença. Como há uma grande pressão para a contenção de custos, muitas vezes não é possível resolver o problema da falta de equipamentos com a expansão de centros de tratamento. Por outro lado, existe uma ineficiência nos processos relacionados ao fluxo de trabalho e no agendamento de pacientes para início de tratamento. Neste trabalho buscou-se, através da análise de dados do setor de radioterapia do Hospital das Clínicas de São Paulo, estudar meios de otimização do fluxo de trabalho para se obter uma gestão eficaz e eficiente do tempo de espera. Com intuito de fazer previsões do tempo de espera e do tempo de tratamento dos pacientes foram comparados quatro algoritmos de AM (Aprendizado de Máquina) com técnica de regressão (Support Vector Machine, Extreme Gradient Boosting, Random forest e Redes neurais) e para a otimização do agendamento de radioterapia foi proposto um modelo de programação linear inteiro misto. Com base no trabalho realizado, conclui-se que a utilização de AM ajuda entender os problemas encontrados no setor. Foram propostas mudanças na rotina, definidos tempo de espera e de tratamento mais adequados e conseguiu-se que o agendamento automático possibilitasse a diminuição do tempo de espera dos pacientes, com priorização dos pacientes com pior prognóstico.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start">Mestrado Acadêmico · 2023</span>
+
+#### Patrícia Pedrosa Moreira Mendes {.h5 .fw-bold .mb-2}
+
+**Modelo preditivo de infecção hospitalar utilizando aprendizado de máquina**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Ler resumo</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Cada vez mais o aprendizado de máquina vem ganhando espaço na área da saúde devido à sua capacidade de melhorar a predição de doenças e auxiliar profissionais na condução dos tratamentos clínicos. A infecção hospitalar é o evento negativo mais comum para pacientes hospitalizados e continua a se constituir em séria ameaça à segurança dos pacientes. O objetivo deste trabalho foi encontrar uma técnica de aprendizado de máquina otimizada e eficiente que possa prever efetivamente a condição da infecção hospitalar, identificando os principais fatores responsáveis por esta condição. Neste trabalho, usamos seis técnicas de aprendizado de máquina, os algoritmos utilizados no trabalho foram Random Forest, Regressão logística, KNN, Adaboost, Bagging e XGBoost; também foram empregadas técnicas modernas de explicabilidade a estes algoritmos. Nesse processo, os dados foram divididos em dados de treino e de teste, os modelos foram treinados em um primeiro momento com os hiperparâmetros padrões, em um segundo momento os modelos foram treinados com hiperparâmetros aprimorados. Os modelos que apresentaram as melhores métricas foram o XGBoost e Random Forest, o XGBoost apresentou o melhor resultado em todas as métricas, exceto na Precisão, o Random Forest obteve o segundo melhor resultado na acurácia e na precisão, na validação cruzada o resultado foi o mesmo que o XGBoost. Para a explicabilidade do modelo foi utilizada a biblioteca SHAP, foi avaliado como o valor de cada variável influenciou no resultado alcançado pelo modelo preditivo XGBoost, SHAP apontou como mais importante as variáveis: NR_DIA_INTERNADO (quantidade de dias de internação), CD_DOENCA_PRINCIPAL_E (CID-10 Classificação internacional de doenças), DS_PROC_PRINCIPAL_E (Procedimento principal durante internação) e QT_DIAS_SONDA_VESICAL (Dias que o paciente ficou com sonda vesical). O estudo mostrou-se viável à adoção de aprendizado de máquina nas rotinas da pesquisa em saúde, no trabalho da comissão de infecção hospitalar e nas iniciativas de inovação nas instituições de saúde no Brasil.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-info-subtle text-info-emphasis mb-2 align-self-start">Mestrado Profissional · 2023</span>
+
+#### Carolina Roberta Caldeira {.h5 .fw-bold .mb-2}
+
+**Roteiro para a avaliação de pacientes com hipertensão pulmonar tromboembólica crônica através de angiografia pulmonar por Tomografia Computadorizada**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Ler resumo</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+A Hipertensão Pulmonar Tromboembólica Crônica (HPTEC) é uma patologia rara, grave, com alta morbidade e mortalidade, cujo diagnóstico correto e precoce é essencial para redução da mortalidade. A avaliação de pacientes com HPTEC por meio da Angiografia Pulmonar por Tomografia Computadorizada (APTC) é uma abordagem essencial para a investigação diagnóstica desta enfermidade. Estudos recentes indicam que a APTC tem papel primordial para diagnóstico, definição terapêutica e planejamento cirúrgico nos pacientes portadores de HPTEC, no entanto, por tratar-se de enfermidade incomum, as equipes de radiologia podem não estar familiarizadas com as particularidades necessárias para o diagnóstico assertivo de HPTEC no exame de APTC. Considerando-se a importância da realização de APTC com alta qualidade e equipe médica habilitada para melhor acurácia na pesquisa de HPTEC, tornam-se fundamentais programas de treinamento e educação na área. O objetivo deste trabalho é estudar o problema e apresentar um roteiro para realização de APTC com nível de qualidade adequado dentro do processo de investigação de HPTEC. Este roteiro irá conter um compilado de diretrizes com intuito de auxiliar no treinamento de equipes médicas de radiologia na avaliação desta enfermidade.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-info-subtle text-info-emphasis mb-2 align-self-start">Mestrado Profissional · 2022</span>
+
+#### Cintia Maria Perotto Mesquita da Silva {.h5 .fw-bold .mb-2}
+
+**A efetividade do diagnóstico precoce no estadiamento clínico do câncer de mama por informações obtidas no SIA/SUS pelas APAC oncológicas e produção ambulatorial**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Ler resumo</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Os programas de ações de detecção precoce do câncer visam reduzir a mortalidade através do tratamento eficaz quando o diagnóstico é realizado em estadiamento inicial da doença. O SUS (Sistema Único de Saúde) disponibiliza para as mulheres duas formas de exames: a mamografia de rastreamento e a mamografia diagnóstica. O objetivo do trabalho foi avaliar os dados do DATASUS (Departamento de Informática do Sistema Único de Saúde) no sistema de informação hospitalar nos arquivos de PA, AQ, AR e EQ para verificar a influência da mamografia de rastreamento no estadiamento clínico do tratamento oncológico em mulheres, no SUS, entre 2010 e 2019. As informações utilizadas do diretório do DATASUS foram: os arquivos de Procedimento Ambulatorial (PA) para os exames de mamografia; os arquivos de Autorizações de Procedimentos Ambulatoriais (AQ e AR) para os estadiamentos clínicos; e os equipamentos de mamografia (EQ). As APAC de PA, AQ, AR e EQ são arquivos do diretório do DATASUS que foram coletadas no portal em março de 2021. Os resultados das análises das PA mostraram que, a partir de outubro de 2013, com as mamografias de rastreamento, registrou-se a maior quantidade de exames por mês no Brasil. Este dado indica a influência da campanha de conscientização do "Outubro Rosa", sendo que a mamografia de rastreamento foi incluída no SUS em 2009. A faixa etária de recomendação pelo INCA (Instituto Nacional do Câncer) e Ministério da Saúde para o exame de rastreamento constituiu a maior quantidade de exames em comparação com as demais faixas etárias. O tratamento de quimioterapia representa os casos de confirmação de diagnóstico para o câncer de mama pelo exame de mamografia e mostrou alta taxa de tratamento em mulheres idosas. Este ponto sugere que o rastreamento por mamografia deve ser avaliado para a inclusão das mulheres com 70 anos ou mais. Os resultados encontrados nas AQ e AR indicaram que, as regiões Sudeste e Sul, para os estadiamentos avançados, obtiveram redução de 30% entre 2015 e 2019.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start">Mestrado Acadêmico · 2021</span>
+
+#### Claudia Chamas {.h5 .fw-bold .mb-2}
+
+**Desenvolvimento e aplicação de governança de dados no Laboratório de Análise por Ativação Neutrônica (LAN) do Instituto de Pesquisas Energéticas Nucleares (IPEN/CNEN): proposta do modelo estrutural de aplicação para e-Science**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Ler resumo</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+A governança de dados de pesquisas científicas deve ser incorporada às instituições de pesquisas científicas frente às demandas atualmente apresentadas, como: e-Science, compartilhamento de dados, ciência aberta (Open Science), repositórios de dados, metadados, qualidade dos dados, gerenciamento dos dados, Plano de Gestão de Dados (DMPs) para a contribuição à inovação e transparência da pesquisa científica. O âmbito do estudo é o Instituto de Pesquisa Nuclear e Energética (IPEN/CNEN), onde existe uma grande variedade de pesquisas, e a produção de muitos dados; mais especificamente a fim de criar a base de um exemplo a ser replicado, foram escolhidos os dados das técnicas analíticas: Análise por Ativação Neutrônica Instrumental (INAA) e Espectrometria de Absorção Atômica (AAS), pertencentes ao Laboratório de Ativação Neutrônica Centro do Reator de Pesquisa (LAN-CERPq). Conceitos essenciais de governança de dados, como ciclo de vida dos dados, qualidade dos dados e gerenciamento de dados mestre, são abordados, incluindo exemplos e explicações sobre os benefícios da governança de dados e como podem ser medidos e quantificados. Um modelo de governança de dados científicos, com foco nos dados das técnicas analíticas supramencionadas, foi desenvolvido e apresentado. Sua concepção foi pensada para que possa ser aplicada a outras técnicas ou áreas de pesquisas, bem como a outras instituições de pesquisa.
+</p>
+</details>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0 .rounded-4 .p-4}
+<span class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start">Mestrado Acadêmico · 2020</span>
+
+#### Glauber Mauch de Carvalho {.h5 .fw-bold .mb-2}
+
+**Desenvolvimento de uma Camada Semântica para um Protótipo de Repositório de Dados de Pesquisas de Análise por Ativação Neutrônica**
+
+<details class="mt-auto pt-2">
+<summary class="text-primary small fw-semibold" style="cursor: pointer;">Ler resumo</summary>
+<p class="small text-secondary mt-2 mb-0" style="text-align: justify;">
+Um dos pilares da ciência é a possibilidade de reprodução dos resultados de pesquisas científicas por pesquisadores independentes, tornando possível a validação dos métodos, dos resultados e suas conclusões. Para que isto seja possível no cenário atual, onde a produção de dados científicos tomou uma proporção gigantesca (Big Data), métodos sistemáticos de armazenamento, curadoria e disponibilização dos dados precisam ser implementados. Diante do grande volume de dados disponíveis, todo o processo científico é impactado, possibilitando o surgimento de um novo paradigma científico: a e-Science ou e-Ciência. Neste trabalho foram desenvolvidos uma ontologia para o domínio dos dados da área de Análise por Ativação Neutrônica e de um protótipo de repositório de dados de pesquisa. A metodologia adotada para a construção da ontologia foram o Léxico Aplicado da Linguagem (LAL) e a Ontology Development 101 (Método 101). A integração da camada semântica com o SGBD PostgreSQL foi emulada através do Protégé e sua ferramenta Ontop, realizando uma conexão direta com o banco de dados relacional. Nesta emulação, consultas semânticas foram realizadas em SPARQL. Os resultados apresentados demonstram os ganhos oriundos desta integração e apontam para vantagens de se ter uma camada semântica em um repositório de dados, incluindo, mas não se limitando, à maior possibilidade de reuso dos dados visto que podem ser melhor entendidos a partir da ontologia que os descreve. O protótipo de repositório foi desenvolvido utilizando-se um framework de desenvolvimento Web de código aberto – Django, com a linguagem de programação Python, o que possibilitou bastante flexibilidade e agilidade neste processo.
+</p>
+</details>
+:::
+:::
+
+:::
 
 
 ```{=html}
