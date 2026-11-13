@@ -86,6 +86,16 @@ listing:
         description: "Desempenho das Tecnologias de Medicina Nuclear no Estado de São Paulo"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/2557618507065599"
+
+  - id: iniciacao
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Henrique Cesar Uyema Carvalho"
+        subtitle: "Bacharelado em Física Médica (USP)"
+        description: "Iniciação Científica (PIBIC/PROBIC — IPEN/CNEN)"
+        image: "images/person-cinas-avatar.jpg"
 ---
 
 O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cientistas da Computação e Profissionais da Saúde.
@@ -114,7 +124,8 @@ O CINAS é formado por pesquisadores multidisciplinares, unindo Físicos, Cienti
 :::
 
 ## Graduação
-*(Vagas abertas para Iniciação Científica — consulte [Oportunidades](join.qmd))*
+:::{#iniciacao}
+:::
 
 :::
 

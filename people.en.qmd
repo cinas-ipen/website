@@ -88,6 +88,16 @@ listing:
         description: "Performance of Nuclear Medicine Technologies in the State of São Paulo"
         image: "images/person-cinas-avatar.jpg"
         path: "https://lattes.cnpq.br/2557618507065599"
+
+  - id: undergrad-research
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    contents:
+      - title: "Henrique Cesar Uyema Carvalho"
+        subtitle: "B.Sc. in Medical Physics (USP)"
+        description: "Undergraduate Research (PIBIC/PROBIC — IPEN/CNEN)"
+        image: "images/person-cinas-avatar.jpg"
 ---
 
 CINAS is composed of multidisciplinary researchers, bringing together Physicists, Computer Scientists, and Healthcare Professionals.
@@ -116,7 +126,8 @@ CINAS is composed of multidisciplinary researchers, bringing together Physicists
 :::
 
 ## Undergrads
-*(Open positions for Undergraduate Research — see [Opportunities](join.en.qmd))*
+:::{#undergrad-research}
+:::
 
 :::
 
